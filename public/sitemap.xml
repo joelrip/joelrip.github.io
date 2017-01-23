@@ -27,6 +27,11 @@
   </url>
   
   <url>
+    <loc>http://joelrip.github.io/post/2017-01-23-mapping-childhood-vaccination-in-sacramento/</loc>
+    <lastmod>2014-04-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://joelrip.github.io/blog/goisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
@@ -76,6 +81,12 @@
   </url>
   
   <url>
+    <loc>http://joelrip.github.io/categories/health/</loc>
+    <lastmod>2014-04-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://joelrip.github.io/categories/hugo/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -84,6 +95,12 @@
   <url>
     <loc>http://joelrip.github.io/categories/jekyll/</loc>
     <lastmod>2014-03-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://joelrip.github.io/categories/mapping/</loc>
+    <lastmod>2014-04-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
