@@ -101,32 +101,37 @@ Figure 1: A fancy pie chart.
     </item>
     
     <item>
-      <title>Lorem Ipsum</title>
-      <link>/post/2015-01-01-lorem-ipsum/</link>
-      <pubDate>Thu, 01 Jan 2015 13:09:13 -0600</pubDate>
+      <title>Game of Thrones Baby Names on the Rise in California</title>
+      <link>/post/2017-01-23-game-of-thrones-baby-names-on-the-rise-in-california/</link>
+      <pubDate>Fri, 08 Aug 2014 00:00:00 +0000</pubDate>
       
-      <guid>/post/2015-01-01-lorem-ipsum/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Lorem ipsum&lt;/strong&gt; dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore &lt;em&gt;magna aliqua&lt;/em&gt;. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>City of Sacramento Open Budget Project</title>
-      <link>/post/2017-01-23-city-of-sacramento-open-budget-project/</link>
-      <pubDate>Sat, 31 May 2014 00:00:00 +0000</pubDate>
-      
-      <guid>/post/2017-01-23-city-of-sacramento-open-budget-project/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve spent the past few months volunteering with &lt;a href=&#34;https://www.codeforsacramento.org/&#34;&gt;Code4Sac&lt;/a&gt;, the local &lt;a href=&#34;https://www.codeforamerica.org/&#34;&gt;Code for America&lt;/a&gt; brigade.  This is an organization of hacker types who are trying to use their skills for the public good, working to free government data for the people to use as they see fit.  And if you see the word &amp;ldquo;hacker&amp;rdquo; and immediately think Sneakers or War Games, think again.  Modern hackers work with the government as often as not, and Code4Sac is sponsored by the City of Sacramento.&lt;/p&gt;
+      <guid>/post/2017-01-23-game-of-thrones-baby-names-on-the-rise-in-california/</guid>
+      <description>&lt;p&gt;Baby Arya is coming!  (As is winter.)&lt;/p&gt;
 
-&lt;p&gt;The project I&amp;rsquo;ve been working on, the City of Sacramento Open Budget Project, is an effort to take the city&amp;rsquo;s budget document, which is published online only in PDF format, and convert it into machine-readable data.  This means you can open it up in your spreadsheet or database or other analysis program and start exploring the numbers, creating your own charts, and making your own connections.  And we&amp;rsquo;ve finally hit the point at which it can be revealed to the world.  So here it is!&lt;/p&gt;
+&lt;p&gt;Working collaboratively with the &lt;a href=&#34;http://www.cdph.ca.gov/&#34;&gt;California Department of Public Health (CDPH)&lt;/a&gt;, I’ve done an analysis and visualization of baby names given in California from 2009 through 2013. In particular, we checked out how many parents were inspired to name their bundles of joy after characters in George RR Martin’s &lt;a href=&#34;http://www.georgerrmartin.com/book-category/?cat=song-of-ice-and-fire&#34;&gt;&lt;em&gt;Song of Ice and Fire&lt;/em&gt;&lt;/a&gt; book series (aka &lt;a href=&#34;http://www.hbo.com/game-of-thrones#/&#34;&gt;&lt;em&gt;Game of Thrones&lt;/em&gt;&lt;/a&gt; on HBO) over that five year period.  The takeaway?&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://codeforsacramento.org/your-city-your-budget/&#34;&gt;&lt;strong&gt;City of Sacramento Open Budget Project&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I expect to be voting for President Arya in 2056.  And that might even be a man.&lt;/p&gt;
 
-&lt;p&gt;You can also check out our &lt;a href=&#34;https://docs.google.com/document/d/1wUiROCaNRgMAwZLxylvuEGge0HOI5O2b0zVHdo5ZAxg/edit&#34;&gt;press release&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;As CDPH noted on its tumblr page (Yes, the state dept. of public health uses tumblr! Who knew?), the popularity of Arya as a girl’s name more than quadrupled from 2009 to 2013, with 152 so christened last year.  Khaleesi is also on the rise, while Daenerys really isn’t.  This is kind of like wanting to name your kid after Dr. J and naming him Doctor instead of Julius, but to each his or her own.  &lt;a href=&#34;http://cdphopendata.tumblr.com/post/94107141030/hbos-game-of-thrones-inspires-baby-names&#34;&gt;You can check out CDPH’s post, complete with my chart of girls named for Game of Thrones characters, right here.&lt;/a&gt;  I’ve also reproduced the chart below.&lt;/p&gt;
 
-&lt;p&gt;For this particular project, all the technical work was finished before I even got involved, so I can&amp;rsquo;t take credit for the data conversion or the visualizations on the project page (that credit goes to Jay Venti).  Instead, I added some good old-fashioned project management skills to help carry the thing over the finish line.  Still, it&amp;rsquo;s nice to be involved in data work for the public benefit.  More to come!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../img/2014/08/Girl GOT Stacked 2.png&#34; alt=&#34;Girls GOT Stacked 2&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;[Editor&amp;rsquo;s Note January 2017: After this initial foray into opening city budget data, Code for Sacramento convinced the City of Sacramento to release its budget data onto its &lt;a href=&#34;http://data.cityofsacramento.org/home&#34;&gt;open data portal&lt;/a&gt;, enabling a &lt;a href=&#34;http://openbudgetsac.org/&#34;&gt;much more sophisticated version of this project&lt;/a&gt;.]&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;But there’s much more in the data than CDPH discussed.  For example, in addition to the female name chart, I’ve produced a male name chart as well.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../img/2014/08/Boys GOT Stacked 2.png&#34; alt=&#34;Boys GOT Stacked 2&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;[Note: The Game of Thrones names you will not see on this chart?  Jaime and Jon.  There are a couple hundred new boys named Jaime in CA each year, mostly unrelated to the TV show or books.  Throwing them into the boy name chart would have swamped all the other interestingness.  And while Jon is much less popular than Jaime, with only 30 or so each year, it’s showing no pattern of increase, and it would be surprising if many of them were related to Game of Thrones.]&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;So what do we see in these charts?&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;While Arya was far and away the most popular Game of Thrones name for girls, it was also the most popular name for boys, with 108 receiving that name in the past 5 years.  However, while female Aryas are skyrocketing, male Aryas are on the decline.  I suspect we’re passing the experimental stage of the name, where the avant garde book readers were using it as they saw fit, to the mainstream stage, where the weekly HBO watchers are associating it with the plucky girl they see on their screens.&lt;/li&gt;
+&lt;li&gt;Shae (Tyrion Lannister’s lover, for those who aren’t following along) is also a gender-bending name, though it’s holding steady at 2 to 3 boys per year and 10 to 15 girls.&lt;/li&gt;
+&lt;li&gt;There’s always someone willing to go the extra mile to give their kid the interesting name.  In the last five years, California has welcomed a Drogo, a Gendry, a Jorah, a Stannis, nine Theons, seven Tyrions, two Tywins…and last year, someone saw fit to name their newborn baby boy Joffrey.  I do not want to know how his parents met.&lt;/li&gt;
+&lt;li&gt;But there’s still lots of opportunity for uniqueness!  No one in California has yet decided to name their child Cersei, Melisandre, Margaery, Ygritte, Jeyne, Rickon, Petyr, Davos, Varys, Eddard, Viserys, or Hodor!  Hodor‘s just sitting out there waiting to be scooped up!  Tell your expecting friends!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There is of course much more to delve into in the name data, and CDPH doesn’t yet have it up on their site in an easily-searchable format.  So if you’ve got a particular question about it, let me know in the comments.&lt;/p&gt;
 </description>
     </item>
     
