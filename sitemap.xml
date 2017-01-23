@@ -2,111 +2,111 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://hugo.spf13.com/post/2016-12-30-hello-markdown/</loc>
+    <loc>http://joelrip.github.io/post/2016-12-30-hello-markdown/</loc>
     <lastmod>2016-12-30T21:49:57-07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://hugo.spf13.com/post/2015-07-23-r-rmarkdown/</loc>
+    <loc>http://joelrip.github.io/post/2015-07-23-r-rmarkdown/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>http://hugo.spf13.com/post/2015-01-01-lorem-ipsum/</loc>
+    <loc>http://joelrip.github.io/post/2015-01-01-lorem-ipsum/</loc>
     <lastmod>2015-01-01T13:09:13-06:00</lastmod>
   </url>
   
   <url>
-    <loc>http://hugo.spf13.com/blog/creating-a-new-theme/</loc>
+    <loc>http://joelrip.github.io/blog/creating-a-new-theme/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://hugo.spf13.com/about/</loc>
+    <loc>http://joelrip.github.io/about/</loc>
     <lastmod>2014-04-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://hugo.spf13.com/blog/goisforlovers/</loc>
+    <loc>http://joelrip.github.io/blog/goisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://hugo.spf13.com/blog/hugoisforlovers/</loc>
+    <loc>http://joelrip.github.io/blog/hugoisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://hugo.spf13.com/blog/migrate-from-jekyll/</loc>
+    <loc>http://joelrip.github.io/blog/migrate-from-jekyll/</loc>
     <lastmod>2014-03-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://hugo.spf13.com/blog/</loc>
+    <loc>http://joelrip.github.io/blog/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://hugo.spf13.com/categories/</loc>
+    <loc>http://joelrip.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://hugo.spf13.com/</loc>
+    <loc>http://joelrip.github.io/</loc>
     <lastmod>2016-12-30T21:49:57-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://hugo.spf13.com/post/</loc>
+    <loc>http://joelrip.github.io/post/</loc>
     <lastmod>2016-12-30T21:49:57-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://hugo.spf13.com/tags/</loc>
+    <loc>http://joelrip.github.io/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://hugo.spf13.com/categories/go/</loc>
+    <loc>http://joelrip.github.io/categories/go/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://hugo.spf13.com/categories/hugo/</loc>
+    <loc>http://joelrip.github.io/categories/hugo/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://hugo.spf13.com/categories/jekyll/</loc>
+    <loc>http://joelrip.github.io/categories/jekyll/</loc>
     <lastmod>2014-03-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://hugo.spf13.com/tags/plot/</loc>
+    <loc>http://joelrip.github.io/tags/plot/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://hugo.spf13.com/categories/r/</loc>
+    <loc>http://joelrip.github.io/categories/r/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://hugo.spf13.com/tags/r-markdown/</loc>
+    <loc>http://joelrip.github.io/tags/r-markdown/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://hugo.spf13.com/tags/regression/</loc>
+    <loc>http://joelrip.github.io/tags/regression/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
     <priority>0</priority>
   </url>
