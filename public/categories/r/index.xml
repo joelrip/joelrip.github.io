@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>r on Hugo Future Imperfect</title>
-    <link>http://hugo.spf13.com/categories/r/index.xml</link>
-    <description>Recent content in r on Hugo Future Imperfect</description>
+    <title>r on Joel Riphagen</title>
+    <link>http://joelrip.github.io/categories/r/index.xml</link>
+    <description>Recent content in r on Joel Riphagen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://hugo.spf13.com/categories/r/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://joelrip.github.io/categories/r/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Hello R Markdown</title>
-      <link>http://hugo.spf13.com/post/2015-07-23-r-rmarkdown/</link>
+      <link>http://joelrip.github.io/post/2015-07-23-r-rmarkdown/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
       
-      <guid>http://hugo.spf13.com/post/2015-07-23-r-rmarkdown/</guid>
+      <guid>http://joelrip.github.io/post/2015-07-23-r-rmarkdown/</guid>
       <description>&lt;!-- BLOGDOWN-BODY-BEFORE
 
 /BLOGDOWN-BODY-BEFORE --&gt;
@@ -51,7 +51,7 @@ pie(
   init.angle = -50, border = NA
 )&lt;/code&gt;&lt;/pre&gt;
 &lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:pie&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;http://hugo.spf13.com/post/2015-07-23-r-rmarkdown/figures/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
+&lt;img src=&#34;http://joelrip.github.io/post/2015-07-23-r-rmarkdown/figures/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figure 1: A fancy pie chart.
 &lt;/p&gt;
