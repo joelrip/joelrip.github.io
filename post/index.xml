@@ -111,6 +111,26 @@ Figure 1: A fancy pie chart.
     </item>
     
     <item>
+      <title>City of Sacramento Open Budget Project</title>
+      <link>/post/2017-01-23-city-of-sacramento-open-budget-project/</link>
+      <pubDate>Sat, 31 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2017-01-23-city-of-sacramento-open-budget-project/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve spent the past few months volunteering with &lt;a href=&#34;https://www.codeforsacramento.org/&#34;&gt;Code4Sac&lt;/a&gt;, the local &lt;a href=&#34;https://www.codeforamerica.org/&#34;&gt;Code for America&lt;/a&gt; brigade.  This is an organization of hacker types who are trying to use their skills for the public good, working to free government data for the people to use as they see fit.  And if you see the word &amp;ldquo;hacker&amp;rdquo; and immediately think Sneakers or War Games, think again.  Modern hackers work with the government as often as not, and Code4Sac is sponsored by the City of Sacramento.&lt;/p&gt;
+
+&lt;p&gt;The project I&amp;rsquo;ve been working on, the City of Sacramento Open Budget Project, is an effort to take the city&amp;rsquo;s budget document, which is published online only in PDF format, and convert it into machine-readable data.  This means you can open it up in your spreadsheet or database or other analysis program and start exploring the numbers, creating your own charts, and making your own connections.  And we&amp;rsquo;ve finally hit the point at which it can be revealed to the world.  So here it is!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://codeforsacramento.org/your-city-your-budget/&#34;&gt;&lt;strong&gt;City of Sacramento Open Budget Project&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;You can also check out our &lt;a href=&#34;https://docs.google.com/document/d/1wUiROCaNRgMAwZLxylvuEGge0HOI5O2b0zVHdo5ZAxg/edit&#34;&gt;press release&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;For this particular project, all the technical work was finished before I even got involved, so I can&amp;rsquo;t take credit for the data conversion or the visualizations on the project page (that credit goes to Jay Venti).  Instead, I added some good old-fashioned project management skills to help carry the thing over the finish line.  Still, it&amp;rsquo;s nice to be involved in data work for the public benefit.  More to come!&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;[Editor&amp;rsquo;s Note January 2017: After this initial foray into opening city budget data, Code for Sacramento convinced the City of Sacramento to release its budget data onto its &lt;a href=&#34;http://data.cityofsacramento.org/home&#34;&gt;open data portal&lt;/a&gt;, enabling a &lt;a href=&#34;http://openbudgetsac.org/&#34;&gt;much more sophisticated version of this project&lt;/a&gt;.]&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Mapping Childhood Vaccination in Sacramento</title>
       <link>/post/2017-01-23-mapping-childhood-vaccination-in-sacramento/</link>
       <pubDate>Sun, 20 Apr 2014 00:00:00 +0000</pubDate>

@@ -22,34 +22,13 @@
   </url>
   
   <url>
-    <loc>/blog/creating-a-new-theme/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+    <loc>/post/2017-01-23-city-of-sacramento-open-budget-project/</loc>
+    <lastmod>2014-05-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/post/2017-01-23-mapping-childhood-vaccination-in-sacramento/</loc>
     <lastmod>2014-04-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/blog/goisforlovers/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/blog/hugoisforlovers/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/blog/migrate-from-jekyll/</loc>
-    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/blog/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -75,8 +54,20 @@
   </url>
   
   <url>
-    <loc>/categories/go/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <loc>/categories/budget/</loc>
+    <lastmod>2014-05-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/city-of-sacramento/</loc>
+    <lastmod>2014-05-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/code-for-sacramento/</loc>
+    <lastmod>2014-05-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -87,20 +78,14 @@
   </url>
   
   <url>
-    <loc>/categories/hugo/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/jekyll/</loc>
-    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/categories/mapping/</loc>
     <lastmod>2014-04-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/open-data/</loc>
+    <lastmod>2014-05-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -125,6 +110,12 @@
   <url>
     <loc>/tags/regression/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/sacramento/</loc>
+    <lastmod>2014-05-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
