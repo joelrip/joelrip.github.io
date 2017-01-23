@@ -6,8 +6,24 @@
     <description>Recent content on Joel Riphagen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 30 Dec 2016 21:49:57 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 22 Jan 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://joelrip.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>About Me</title>
+      <link>http://joelrip.github.io/about/</link>
+      <pubDate>Sun, 22 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://joelrip.github.io/about/</guid>
+      <description>&lt;p&gt;I have had a 15-year career as a government policy and finance analyst. During that time, I advised politicians on budgetary and policy matters, worked in public-private partnerships to redevelop blighted communities, and administered programs to provide assistance to low-income families. I am proud of my accomplishments.&lt;/p&gt;
+
+&lt;p&gt;But I am now going about public service in a different way.&lt;/p&gt;
+
+&lt;p&gt;Among other things, I am the Captain of &lt;a href=&#34;https://www.codeforsacramento.org/&#34;&gt;Code for Sacramento&lt;/a&gt;, a community organization dedicated to improving people&amp;rsquo;s access to government information and services. This involves a lot of fundraising, event organizing, and volunteer herding.&lt;/p&gt;
+
+&lt;p&gt;But what I really love is data analysis and visualization. I get a geeky kind of pleasure from turning data into information, information into knowledge, and knowledge into wisdom (a.k.a. climbing the &lt;a href=&#34;https://en.wikipedia.org/wiki/DIKW_pyramid&#34;&gt;DIKW Pyramid&lt;/a&gt;), and using that newly-discovered wisdom to help people.  This website collects my explorations into data analysis and visualization for the public good. Enjoy! And let me know what you think!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>A Plain Markdown Post</title>
@@ -1254,44 +1270,6 @@ $ vi themes/zafta/layouts/_default/single.html
 &lt;h3 id=&#34;don-t-repeat-yourself&#34;&gt;Don&amp;rsquo;t Repeat Yourself&lt;/h3&gt;
 
 &lt;p&gt;DRY is a good design goal and Hugo does a great job supporting it. Part of the art of a good template is knowing when to add a new template and when to update an existing one. While you&amp;rsquo;re figuring that out, accept that you&amp;rsquo;ll be doing some refactoring. Hugo makes that easy and fast, so it&amp;rsquo;s okay to delay splitting up a template.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>About Hugo</title>
-      <link>http://joelrip.github.io/about/</link>
-      <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>http://joelrip.github.io/about/</guid>
-      <description>
-
-&lt;p&gt;Hugo is a static site engine written in Go.&lt;/p&gt;
-
-&lt;p&gt;It makes use of a variety of open source projects including:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/cobra&#34;&gt;Cobra&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/viper&#34;&gt;Viper&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/jWalterWeatherman&#34;&gt;J Walter Weatherman&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/cast&#34;&gt;Cast&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Learn more and contribute on &lt;a href=&#34;https://github.com/spf13&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;setup&#34;&gt;Setup&lt;/h2&gt;
-
-&lt;p&gt;Some fun facts about &lt;a href=&#34;http://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Built in &lt;a href=&#34;http://golang.org/&#34;&gt;Go&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Loosely inspired by &lt;a href=&#34;http://jekyllrb.com/&#34;&gt;Jekyll&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Primarily developed by &lt;a href=&#34;http://spf13.com/&#34;&gt;spf13&lt;/a&gt; on the train while commuting to and from Manhattan.&lt;/li&gt;
-&lt;li&gt;Coded in &lt;a href=&#34;http://vim.org&#34;&gt;Vim&lt;/a&gt; using &lt;a href=&#34;http://vim.spf13.com/&#34;&gt;spf13-vim&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Have questions or suggestions? Feel free to &lt;a href=&#34;https://github.com/spf13/hugo/issues/new&#34;&gt;open an issue on GitHub&lt;/a&gt; or &lt;a href=&#34;https://twitter.com/spf13&#34;&gt;ask me on Twitter&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Thanks for reading!&lt;/p&gt;
 </description>
     </item>
     
