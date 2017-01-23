@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>mapping on Joel Riphagen</title>
-    <link>http://joelrip.github.io/categories/mapping/index.xml</link>
+    <link>/categories/mapping/index.xml</link>
     <description>Recent content in mapping on Joel Riphagen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://joelrip.github.io/categories/mapping/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/categories/mapping/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Mapping Childhood Vaccination in Sacramento</title>
-      <link>http://joelrip.github.io/post/2017-01-23-mapping-childhood-vaccination-in-sacramento/</link>
+      <link>/post/2017-01-23-mapping-childhood-vaccination-in-sacramento/</link>
       <pubDate>Sun, 20 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://joelrip.github.io/post/2017-01-23-mapping-childhood-vaccination-in-sacramento/</guid>
+      <guid>/post/2017-01-23-mapping-childhood-vaccination-in-sacramento/</guid>
       <description>&lt;p&gt;I’ve created &lt;a href=&#34;http://joelriphagen.net/SacVaccination1314.htm&#34;&gt;&lt;strong&gt;an interactive map&lt;/strong&gt;&lt;/a&gt; of childcare facilities and Kindergartens in the Sacramento area, color-coded by the percentage of students that are unvaccinated due to Personal Belief Exemptions (PBEs).  Based on &lt;a href=&#34;http://www.cdph.ca.gov/programs/immunize/Pages/ImmunizationLevels.aspx&#34;&gt;2013-14 data&lt;/a&gt; from the California Department of Public Health.  &lt;em&gt;[Note: Not smartphone friendly.]&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;[Editor&amp;rsquo;s Note January 2017: This map was created almost a year before the &lt;a href=&#34;https://www.nytimes.com/interactive/2015/02/06/us/california-measles-vaccines-map.html&#34;&gt;New York Times&amp;rsquo; map&lt;/a&gt; using the same data. Admittedly, theirs is prettier, and it&amp;rsquo;s statewide.]&lt;/em&gt;&lt;/p&gt;
