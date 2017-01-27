@@ -1,0 +1,871 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        
+            
+                <title>How Diverse Is My Neighborhood? Mapping Ethnic Diversity in Sacramento, Part I</title>
+            
+        
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="generator" content="Hugo 0.18.1" />
+        
+
+
+        
+            <meta name="author" content="Joel Riphagen">
+        
+        
+            
+                <meta name="description" content="data to the people">
+            
+        
+
+        
+
+  <meta name="twitter:card" content="summary"/>
+
+
+
+<meta name="twitter:title" content="How Diverse Is My Neighborhood? Mapping Ethnic Diversity in Sacramento, Part I"/>
+<meta name="twitter:description" content="Sacramento is regularly lauded as the most ethnically diverse, or at least one of the most ethnically diverse, cities in the nation. Not just at the city level, but at the neighborhood level as well. More than any other American city, the members of Sacramento’s different racial and ethnic groups live and work together.
+If, like me, you live in Sacramento, you can experience this firsthand. My immediate neighbors are black, Hispanic, white, and mixed-race black/white, and my own family is mixed Asian/white."/>
+<meta name="twitter:site" content="@joelrip"/>
+
+
+        <meta property="og:title" content="How Diverse Is My Neighborhood? Mapping Ethnic Diversity in Sacramento, Part I" />
+<meta property="og:description" content="Sacramento is regularly lauded as the most ethnically diverse, or at least one of the most ethnically diverse, cities in the nation. Not just at the city level, but at the neighborhood level as well. More than any other American city, the members of Sacramento’s different racial and ethnic groups live and work together.
+If, like me, you live in Sacramento, you can experience this firsthand. My immediate neighbors are black, Hispanic, white, and mixed-race black/white, and my own family is mixed Asian/white." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/post/2017-01-24-how-diverse-is-my-neighborhood-mapping-ethnic-diversity-in-sacramento-part-i/" />
+
+
+<meta property="og:updated_time" content="2015-02-08T00:00:00&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+        
+<meta itemprop="name" content="How Diverse Is My Neighborhood? Mapping Ethnic Diversity in Sacramento, Part I">
+<meta itemprop="description" content="Sacramento is regularly lauded as the most ethnically diverse, or at least one of the most ethnically diverse, cities in the nation. Not just at the city level, but at the neighborhood level as well. More than any other American city, the members of Sacramento’s different racial and ethnic groups live and work together.
+If, like me, you live in Sacramento, you can experience this firsthand. My immediate neighbors are black, Hispanic, white, and mixed-race black/white, and my own family is mixed Asian/white.">
+
+
+<meta itemprop="dateModified" content="2015-02-08T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="1893">
+
+
+
+<meta itemprop="keywords" content="City of Sacramento,Code for Sacramento,R,Sacramento,budget,health,mapping,open data,R Markdown,plot,regression," />
+
+        
+
+        
+
+        
+        
+            
+        
+
+        
+        
+            <link rel="stylesheet" href="../../css/google-font.css" />
+            <link rel="stylesheet" href="../../css/font-awesome.min.css" />
+            <link rel="stylesheet" href="../../css/main.css" />
+            <link rel="stylesheet" href="../../css/add-on.css" />
+            <link rel="stylesheet" href="../../css/monokai-sublime.css">
+        
+
+        
+
+        
+        
+        
+            
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-90738219-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+        
+    </head>
+    <body>
+
+        
+        <div id="wrapper">
+
+    
+    
+<header id="header">
+    
+        <h2><a href="../../">Joel Riphagen</i></a></h2>
+    
+
+    <nav class="links">
+        <ul>
+            
+                <li>
+                    <a href="../../blog">
+                        
+                            <i class="fa fa-newspaper-o">&nbsp;</i>Blog
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="../../categories">
+                        Categories
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="../../about">
+                        About
+                    </a>
+                </li>
+            
+        </ul>
+    </nav>
+    <nav class="main">
+        <ul>
+            
+            <li id="share-nav" class="share-menu" style="display:none;">
+                <a class="fa-share-alt" href="#share-menu">Share</a>
+            </li>
+            
+            <li class="search">
+                <a class="fa-search" href="#search">Search</a>
+                <form id="search" method="get" action="//google.com/search">
+                    <input type="text" name="q" placeholder="Search" />
+                    <input type="hidden" name="q" value="site:/">
+                </form>
+            </li>
+            <li class="menu">
+                <a class="fa-bars" href="#menu">Menu</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+<section id="menu">
+
+    
+        <section>
+            <form class="search" method="get" action="//google.com/search">
+                <input type="text" name="q" placeholder="Search" />
+                <input type="hidden" name="q" value="site:/">
+            </form>
+        </section>
+
+    
+        <section>
+            <ul class="links">
+                
+                    <li>
+                        <a href="../../blog">
+                            <h3>
+                                
+                                    <i class="fa fa-newspaper-o">&nbsp;</i>
+                                
+                                Blog
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="../../categories">
+                            <h3>
+                                
+                                Categories
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="../../about">
+                            <h3>
+                                
+                                About
+                            </h3>
+                        </a>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+        <section>
+            <ul class="links">
+                <header>
+                    <h3>Recent Posts</h3>
+                </header>
+                
+                    
+                
+
+                
+                    <li>
+                        <a href="../../post/2016-12-30-hello-markdown/"><p>A Plain Markdown Post</p></a>
+                    </li>
+                
+                    <li>
+                        <a href="../../post/2015-07-23-r-rmarkdown/"><p>Hello R Markdown</p></a>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+        
+</section>
+
+    <section id="share-menu">
+    <section id="social-share-nav">
+        <ul class="links">
+            <header>
+                <h3>Share this post <i class="fa fa-smile-o"></i></h3>
+            </header>
+            
+
+
+<li><a href="//twitter.com/share?url=%2fpost%2f2017-01-24-how-diverse-is-my-neighborhood-mapping-ethnic-diversity-in-sacramento-part-i%2f&text=How%20Diverse%20Is%20My%20Neighborhood%3f%20Mapping%20Ethnic%20Diversity%20in%20Sacramento%2c%20Part%20I&via=joelrip" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+</a></li>
+
+
+<li><a href="//plus.google.com/share?url=%2fpost%2f2017-01-24-how-diverse-is-my-neighborhood-mapping-ethnic-diversity-in-sacramento-part-i%2f" target="_blank" class="share-btn google-plus">
+    <i class="fa fa-google-plus"></i>
+    <p>Google+</p>
+</a></li>
+
+
+<li><a href="//www.facebook.com/sharer/sharer.php?u=%2fpost%2f2017-01-24-how-diverse-is-my-neighborhood-mapping-ethnic-diversity-in-sacramento-part-i%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+</a></li>
+
+
+<li><a href="//reddit.com/submit?url=%2fpost%2f2017-01-24-how-diverse-is-my-neighborhood-mapping-ethnic-diversity-in-sacramento-part-i%2f&title=How%20Diverse%20Is%20My%20Neighborhood%3f%20Mapping%20Ethnic%20Diversity%20in%20Sacramento%2c%20Part%20I" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+</a></li>
+
+
+<li><a href="//www.linkedin.com/shareArticle?url=%2fpost%2f2017-01-24-how-diverse-is-my-neighborhood-mapping-ethnic-diversity-in-sacramento-part-i%2f&title=How%20Diverse%20Is%20My%20Neighborhood%3f%20Mapping%20Ethnic%20Diversity%20in%20Sacramento%2c%20Part%20I" target="_blank" class="share-btn linkedin">
+    <i class="fa fa-linkedin"></i>
+    <p>LinkedIn</p>
+</a></li>
+
+
+<li><a href="//www.stumbleupon.com/submit?url=%2fpost%2f2017-01-24-how-diverse-is-my-neighborhood-mapping-ethnic-diversity-in-sacramento-part-i%2f&title=How%20Diverse%20Is%20My%20Neighborhood%3f%20Mapping%20Ethnic%20Diversity%20in%20Sacramento%2c%20Part%20I" target="_blank" class="share-btn stumbleupon">
+    <i class="fa fa-stumbleupon"></i>
+    <p>StumbleUpon</p>
+</a></li>
+
+
+<li><a href="mailto:?subject=Check out this post by Joel%20Riphagen&body=%2fpost%2f2017-01-24-how-diverse-is-my-neighborhood-mapping-ethnic-diversity-in-sacramento-part-i%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+</a></li>
+
+        </ul>
+    </section>
+</section>
+
+    
+    <div id="main">
+        
+        
+        <article class="post">
+    <header>
+    <div class="title">
+        
+            <h1><a href="../../post/2017-01-24-how-diverse-is-my-neighborhood-mapping-ethnic-diversity-in-sacramento-part-i/">How Diverse Is My Neighborhood? Mapping Ethnic Diversity in Sacramento, Part I</a></h1>
+            
+        
+        
+    </div>
+    <div class="meta">
+        
+            
+        
+
+        <time class="published"
+            datetime='2015-02-08'>
+            February 8, 2015</time>
+        <span class="author">Joel Riphagen</span>
+        
+            <p>9 minute read</p>
+        
+        
+    </div>
+</header>
+
+
+    <section id="social-share">
+        <ul class="icons">
+            
+
+
+<li><a href="//twitter.com/share?url=%2fpost%2f2017-01-24-how-diverse-is-my-neighborhood-mapping-ethnic-diversity-in-sacramento-part-i%2f&text=How%20Diverse%20Is%20My%20Neighborhood%3f%20Mapping%20Ethnic%20Diversity%20in%20Sacramento%2c%20Part%20I&via=joelrip" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+</a></li>
+
+
+<li><a href="//plus.google.com/share?url=%2fpost%2f2017-01-24-how-diverse-is-my-neighborhood-mapping-ethnic-diversity-in-sacramento-part-i%2f" target="_blank" class="share-btn google-plus">
+    <i class="fa fa-google-plus"></i>
+    <p>Google+</p>
+</a></li>
+
+
+<li><a href="//www.facebook.com/sharer/sharer.php?u=%2fpost%2f2017-01-24-how-diverse-is-my-neighborhood-mapping-ethnic-diversity-in-sacramento-part-i%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+</a></li>
+
+
+<li><a href="//reddit.com/submit?url=%2fpost%2f2017-01-24-how-diverse-is-my-neighborhood-mapping-ethnic-diversity-in-sacramento-part-i%2f&title=How%20Diverse%20Is%20My%20Neighborhood%3f%20Mapping%20Ethnic%20Diversity%20in%20Sacramento%2c%20Part%20I" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+</a></li>
+
+
+<li><a href="//www.linkedin.com/shareArticle?url=%2fpost%2f2017-01-24-how-diverse-is-my-neighborhood-mapping-ethnic-diversity-in-sacramento-part-i%2f&title=How%20Diverse%20Is%20My%20Neighborhood%3f%20Mapping%20Ethnic%20Diversity%20in%20Sacramento%2c%20Part%20I" target="_blank" class="share-btn linkedin">
+    <i class="fa fa-linkedin"></i>
+    <p>LinkedIn</p>
+</a></li>
+
+
+<li><a href="//www.stumbleupon.com/submit?url=%2fpost%2f2017-01-24-how-diverse-is-my-neighborhood-mapping-ethnic-diversity-in-sacramento-part-i%2f&title=How%20Diverse%20Is%20My%20Neighborhood%3f%20Mapping%20Ethnic%20Diversity%20in%20Sacramento%2c%20Part%20I" target="_blank" class="share-btn stumbleupon">
+    <i class="fa fa-stumbleupon"></i>
+    <p>StumbleUpon</p>
+</a></li>
+
+
+<li><a href="mailto:?subject=Check out this post by Joel%20Riphagen&body=%2fpost%2f2017-01-24-how-diverse-is-my-neighborhood-mapping-ethnic-diversity-in-sacramento-part-i%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+</a></li>
+
+        </ul>
+    </section>
+    
+
+    <div id="content">
+        
+
+<p>Sacramento is regularly lauded as the <a href="http://content.time.com/time/nation/article/0,8599,340694,00.html">most ethnically diverse</a>, or at least one of the most ethnically diverse, cities in the nation. Not just at the city level, but <a href="https://priceonomics.com/the-most-and-least-segregated-cities-in-america/">at the neighborhood level</a> as well. More than any other American city, the members of Sacramento’s different racial and ethnic groups live and work together.</p>
+
+<p>If, like me, you live in Sacramento, you can experience this firsthand. My immediate neighbors are black, Hispanic, white, and mixed-race black/white, and my own family is mixed Asian/white. It’s a far cry from Chicago, where I attended grad school. There, the city itself is diverse, but its neighborhoods are quite segregated.</p>
+
+<p>But while the national recognition for Sacramento is deserved and appreciated, it leaves a few open questions. Among them:</p>
+
+<ul>
+<li>The City of Sacramento’s population is about 480,000, but the urbanized area contains more than 1.7 million people, and the Metropolitan Statistical Area (MSA) more than 2.2 million. How diverse is the metro area as a whole?</li>
+<li>Sacramento has a high average diversity across its census tracts, but how much variation is there among the tracts? Which are the most and least diverse tracts in the area?</li>
+<li>To the extent there’s variation among different areas of the metro, what causes this variation?</li>
+<li>How does the diversity of one’s neighborhood affect how they experience life in the metro area? How do the characteristics of diverse tracts and the people in them differ from those of less diverse tracts?</li>
+</ul>
+
+<p>I thought I’d use these questions as an opportunity to exercise my analytical skills and play with some data, while also sharing any insight I gain with the wider world. As I think through the issues, it’s clear that coming up with any kind of answer to the questions in that final bullet point above could take a lot of work. So this post is subtitled, perhaps optimistically, Part I. We’ll see how far we get today.</p>
+
+<h3 id="what-is-the-sacramento-area">What is “The Sacramento Area”?</h3>
+
+<p>As with any city, the boundaries of “Sacramento” are fuzzy. Of course the municipality has a bright line boundary, as does the county. But there is a larger urbanized area around both of them (excluding a large rural part of Sacramento County), and there are various defined multi-county designations at the local and federal level, including the census-designated Metropolitan Statistical Area (MSA) and Combined Statistical Area (CSA), as well as the jurisdictional boundary of the regional Sacramento Area Council of Governments (SACOG).</p>
+
+<p>Which one, if any, will we use?</p>
+
+<p><strong>Many Sacramentos</strong>
+<img src="SacBoundaries.png" alt="SacBoundaries" /></p>
+
+<p>A casual examination suggests that the largest of these areas, which incorporate the rural area surrounding Sacramento, are far too large for my purposes. Census MSAs and CSAs follow county boundaries, and in their effort to include everyone who could be considered a resident of the Sacramento area, they include many who could not.  Certainly Tahoe residents would not think of themselves as Sacramento-area residents.  And Yuba City residents, while some may commute to Sacramento, live further away from downtown Sacramento than residents of Vacaville and Lodi, which no geography considers to be part of the Sacramento area.</p>
+
+<p>Of the official designations, the Urbanized Area is closest to what I think of as Sacramento, with perhaps Davis and Woodland thrown in as well. We’ll focus on census tracts roughly in the square surrounding downtown Sacramento that includes these areas.</p>
+
+<h3 id="what-is-diversity">What is “Diversity”?</h3>
+
+<p>To measure ethnic diversity, we’ll use the Multigroup Entropy Index (aka Theil’s H or the Information Theory Index) as described in <a href="https://www.census.gov/hhes/www/housing/housing_patterns/multigroup_entropy.pdf">this work done for the Census Department</a>. In a nutshell, we categorize residents into one of six broad groups: non-Hispanic white, Hispanic, black, Asian/Pacific Islander, Native American, and mixed-race/other. A perfectly diverse census tract (scoring 1.0 on the Index) would contain exactly the same number of residents from each of these groups. A perfectly homogeneous (non-diverse) census tract (scoring 0 on the Index) would contain only members of one of these groups.</p>
+
+<p>In simplifying diversity to this one number, we are of course losing a lot of detail. Chinese, Indians, and Filipinos are all lumped into one group, as are Russians, Irish, and Italians, as is anyone who identifies as Hispanic, regardless of race. But this level of categorization creates an easily-understood measure that can serve as a starting point for more detailed analysis.</p>
+
+<h3 id="how-diverse-are-the-census-tracts">How Diverse are the Census Tracts?</h3>
+
+<p>So here’s the basic map of Sacramento-area census tract diversity, using the index described above.</p>
+
+<p><strong>Ethnic Diversity in the Sacramento Area</strong>
+<img src="SacDivTracts.png" alt="SacDivTracts" /></p>
+
+<p>To give you a sense of what the colors mean, I’ve highlighted a purple tract in Folsom with a green border. This tract scores a 0.716 on the diversity index. It is 20% white, 47% black, 26% Hispanic, 2% Asian, 1% Native American, and 5% other/multiracial. As the map shows, tracts with this or a greater level of diversity are common in the Sacramento area, though this particular tract is uncommon in that it is Folsom Prison.</p>
+
+<p>A review of this map confirms that much of the Sacramento area is very diverse, including such disparate areas as Rancho Cordova, Oak Park, the Florin-Vineyard area, Elk Grove, Meadowview, the Pocket, West Sacramento, Natomas, North Sacramento, and Foothill Farms. While the ethnically diverse areas certainly do include the lower-income areas of the city, they include relatively wealthy areas as well.</p>
+
+<p>This diverse area is pierced, however, by a less-diverse wedge extending from Land Park and Curtis Park, through East Sacramento, and out between Interstate 80 and Highway 50 to Citrus Heights, Roseville, and Folsom, where the ethnic diversity begins to fade in all directions. The notable pockets of diversity between 80 and 50 are the western portion of Arden Arcade, Sac State, and of course Folsom Prison.</p>
+
+<p>Here is another way to visualize the variation in diversity among census tracts.</p>
+
+<p><img src="SacDivHist.png" alt="SacDivHist" /></p>
+
+<p>This chart shows all of the census tracts in the SACOG area, sorted by diversity. It shows over 70 very highly diverse census tracts (diversity score between 0.8 and 0.9), a number of diverse census tracts down to a diversity score of about 0.5, and then a gradual decline down to the lowest diversity scores on the left. It also shows that the mean diversity score of the census tracts in the City of Sacramento is quite a bit higher than the mean over the entire SACOG area.</p>
+
+<p>As the chart and the map show, there’s a lot of diversity in Sacramento’s diversity. But at this point we just have a range of numbers. Let’s translate some of these numbers into more concrete examples.</p>
+
+<h3 id="sacramento-s-most-and-least-diverse-tracts">Sacramento’s Most and Least Diverse Tracts</h3>
+
+<p>The five most diverse census tracts in the Sacramento area are all located within the city limits, but are otherwise quite different from each other.</p>
+
+<p><strong>Locations of Sacramento’s Most Diverse Census Tracts</strong>
+<img src="SacHighTracts.png" alt="SacHighTracts" /></p>
+
+<p><img src="MostDiverseBar.png" alt="MostDiverseBar" /></p>
+
+<p><strong>Census Tract 65</strong>, the most diverse census tract in the area, is bisected by Interstate 80. South of the interstate, the tract encompasses the north side of Del Paso Heights, including Grant High. This is one of the traditionally low-income neighborhoods of the city. North of the interstate, the tract is characterized by newer single-family developments built largely within the last 20 years. This area has been subject to the City’s inclusionary ordinance during its development, which required a certain portion of the new housing to be affordable to lower income residents. While this is all contained within one tract, the interstate divides it into two distinct neighborhoods.</p>
+
+<p><strong>Census Tract 7</strong> is the center of downtown Sacramento, including Old Sacramento, Chinatown, the Downtown Plaza, and soon the new Kings Arena. Its diversity stems in large part from the presence of the county jail, but the tract also includes Asian retirees in Chinatown, residents of high-rise public housing, and more well-off residents of newly remodeled Old Sacramento lofts.</p>
+
+<p><strong>Census Tract 96.10</strong> is in the Valley Hi/North Laguna area on the south side of the City, next to but not including Cosumnes River College. It is wedged between the lower-income Meadowview and Parkway areas to the north and the higher-income Elk Grove to the south. It has also been subject to the City’s inclusionary ordinance during its recent development.</p>
+
+<p><strong>Census Tract 22</strong> is West Land Park, and combines two very different populations: the relatively well-off residents of the single family housing toward the south end of the tract, and the low-income residents of the two large public housing projects at the north end of the tract. The public housing and the neighboring industrial area are slated for redevelopment, and it will be interesting to follow the effect of this redevelopment on the area’s diversity.</p>
+
+<p><strong>Census Tract 70.16</strong> is in North Natomas, which developed rapidly over the last 20 years, and has also been subject to the City’s inclusionary ordinance. It is largely single-family homes of varying size, with a few mixed-income apartment complexes.</p>
+
+<p>The most striking feature of these five tracts is their great variety. They include the wealthy and the poor, prisoners and students, old housing and new construction. Some are physically segregated, and others are not. Three of them gained economic diversity from the City’s inclusionary ordinance, which may also have influenced their ethnic diversity. I have a thousand questions I want to ask of the data about their similarities and differences, and I hope to do that in an upcoming post.</p>
+
+<p>But for now let’s move on to the area’s least diverse census tracts.</p>
+
+<p><strong>Locations of Sacramento’s Least Diverse Census Tracts</strong>
+<img src="SacLowTracts.png" alt="SacLowTracts" /></p>
+
+<p><img src="LeastDiverseBar.png" alt="LeastDiverseBar" /></p>
+
+<p>In contrast to the five most diverse census tracts in the area, the five most homogeneous tracts are located in close physical proximity to each other in suburban Roseville and Lincoln in Placer County. These five tracts are noticeably less diverse than even the tracts around them, and a quick analysis reveals a likely reason why.</p>
+
+<p><strong>Census Tracts 210.39 and 210.40</strong> surround the Sun City Roseville, Timber Creek, and Sierra Pines golf courses. Similarly, <strong>Census Tracts 236, 237, and 238</strong> roughly define Sun City Lincoln Hills. What unites them all, other than their proximity to a well-manicured fairway, is that they are all retirement communities developed by Del Webb. It seems that this particular vision of suburban retirement appeals to a particular group of people.</p>
+
+<h3 id="what-have-we-learned">What Have We Learned?</h3>
+
+<p>While this post has just scratched the surface of Sacramento’s diversity, we have learned a few things. The City itself is indeed more ethnically diverse than the rest of the area on average, but there is a lot of diversity in the areas around the City. Conversely, there are areas of homogeneity within the City as well. The ethnic diversity of Sacramento’s census tracts ranges from areas of the City with almost equal populations of non-Hispanic whites, blacks, Hispanics, and Asians to very homogeneous suburban retirement communities.</p>
+
+<p>These facts aren’t surprising, but the variety of Sacramento’s most diverse census tracts is. They’re geographically dispersed, and the reasons for their diversity vary. There are a thousand more questions to be asked:</p>
+
+<ul>
+<li>How do the most diverse tracts differ economically from the more homogeneous tracts, and from each other? Are average salaries higher or lower? What about housing prices and rents?</li>
+<li>Does a neighborhood’s ethnic diversity have an effect on crime rate or the types of crimes committed?</li>
+<li>Are educational attainment levels different for populations in diverse tracts than for populations in homogeneous tracts?</li>
+<li>Do residents’ attitudes vary with neighborhood diversity?</li>
+</ul>
+
+<p>Hopefully I’ll be able to explore these questions and more in a future post.</p>
+
+    </div>
+
+    <footer>
+        <ul class="stats">
+    
+        
+
+        
+        
+    
+
+    
+    
+</ul>
+
+    </footer>
+</article>
+<ul class="actions pagination">
+    
+        <li><a href="../../post/2017-01-23-game-of-thrones-baby-names-on-the-rise-in-california/"
+                class="button big previous">Game of Thrones Baby Names on the Rise in California</a></li>
+    
+
+    
+        <li><a href="../../post/2015-07-23-r-rmarkdown/"
+                class="button big next">Hello R Markdown</a></li>
+    
+</ul>
+
+
+
+    
+        <article class="post">
+            <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'joelrip';
+    var disqus_identifier = '\/post\/2017-01-24-how-diverse-is-my-neighborhood-mapping-ethnic-diversity-in-sacramento-part-i\/';
+    var disqus_title = 'How Diverse Is My Neighborhood? Mapping Ethnic Diversity in Sacramento, Part I';
+    var disqus_url = '\/post\/2017-01-24-how-diverse-is-my-neighborhood-mapping-ethnic-diversity-in-sacramento-part-i\/';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        </article>
+    
+
+
+    </div>
+    
+<section id="sidebar">
+
+    
+        <section id="intro">
+            
+            
+                
+                    <a href="../../" class="logo"><img src="../../img/main/Joel%20Riphagen.jpg" alt="Joel Riphagen photo" /></a>
+                
+            
+            
+                <header>
+                    <h2>Joel Riphagen</h2>
+                    <p>data to the people</p>
+                </header>
+            
+            <ul class="icons">
+                
+                
+                    
+<li><a href="//github.com/joelrip" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//linkedin.com/in/joelriphagen" target="_blank" title="LinkedIn" class="fa fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//twitter.com/joelrip" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+
+
+
+<li><a href="mailto:joelrip@gmail.com" title="Email" class="fa fa-envelope"></a></li>
+
+
+                
+            </ul>
+        </section>
+
+    
+        <section id="recent-posts">
+            <ul class="posts">
+                <header>
+                    <h3>Recent Posts</h3>
+                </header>
+                
+                    
+                
+
+                
+                    
+                
+
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="../../post/2016-12-30-hello-markdown/">A Plain Markdown Post</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2016-12-30'>
+                                    December 30, 2016</time>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="../../post/2015-07-23-r-rmarkdown/">Hello R Markdown</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2015-07-23'>
+                                    July 23, 2015</time>
+                            </header>
+                        </article>
+                    </li>
+                
+
+                
+                    <li>
+                        <ul class="actions">
+                            <li><a href=
+                            
+                                /blog/
+                            
+                            class="button">View more posts</a></li>
+                        </ul>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+    
+    
+    
+        <section id="categories">
+            <ul class="posts">
+                <header>
+                    <h3><a href="../../categories/">Categories</a></h3>
+                </header>
+
+                
+                    
+                
+
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../categories/r/">R</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../categories/city-of-sacramento/">City of Sacramento</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../categories/code-for-sacramento/">Code for Sacramento</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../categories/sacramento/">Sacramento</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../categories/budget/">budget</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../categories/health/">health</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../categories/mapping/">mapping</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="../../categories/open-data/">open data</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+            </ul>
+        </section>
+    
+
+    
+        
+        <section class="blurb">
+            <h2>About</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tellus lacus, auctor vehicula molestie quis, tempor quis velit. Quisque in quam ac leo efficitur vulputate. Phasellus ullamcorper aliquam sodales. Maecenas sit amet condimentum ipsum. Proin sit amet ligula elit. Mauris.</p>
+
+            <ul class="actions">
+                <li><a href="../../about/" class="button">Learn More</a></li>
+            </ul>
+        </section>
+        
+
+    
+        <section id="footer">
+            <ul class="icons">
+                
+                
+                    
+<li><a href="//github.com/joelrip" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//linkedin.com/in/joelriphagen" target="_blank" title="LinkedIn" class="fa fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//twitter.com/joelrip" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+
+
+
+<li><a href="mailto:joelrip@gmail.com" title="Email" class="fa fa-envelope"></a></li>
+
+
+                
+            </ul>
+
+            <p class="copyright">&copy; Joel Riphagen. Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a>. Ported by <a href="//github.com/jpescador" target="_blank">Julio Pescador</a>. Powered by <a href="//gohugo.io" target="_blank">Hugo</a></p>
+        </section>
+
+</section>
+
+            </div>
+        <a id="back-to-top" href="#" class="fa fa-arrow-up fa-border fa-2x"></a>
+        
+
+        
+        
+            
+        
+
+        
+        
+            <script src="../../js/jquery.min.js"></script>
+            <script src="../../js/skel.min.js"></script>
+            <script src="../../js/util.js"></script>
+            <script src="../../js/main.js"></script>
+            <script src="../../js/backToTop.js"></script>
+            <script src="../../js/highlight.pack.js"></script>
+        
+
+        
+
+            
+            <script>hljs.initHighlightingOnLoad();</script>
+            
+    </body>
+</html>
+
