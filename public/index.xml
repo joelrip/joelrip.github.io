@@ -145,8 +145,12 @@ Figure 1: A fancy pie chart.
 
 &lt;p&gt;Which one, if any, will we use?&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Many Sacramentos&lt;/strong&gt;
-&lt;img src=&#34;http://joelrip.github.io/img/2015/02/SacBoundaries.png&#34; alt=&#34;SacBoundaries&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;center&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;many-sacramentos&#34;&gt;Many Sacramentos&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://joelrip.github.io/img/2015/02/SacBoundaries.png&#34; alt=&#34;SacBoundaries&#34; /&gt;
+&lt;/center&gt;&lt;/p&gt;
 
 &lt;p&gt;A casual examination suggests that the largest of these areas, which incorporate the rural area surrounding Sacramento, are far too large for my purposes. Census MSAs and CSAs follow county boundaries, and in their effort to include everyone who could be considered a resident of the Sacramento area, they include many who could not.  Certainly Tahoe residents would not think of themselves as Sacramento-area residents.  And Yuba City residents, while some may commute to Sacramento, live further away from downtown Sacramento than residents of Vacaville and Lodi, which no geography considers to be part of the Sacramento area.&lt;/p&gt;
 
@@ -162,8 +166,12 @@ Figure 1: A fancy pie chart.
 
 &lt;p&gt;So here’s the basic map of Sacramento-area census tract diversity, using the index described above.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Ethnic Diversity in the Sacramento Area&lt;/strong&gt;
-&lt;img src=&#34;http://joelrip.github.io/img/2015/02/SacDivTracts.png&#34; alt=&#34;SacDivTracts&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;center&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;ethnic-diversity-in-the-sacramento-area&#34;&gt;Ethnic Diversity in the Sacramento Area&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://joelrip.github.io/img/2015/02/SacDivTracts.png&#34; alt=&#34;SacDivTracts&#34; /&gt;
+&lt;/center&gt;&lt;/p&gt;
 
 &lt;p&gt;To give you a sense of what the colors mean, I’ve highlighted a purple tract in Folsom with a green border. This tract scores a 0.716 on the diversity index. It is 20% white, 47% black, 26% Hispanic, 2% Asian, 1% Native American, and 5% other/multiracial. As the map shows, tracts with this or a greater level of diversity are common in the Sacramento area, though this particular tract is uncommon in that it is Folsom Prison.&lt;/p&gt;
 
@@ -173,7 +181,7 @@ Figure 1: A fancy pie chart.
 
 &lt;p&gt;Here is another way to visualize the variation in diversity among census tracts.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://joelrip.github.io/img/2015/02/SacDivHist.png&#34; alt=&#34;SacDivHist&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;http://joelrip.github.io/img/2015/02/SacDivHist.png&#34; alt=&#34;SacDivHist&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
 
 &lt;p&gt;This chart shows all of the census tracts in the SACOG area, sorted by diversity. It shows over 70 very highly diverse census tracts (diversity score between 0.8 and 0.9), a number of diverse census tracts down to a diversity score of about 0.5, and then a gradual decline down to the lowest diversity scores on the left. It also shows that the mean diversity score of the census tracts in the City of Sacramento is quite a bit higher than the mean over the entire SACOG area.&lt;/p&gt;
 
@@ -183,10 +191,14 @@ Figure 1: A fancy pie chart.
 
 &lt;p&gt;The five most diverse census tracts in the Sacramento area are all located within the city limits, but are otherwise quite different from each other.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Locations of Sacramento’s Most Diverse Census Tracts&lt;/strong&gt;
-&lt;img src=&#34;http://joelrip.github.io/img/2015/02/SacHighTracts.png&#34; alt=&#34;SacHighTracts&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;center&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://joelrip.github.io/img/2015/02/MostDiverseBar.png&#34; alt=&#34;MostDiverseBar&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;locations-of-sacramento-s-most-diverse-census-tracts&#34;&gt;Locations of Sacramento’s Most Diverse Census Tracts&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://joelrip.github.io/img/2015/02/SacHighTracts.png&#34; alt=&#34;SacHighTracts&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://joelrip.github.io/img/2015/02/MostDiverseBar.png&#34; alt=&#34;MostDiverseBar&#34; /&gt;
+&lt;/center&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Census Tract 65&lt;/strong&gt;, the most diverse census tract in the area, is bisected by Interstate 80. South of the interstate, the tract encompasses the north side of Del Paso Heights, including Grant High. This is one of the traditionally low-income neighborhoods of the city. North of the interstate, the tract is characterized by newer single-family developments built largely within the last 20 years. This area has been subject to the City’s inclusionary ordinance during its development, which required a certain portion of the new housing to be affordable to lower income residents. While this is all contained within one tract, the interstate divides it into two distinct neighborhoods.&lt;/p&gt;
 
@@ -202,10 +214,14 @@ Figure 1: A fancy pie chart.
 
 &lt;p&gt;But for now let’s move on to the area’s least diverse census tracts.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Locations of Sacramento’s Least Diverse Census Tracts&lt;/strong&gt;
-&lt;img src=&#34;http://joelrip.github.io/img/2015/02/SacLowTracts.png&#34; alt=&#34;SacLowTracts&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;center&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://joelrip.github.io/img/2015/02/LeastDiverseBar.png&#34; alt=&#34;LeastDiverseBar&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;locations-of-sacramento-s-least-diverse-census-tracts&#34;&gt;Locations of Sacramento’s Least Diverse Census Tracts&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://joelrip.github.io/img/2015/02/SacLowTracts.png&#34; alt=&#34;SacLowTracts&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://joelrip.github.io/img/2015/02/LeastDiverseBar.png&#34; alt=&#34;LeastDiverseBar&#34; /&gt;
+&lt;/center&gt;&lt;/p&gt;
 
 &lt;p&gt;In contrast to the five most diverse census tracts in the area, the five most homogeneous tracts are located in close physical proximity to each other in suburban Roseville and Lincoln in Placer County. These five tracts are noticeably less diverse than even the tracts around them, and a quick analysis reveals a likely reason why.&lt;/p&gt;
 
