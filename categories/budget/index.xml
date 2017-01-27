@@ -10,10 +10,10 @@
     
     <item>
       <title>City of Sacramento Open Budget Project</title>
-      <link>/blog/2017-01-23-city-of-sacramento-open-budget-project/</link>
+      <link>/post/2017-01-23-city-of-sacramento-open-budget-project/</link>
       <pubDate>Sat, 31 May 2014 00:00:00 +0000</pubDate>
       
-      <guid>/blog/2017-01-23-city-of-sacramento-open-budget-project/</guid>
+      <guid>/post/2017-01-23-city-of-sacramento-open-budget-project/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve spent the past few months volunteering with &lt;a href=&#34;https://www.codeforsacramento.org/&#34;&gt;Code4Sac&lt;/a&gt;, the local &lt;a href=&#34;https://www.codeforamerica.org/&#34;&gt;Code for America&lt;/a&gt; brigade.  This is an organization of hacker types who are trying to use their skills for the public good, working to free government data for the people to use as they see fit.  And if you see the word &amp;ldquo;hacker&amp;rdquo; and immediately think Sneakers or War Games, think again.  Modern hackers work with the government as often as not, and Code4Sac is sponsored by the City of Sacramento.&lt;/p&gt;
 
 &lt;p&gt;The project I&amp;rsquo;ve been working on, the City of Sacramento Open Budget Project, is an effort to take the city&amp;rsquo;s budget document, which is published online only in PDF format, and convert it into machine-readable data.  This means you can open it up in your spreadsheet or database or other analysis program and start exploring the numbers, creating your own charts, and making your own connections.  And we&amp;rsquo;ve finally hit the point at which it can be revealed to the world.  So here it is!&lt;/p&gt;
