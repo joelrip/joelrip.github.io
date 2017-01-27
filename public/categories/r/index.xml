@@ -2,78 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>r on Joel Riphagen</title>
-    <link>/categories/r/index.xml</link>
+    <link>http://joelrip.github.io/categories/r/index.xml</link>
     <description>Recent content in r on Joel Riphagen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Hello R Markdown</title>
-      <link>/post/2015-07-23-r-rmarkdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      
-      <guid>/post/2015-07-23-r-rmarkdown/</guid>
-      <description>&lt;!-- BLOGDOWN-BODY-BEFORE
-
-/BLOGDOWN-BODY-BEFORE --&gt;
-
-&lt;div id=&#34;r-markdown&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;R Markdown&lt;/h1&gt;
-&lt;p&gt;This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see &lt;a href=&#34;http://rmarkdown.rstudio.com&#34; class=&#34;uri&#34;&gt;http://rmarkdown.rstudio.com&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;You can embed an R code chunk like this:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;summary(cars)
-##      speed           dist       
-##  Min.   : 4.0   Min.   :  2.00  
-##  1st Qu.:12.0   1st Qu.: 26.00  
-##  Median :15.0   Median : 36.00  
-##  Mean   :15.4   Mean   : 42.98  
-##  3rd Qu.:19.0   3rd Qu.: 56.00  
-##  Max.   :25.0   Max.   :120.00
-fit &amp;lt;- lm(dist ~ speed, data = cars)
-fit
-## 
-## Call:
-## lm(formula = dist ~ speed, data = cars)
-## 
-## Coefficients:
-## (Intercept)        speed  
-##     -17.579        3.932&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div id=&#34;including-plots&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Including Plots&lt;/h1&gt;
-&lt;p&gt;You can also embed plots. See Figure &lt;a href=&#34;#fig:pie&#34;&gt;1&lt;/a&gt; for example:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;par(mar = c(0, 1, 0, 1))
-pie(
-  c(280, 60, 20),
-  c(&amp;#39;Sky&amp;#39;, &amp;#39;Sunny side of pyramid&amp;#39;, &amp;#39;Shady side of pyramid&amp;#39;),
-  col = c(&amp;#39;#0292D8&amp;#39;, &amp;#39;#F7EA39&amp;#39;, &amp;#39;#C4B632&amp;#39;),
-  init.angle = -50, border = NA
-)&lt;/code&gt;&lt;/pre&gt;
-&lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:pie&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;#####../content/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
-&lt;p class=&#34;caption&#34;&gt;
-Figure 1: A fancy pie chart.
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-
-&lt;!-- BLOGDOWN-HEAD
-
-
-
-
-/BLOGDOWN-HEAD --&gt;
-</description>
-    </item>
+    <atom:link href="http://joelrip.github.io/categories/r/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Mapping Childhood Vaccination in Sacramento</title>
-      <link>/post/2017-01-23-mapping-childhood-vaccination-in-sacramento/</link>
+      <link>http://joelrip.github.io/post/2017-01-23-mapping-childhood-vaccination-in-sacramento/</link>
       <pubDate>Sun, 20 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>/post/2017-01-23-mapping-childhood-vaccination-in-sacramento/</guid>
+      <guid>http://joelrip.github.io/post/2017-01-23-mapping-childhood-vaccination-in-sacramento/</guid>
       <description>&lt;p&gt;I’ve created &lt;a href=&#34;http://joelriphagen.net/SacVaccination1314.htm&#34;&gt;&lt;strong&gt;an interactive map&lt;/strong&gt;&lt;/a&gt; of childcare facilities and Kindergartens in the Sacramento area, color-coded by the percentage of students that are unvaccinated due to Personal Belief Exemptions (PBEs).  Based on &lt;a href=&#34;http://www.cdph.ca.gov/programs/immunize/Pages/ImmunizationLevels.aspx&#34;&gt;2013-14 data&lt;/a&gt; from the California Department of Public Health.  &lt;em&gt;[Note: Not smartphone friendly.]&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;[Editor&amp;rsquo;s Note January 2017: This map was created almost a year before the &lt;a href=&#34;https://www.nytimes.com/interactive/2015/02/06/us/california-measles-vaccines-map.html&#34;&gt;New York Times&amp;rsquo; map&lt;/a&gt; using the same data. Admittedly, theirs is prettier, and it&amp;rsquo;s statewide.]&lt;/em&gt;&lt;/p&gt;

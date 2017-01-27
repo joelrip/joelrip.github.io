@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Joel Riphagen</title>
-    <link>/index.xml</link>
+    <link>http://joelrip.github.io/index.xml</link>
     <description>Recent content on Joel Riphagen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 22 Jan 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://joelrip.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>About Me</title>
-      <link>/about/</link>
+      <link>http://joelrip.github.io/about/</link>
       <pubDate>Sun, 22 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>/about/</guid>
+      <guid>http://joelrip.github.io/about/</guid>
       <description>&lt;p&gt;I have had a 15-year career as a government policy and finance analyst. During that time, I advised politicians on budgetary and policy matters, worked in public-private partnerships to redevelop blighted communities, and administered programs to provide assistance to low-income families. I am proud of my accomplishments.&lt;/p&gt;
 
 &lt;p&gt;But I am now going about public service in a different way.&lt;/p&gt;
@@ -26,42 +26,11 @@
     </item>
     
     <item>
-      <title>A Plain Markdown Post</title>
-      <link>/post/2016-12-30-hello-markdown/</link>
-      <pubDate>Fri, 30 Dec 2016 21:49:57 -0700</pubDate>
-      
-      <guid>/post/2016-12-30-hello-markdown/</guid>
-      <description>&lt;p&gt;This is a post written in plain Markdown (&lt;code&gt;*.md&lt;/code&gt;) instead of R Markdown (&lt;code&gt;*.Rmd&lt;/code&gt;). The major differences are:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;You cannot run any R code in a plain Markdown document, whereas in an R Markdown document, you can embed R code chunks (&lt;code&gt;```{r}&lt;/code&gt;);&lt;/li&gt;
-&lt;li&gt;A plain Markdown post is rendered through &lt;a href=&#34;https://gohugo.io/overview/configuration/&#34;&gt;Blackfriday&lt;/a&gt;, and an R Markdown document is compiled by &lt;a href=&#34;http://rmarkdown.rstudio.com&#34;&gt;&lt;strong&gt;rmarkdown&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;http://pandoc.org&#34;&gt;Pandoc&lt;/a&gt;.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;There are many differences in syntax between Blackfriday&amp;rsquo;s Markdown and Pandoc&amp;rsquo;s Markdown. For example, you can write a task list with Blackfriday but not with Pandoc:&lt;/p&gt;
-
-&lt;ul class=&#34;task-list&#34;&gt;
-&lt;li&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; Write an R package.&lt;/li&gt;
-&lt;li&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; Write a book.&lt;/li&gt;
-&lt;li&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; &amp;hellip;&lt;/li&gt;
-&lt;li&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; Profit!&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Similarly, Blackfriday does not support LaTeX math and Pandoc does. I have added the MathJax support to this theme (&lt;a href=&#34;https://github.com/yihui/hugo-lithium-theme&#34;&gt;hugo-lithium-theme&lt;/a&gt;) but there is a caveat for plain Markdown posts: you have to include inline math expressions in  a pair of escaped parentheses &lt;code&gt;\&lt;/code&gt;&lt;code&gt;( \)&lt;/code&gt; instead of dollar signs &lt;code&gt;$ $&lt;/code&gt;, e.g. &lt;code&gt;\(S_n = \sum_{i=1}^n X_i\)&lt;/code&gt;. For R Markdown posts, you can use &lt;code&gt;$ $&lt;/code&gt; to write inline math expressions.&lt;/p&gt;
-
-&lt;p&gt;When creating a new post, you have to decide whether the post format is Markdown or R Markdown, and this can be done via the &lt;code&gt;rmd&lt;/code&gt; argument of the function &lt;code&gt;blogdown::new_post()&lt;/code&gt;, e.g.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;blogdown::new_post(&amp;quot;Post Title&amp;quot;, rmd = FALSE)
-&lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
       <title>San Diego Neighborhood Diversity: A Wedding Present</title>
-      <link>/post/2017-01-27-san-diego-neighborhood-diversity-a-wedding-present/</link>
+      <link>http://joelrip.github.io/post/2017-01-27-san-diego-neighborhood-diversity-a-wedding-present/</link>
       <pubDate>Fri, 31 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>/post/2017-01-27-san-diego-neighborhood-diversity-a-wedding-present/</guid>
+      <guid>http://joelrip.github.io/post/2017-01-27-san-diego-neighborhood-diversity-a-wedding-present/</guid>
       <description>
 
 &lt;p&gt;A few months ago, I posted an &lt;a href=&#34;https://joelrip.github.io/post/2017-01-24-how-diverse-is-my-neighborhood-mapping-ethnic-diversity-in-sacramento-part-i/&#34;&gt;analysis of the ethnic diversity of Sacramento’s neighborhoods at the Census Tract level&lt;/a&gt;. That post led to a few requests for similar analyses covering different metro areas. One of these requests came from a friend who lives in San Diego, who happens to be getting married this weekend, and who has asked for no wedding presents. So in lieu of a present, Mike and Lan Lan, here’s a quick run-down of San Diego’s ethnic diversity. You don’t even have to give me that taco you promised in return!&lt;/p&gt;
@@ -82,7 +51,7 @@
 
 &lt;h3 id=&#34;ethnic-diversity-in-the-san-diego-area&#34;&gt;Ethnic Diversity in the San Diego Area&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;./img/2015/07/SDDivTracts.png&#34; alt=&#34;SDDivTracts&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;http://joelrip.github.io/img/2015/07/SDDivTracts.png&#34; alt=&#34;SDDivTracts&#34; /&gt;
 &lt;/center&gt;&lt;/p&gt;
 
 &lt;p&gt;This map looks very different from the Sacramento map in the previous post. Whereas Sacramento’s highly diverse areas are all generally contiguous with each other (except for the “wedge of whiteness” that cuts into the city), San Diego’s diverse areas are a bit more diffuse. Very generally, they also tend to be away from the ocean, with areas West of the 805 and closer to the ocean tending to be less diverse (with a few obvious exceptions, including part of National City, parts of Downtown and the Gaslamp District, and Naval Base Coronado). So La Jolla is relatively non-diverse, which may not be surprising. But Chula Vista is also not as diverse as areas further East, which may be surprising indeed. If you think about the definition of “diversity”, however, the reason for this may become obvious to you. If not, keep reading! (Well, keep reading anyway!)&lt;/p&gt;
@@ -90,7 +59,7 @@
 &lt;p&gt;San Diego County’s diversity distribution is also markedly different than Sacramento’s:&lt;/p&gt;
 
 &lt;p&gt;&lt;center&gt;
-&lt;img src=&#34;./img/2015/07/SDDivHist.png&#34; alt=&#34;SDDivHist&#34; /&gt;
+&lt;img src=&#34;http://joelrip.github.io/img/2015/07/SDDivHist.png&#34; alt=&#34;SDDivHist&#34; /&gt;
 &lt;/center&gt;&lt;/p&gt;
 
 &lt;p&gt;Whereas Sacramento’s diversity distribution in fact peaks at the high end of the range (&lt;a href=&#34;https://joelrip.github.io/post/2017-01-24-how-diverse-is-my-neighborhood-mapping-ethnic-diversity-in-sacramento-part-i/&#34;&gt;feel free to go back and refresh your memory&lt;/a&gt;), San Diego’s distribution is somewhat more normal. Very high and very low diversity are rare, with most Census Tracts clustering in the middle of the distribution. San Diego County’s mean of about 0.55 is also a bit lower than the SACOG area’s mean of about 0.6, but both are still highly diverse areas.&lt;/p&gt;
@@ -105,8 +74,8 @@
 
 &lt;h3 id=&#34;locations-of-san-diego-s-most-diverse-census-tracts&#34;&gt;Locations of San Diego’s Most Diverse Census Tracts&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;./img/2015/07/SDHighTracts.png&#34; alt=&#34;SDHighTracts&#34; /&gt;
-&lt;img src=&#34;./img/2015/07/MostDiverseBar.png&#34; alt=&#34;MostDiverseBar&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;http://joelrip.github.io/img/2015/07/SDHighTracts.png&#34; alt=&#34;SDHighTracts&#34; /&gt;
+&lt;img src=&#34;http://joelrip.github.io/img/2015/07/MostDiverseBar.png&#34; alt=&#34;MostDiverseBar&#34; /&gt;
 &lt;/center&gt;&lt;/p&gt;
 
 &lt;p&gt;As I mentioned before, my limited knowledge of the history of San Diego’s neighborhoods prevents me from performing much analysis of the reasons for high diversity in these particular tracts. However, &lt;strong&gt;Census Tract 66&lt;/strong&gt; is quite intriguing. While the other four fit my general description earlier of being away from the ocean and East of the 805, the most diverse Census Tract in San Diego is sandwiched between the airport, Old Town, and Ocean Beach, further to the West, and surrounded by relatively non-diverse areas. This tract also has nearly 10% of its population classifying itself as “other” or “mixed”, far higher than any of the other highly diverse tracts. What is going on in this tract? How did this population mix occur? If you know San Diego and the story of this area, please enlighten me!&lt;/p&gt;
@@ -119,13 +88,13 @@
 
 &lt;h3 id=&#34;locations-of-san-diego-s-least-diverse-census-tracts-map-1&#34;&gt;Locations of San Diego’s Least Diverse Census Tracts – Map 1&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;./img/2015/07/SDLowTracts1.png&#34; alt=&#34;SDLowTracts1&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://joelrip.github.io/img/2015/07/SDLowTracts1.png&#34; alt=&#34;SDLowTracts1&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;locations-of-san-diego-s-least-diverse-census-tracts-map-2&#34;&gt;Locations of San Diego’s Least Diverse Census Tracts – Map 2&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;./img/2015/07/SDLowTracts2.png&#34; alt=&#34;SDLowTracts2&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://joelrip.github.io/img/2015/07/SDLowTracts2.png&#34; alt=&#34;SDLowTracts2&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;./img/2015/07/LeastDiverseBar.png&#34; alt=&#34;LeastDiverseBar&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;http://joelrip.github.io/img/2015/07/LeastDiverseBar.png&#34; alt=&#34;LeastDiverseBar&#34; /&gt;
 &lt;/center&gt;&lt;/p&gt;
 
 &lt;p&gt;Well, that’s very different. The five least diverse Census Tracts in San Diego County are four tracts in San Ysidro, and one in Del Mar. San Ysidro, of course, sits on the Mexican border and is nearly 100% Hispanic. Since our definition of diversity is people of different racial and ethnic backgrounds living together, San Ysidro is about as non-diverse as you can get. This is also the reason that other highly Hispanic areas of San Diego County, such as Chula Vista, rate relatively low on the diversity scale.&lt;/p&gt;
@@ -150,71 +119,11 @@
     </item>
     
     <item>
-      <title>Hello R Markdown</title>
-      <link>/post/2015-07-23-r-rmarkdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      
-      <guid>/post/2015-07-23-r-rmarkdown/</guid>
-      <description>&lt;!-- BLOGDOWN-BODY-BEFORE
-
-/BLOGDOWN-BODY-BEFORE --&gt;
-
-&lt;div id=&#34;r-markdown&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;R Markdown&lt;/h1&gt;
-&lt;p&gt;This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see &lt;a href=&#34;http://rmarkdown.rstudio.com&#34; class=&#34;uri&#34;&gt;http://rmarkdown.rstudio.com&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;You can embed an R code chunk like this:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;summary(cars)
-##      speed           dist       
-##  Min.   : 4.0   Min.   :  2.00  
-##  1st Qu.:12.0   1st Qu.: 26.00  
-##  Median :15.0   Median : 36.00  
-##  Mean   :15.4   Mean   : 42.98  
-##  3rd Qu.:19.0   3rd Qu.: 56.00  
-##  Max.   :25.0   Max.   :120.00
-fit &amp;lt;- lm(dist ~ speed, data = cars)
-fit
-## 
-## Call:
-## lm(formula = dist ~ speed, data = cars)
-## 
-## Coefficients:
-## (Intercept)        speed  
-##     -17.579        3.932&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div id=&#34;including-plots&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Including Plots&lt;/h1&gt;
-&lt;p&gt;You can also embed plots. See Figure &lt;a href=&#34;#fig:pie&#34;&gt;1&lt;/a&gt; for example:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;par(mar = c(0, 1, 0, 1))
-pie(
-  c(280, 60, 20),
-  c(&amp;#39;Sky&amp;#39;, &amp;#39;Sunny side of pyramid&amp;#39;, &amp;#39;Shady side of pyramid&amp;#39;),
-  col = c(&amp;#39;#0292D8&amp;#39;, &amp;#39;#F7EA39&amp;#39;, &amp;#39;#C4B632&amp;#39;),
-  init.angle = -50, border = NA
-)&lt;/code&gt;&lt;/pre&gt;
-&lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:pie&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;#####../content/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
-&lt;p class=&#34;caption&#34;&gt;
-Figure 1: A fancy pie chart.
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-
-&lt;!-- BLOGDOWN-HEAD
-
-
-
-
-/BLOGDOWN-HEAD --&gt;
-</description>
-    </item>
-    
-    <item>
       <title>How Diverse Is My Neighborhood? Mapping Ethnic Diversity in Sacramento, Part I</title>
-      <link>/post/2017-01-24-how-diverse-is-my-neighborhood-mapping-ethnic-diversity-in-sacramento-part-i/</link>
+      <link>http://joelrip.github.io/post/2017-01-24-how-diverse-is-my-neighborhood-mapping-ethnic-diversity-in-sacramento-part-i/</link>
       <pubDate>Sun, 08 Feb 2015 00:00:00 +0000</pubDate>
       
-      <guid>/post/2017-01-24-how-diverse-is-my-neighborhood-mapping-ethnic-diversity-in-sacramento-part-i/</guid>
+      <guid>http://joelrip.github.io/post/2017-01-24-how-diverse-is-my-neighborhood-mapping-ethnic-diversity-in-sacramento-part-i/</guid>
       <description>
 
 &lt;p&gt;Sacramento is regularly lauded as the &lt;a href=&#34;http://content.time.com/time/nation/article/0,8599,340694,00.html&#34;&gt;most ethnically diverse&lt;/a&gt;, or at least one of the most ethnically diverse, cities in the nation. Not just at the city level, but &lt;a href=&#34;https://priceonomics.com/the-most-and-least-segregated-cities-in-america/&#34;&gt;at the neighborhood level&lt;/a&gt; as well. More than any other American city, the members of Sacramento’s different racial and ethnic groups live and work together.&lt;/p&gt;
@@ -242,7 +151,7 @@ Figure 1: A fancy pie chart.
 
 &lt;h3 id=&#34;many-sacramentos&#34;&gt;Many Sacramentos&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;./img/2015/02/SacBoundaries.png&#34; alt=&#34;SacBoundaries&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;http://joelrip.github.io/img/2015/02/SacBoundaries.png&#34; alt=&#34;SacBoundaries&#34; /&gt;
 &lt;/center&gt;&lt;/p&gt;
 
 &lt;p&gt;A casual examination suggests that the largest of these areas, which incorporate the rural area surrounding Sacramento, are far too large for my purposes. Census MSAs and CSAs follow county boundaries, and in their effort to include everyone who could be considered a resident of the Sacramento area, they include many who could not.  Certainly Tahoe residents would not think of themselves as Sacramento-area residents.  And Yuba City residents, while some may commute to Sacramento, live further away from downtown Sacramento than residents of Vacaville and Lodi, which no geography considers to be part of the Sacramento area.&lt;/p&gt;
@@ -263,7 +172,7 @@ Figure 1: A fancy pie chart.
 
 &lt;h3 id=&#34;ethnic-diversity-in-the-sacramento-area&#34;&gt;Ethnic Diversity in the Sacramento Area&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;./img/2015/02/SacDivTracts.png&#34; alt=&#34;SacDivTracts&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;http://joelrip.github.io/img/2015/02/SacDivTracts.png&#34; alt=&#34;SacDivTracts&#34; /&gt;
 &lt;/center&gt;&lt;/p&gt;
 
 &lt;p&gt;To give you a sense of what the colors mean, I’ve highlighted a purple tract in Folsom with a green border. This tract scores a 0.716 on the diversity index. It is 20% white, 47% black, 26% Hispanic, 2% Asian, 1% Native American, and 5% other/multiracial. As the map shows, tracts with this or a greater level of diversity are common in the Sacramento area, though this particular tract is uncommon in that it is Folsom Prison.&lt;/p&gt;
@@ -274,7 +183,7 @@ Figure 1: A fancy pie chart.
 
 &lt;p&gt;Here is another way to visualize the variation in diversity among census tracts.&lt;/p&gt;
 
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;./img/2015/02/SacDivHist.png&#34; alt=&#34;SacDivHist&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;http://joelrip.github.io/img/2015/02/SacDivHist.png&#34; alt=&#34;SacDivHist&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
 
 &lt;p&gt;This chart shows all of the census tracts in the SACOG area, sorted by diversity. It shows over 70 very highly diverse census tracts (diversity score between 0.8 and 0.9), a number of diverse census tracts down to a diversity score of about 0.5, and then a gradual decline down to the lowest diversity scores on the left. It also shows that the mean diversity score of the census tracts in the City of Sacramento is quite a bit higher than the mean over the entire SACOG area.&lt;/p&gt;
 
@@ -288,9 +197,9 @@ Figure 1: A fancy pie chart.
 
 &lt;h3 id=&#34;locations-of-sacramento-s-most-diverse-census-tracts&#34;&gt;Locations of Sacramento’s Most Diverse Census Tracts&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;./img/2015/02/SacHighTracts.png&#34; alt=&#34;SacHighTracts&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://joelrip.github.io/img/2015/02/SacHighTracts.png&#34; alt=&#34;SacHighTracts&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;./img/2015/02/MostDiverseBar.png&#34; alt=&#34;MostDiverseBar&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;http://joelrip.github.io/img/2015/02/MostDiverseBar.png&#34; alt=&#34;MostDiverseBar&#34; /&gt;
 &lt;/center&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Census Tract 65&lt;/strong&gt;, the most diverse census tract in the area, is bisected by Interstate 80. South of the interstate, the tract encompasses the north side of Del Paso Heights, including Grant High. This is one of the traditionally low-income neighborhoods of the city. North of the interstate, the tract is characterized by newer single-family developments built largely within the last 20 years. This area has been subject to the City’s inclusionary ordinance during its development, which required a certain portion of the new housing to be affordable to lower income residents. While this is all contained within one tract, the interstate divides it into two distinct neighborhoods.&lt;/p&gt;
@@ -311,9 +220,9 @@ Figure 1: A fancy pie chart.
 
 &lt;h3 id=&#34;locations-of-sacramento-s-least-diverse-census-tracts&#34;&gt;Locations of Sacramento’s Least Diverse Census Tracts&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;./img/2015/02/SacLowTracts.png&#34; alt=&#34;SacLowTracts&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://joelrip.github.io/img/2015/02/SacLowTracts.png&#34; alt=&#34;SacLowTracts&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;./img/2015/02/LeastDiverseBar.png&#34; alt=&#34;LeastDiverseBar&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;http://joelrip.github.io/img/2015/02/LeastDiverseBar.png&#34; alt=&#34;LeastDiverseBar&#34; /&gt;
 &lt;/center&gt;&lt;/p&gt;
 
 &lt;p&gt;In contrast to the five most diverse census tracts in the area, the five most homogeneous tracts are located in close physical proximity to each other in suburban Roseville and Lincoln in Placer County. These five tracts are noticeably less diverse than even the tracts around them, and a quick analysis reveals a likely reason why.&lt;/p&gt;
@@ -339,10 +248,10 @@ Figure 1: A fancy pie chart.
     
     <item>
       <title>Game of Thrones Baby Names on the Rise in California</title>
-      <link>/post/2017-01-23-game-of-thrones-baby-names-on-the-rise-in-california/</link>
+      <link>http://joelrip.github.io/post/2017-01-23-game-of-thrones-baby-names-on-the-rise-in-california/</link>
       <pubDate>Fri, 08 Aug 2014 00:00:00 +0000</pubDate>
       
-      <guid>/post/2017-01-23-game-of-thrones-baby-names-on-the-rise-in-california/</guid>
+      <guid>http://joelrip.github.io/post/2017-01-23-game-of-thrones-baby-names-on-the-rise-in-california/</guid>
       <description>&lt;p&gt;Baby Arya is coming!  (As is winter.)&lt;/p&gt;
 
 &lt;p&gt;Working collaboratively with the &lt;a href=&#34;http://www.cdph.ca.gov/&#34;&gt;California Department of Public Health (CDPH)&lt;/a&gt;, I’ve done an analysis and visualization of baby names given in California from 2009 through 2013. In particular, we checked out how many parents were inspired to name their bundles of joy after characters in George RR Martin’s &lt;a href=&#34;http://www.georgerrmartin.com/book-category/?cat=song-of-ice-and-fire&#34;&gt;&lt;em&gt;Song of Ice and Fire&lt;/em&gt;&lt;/a&gt; book series (aka &lt;a href=&#34;http://www.hbo.com/game-of-thrones#/&#34;&gt;&lt;em&gt;Game of Thrones&lt;/em&gt;&lt;/a&gt; on HBO) over that five year period.  The takeaway?&lt;/p&gt;
@@ -351,11 +260,11 @@ Figure 1: A fancy pie chart.
 
 &lt;p&gt;As CDPH noted on its tumblr page (Yes, the state dept. of public health uses tumblr! Who knew?), the popularity of Arya as a girl’s name more than quadrupled from 2009 to 2013, with 152 so christened last year.  Khaleesi is also on the rise, while Daenerys really isn’t.  This is kind of like wanting to name your kid after Dr. J and naming him Doctor instead of Julius, but to each his or her own.  &lt;a href=&#34;http://cdphopendata.tumblr.com/post/94107141030/hbos-game-of-thrones-inspires-baby-names&#34;&gt;You can check out CDPH’s post, complete with my chart of girls named for Game of Thrones characters, right here.&lt;/a&gt;  I’ve also reproduced the chart below.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;./img/2014/08/Girl GOT Stacked 2.png&#34; alt=&#34;Girls GOT Stacked 2&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://joelrip.github.io/img/2014/08/Girl GOT Stacked 2.png&#34; alt=&#34;Girls GOT Stacked 2&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;But there’s much more in the data than CDPH discussed.  For example, in addition to the female name chart, I’ve produced a male name chart as well.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;./img/2014/08/Boys GOT Stacked 2.png&#34; alt=&#34;Boys GOT Stacked 2&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://joelrip.github.io/img/2014/08/Boys GOT Stacked 2.png&#34; alt=&#34;Boys GOT Stacked 2&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;[Note: The Game of Thrones names you will not see on this chart?  Jaime and Jon.  There are a couple hundred new boys named Jaime in CA each year, mostly unrelated to the TV show or books.  Throwing them into the boy name chart would have swamped all the other interestingness.  And while Jon is much less popular than Jaime, with only 30 or so each year, it’s showing no pattern of increase, and it would be surprising if many of them were related to Game of Thrones.]&lt;/em&gt;&lt;/p&gt;
 
@@ -374,10 +283,10 @@ Figure 1: A fancy pie chart.
     
     <item>
       <title>City of Sacramento Open Budget Project</title>
-      <link>/post/2017-01-23-city-of-sacramento-open-budget-project/</link>
+      <link>http://joelrip.github.io/post/2017-01-23-city-of-sacramento-open-budget-project/</link>
       <pubDate>Sat, 31 May 2014 00:00:00 +0000</pubDate>
       
-      <guid>/post/2017-01-23-city-of-sacramento-open-budget-project/</guid>
+      <guid>http://joelrip.github.io/post/2017-01-23-city-of-sacramento-open-budget-project/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve spent the past few months volunteering with &lt;a href=&#34;https://www.codeforsacramento.org/&#34;&gt;Code4Sac&lt;/a&gt;, the local &lt;a href=&#34;https://www.codeforamerica.org/&#34;&gt;Code for America&lt;/a&gt; brigade.  This is an organization of hacker types who are trying to use their skills for the public good, working to free government data for the people to use as they see fit.  And if you see the word &amp;ldquo;hacker&amp;rdquo; and immediately think Sneakers or War Games, think again.  Modern hackers work with the government as often as not, and Code4Sac is sponsored by the City of Sacramento.&lt;/p&gt;
 
 &lt;p&gt;The project I&amp;rsquo;ve been working on, the City of Sacramento Open Budget Project, is an effort to take the city&amp;rsquo;s budget document, which is published online only in PDF format, and convert it into machine-readable data.  This means you can open it up in your spreadsheet or database or other analysis program and start exploring the numbers, creating your own charts, and making your own connections.  And we&amp;rsquo;ve finally hit the point at which it can be revealed to the world.  So here it is!&lt;/p&gt;
@@ -394,10 +303,10 @@ Figure 1: A fancy pie chart.
     
     <item>
       <title>Mapping Childhood Vaccination in Sacramento</title>
-      <link>/post/2017-01-23-mapping-childhood-vaccination-in-sacramento/</link>
+      <link>http://joelrip.github.io/post/2017-01-23-mapping-childhood-vaccination-in-sacramento/</link>
       <pubDate>Sun, 20 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>/post/2017-01-23-mapping-childhood-vaccination-in-sacramento/</guid>
+      <guid>http://joelrip.github.io/post/2017-01-23-mapping-childhood-vaccination-in-sacramento/</guid>
       <description>&lt;p&gt;I’ve created &lt;a href=&#34;http://joelriphagen.net/SacVaccination1314.htm&#34;&gt;&lt;strong&gt;an interactive map&lt;/strong&gt;&lt;/a&gt; of childcare facilities and Kindergartens in the Sacramento area, color-coded by the percentage of students that are unvaccinated due to Personal Belief Exemptions (PBEs).  Based on &lt;a href=&#34;http://www.cdph.ca.gov/programs/immunize/Pages/ImmunizationLevels.aspx&#34;&gt;2013-14 data&lt;/a&gt; from the California Department of Public Health.  &lt;em&gt;[Note: Not smartphone friendly.]&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;[Editor&amp;rsquo;s Note January 2017: This map was created almost a year before the &lt;a href=&#34;https://www.nytimes.com/interactive/2015/02/06/us/california-measles-vaccines-map.html&#34;&gt;New York Times&amp;rsquo; map&lt;/a&gt; using the same data. Admittedly, theirs is prettier, and it&amp;rsquo;s statewide.]&lt;/em&gt;&lt;/p&gt;
