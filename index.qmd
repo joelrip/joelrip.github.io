@@ -20,7 +20,7 @@ about:
       aria-label: Email me
 ---
 
-Data leads to information. Information leads to knowledge. And knowledge is power. When the people have access to more data, they're on the path to more power.
+Data leads to information. Information leads to knowledge. And knowledge is power. When people have access to more data, they're on the path to more power.
 
 <center>
 Data -> Information
