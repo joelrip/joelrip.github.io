@@ -3,7 +3,7 @@
     "path": "~/Documents/R/joelrip.github.io/.gitignore",
     "project_path": ".gitignore",
     "type": "gitignore",
-    "hash": "0",
+    "hash": "4007425994",
     "contents": "",
     "dirty": false,
     "created": 1679594491915.0,
@@ -11,14 +11,16 @@
     "relative_order": 1,
     "properties": {
         "source_window_id": "",
-        "Source": "Source"
+        "Source": "Source",
+        "cursorPosition": "1,11",
+        "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1679594476,
+    "lastKnownWriteTime": 1679627998,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1679594476,
+    "last_content_update": 1679627998315,
     "read_only": false,
     "read_only_alternatives": []
 }

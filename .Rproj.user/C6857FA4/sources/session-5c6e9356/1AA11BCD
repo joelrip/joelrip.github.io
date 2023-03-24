@@ -3,7 +3,7 @@
     "path": "~/Documents/R/joelrip.github.io/_quarto.yml",
     "project_path": "_quarto.yml",
     "type": "yaml",
-    "hash": "483102245",
+    "hash": "3185730085",
     "contents": "",
     "dirty": false,
     "created": 1679594494091.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "2,18",
+        "cursorPosition": "5,23",
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1679594615,
+    "lastKnownWriteTime": 1679626274,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1679594615544,
+    "last_content_update": 1679626274741,
     "read_only": false,
     "read_only_alternatives": []
 }
