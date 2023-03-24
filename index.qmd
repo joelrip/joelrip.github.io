@@ -6,14 +6,18 @@ about:
   image-shape: rounded
   image-width: 15em
   links: 
-    - text: LinkedIn
+    - icon: linkedin
       href: https://www.linkedin.com/in/joelriphagen/
-    - text: Twitter
+      aria-label: LinkedIn
+    - icon: twitter
       href: https://twitter.com/joelrip
-    - text: Github
+      aria-label: Twitter
+    - icon: github
       href: https://github.com/joelrip
-    - text: Email
+      aria-label: Github
+    - icon: envelope-fill
       href: mailto:joelrip@gmail.com
+      aria-label: Email me
 ---
 
 Data leads to information. Information leads to knowledge. And knowledge is power. When the people have access to more data, they're on the path to more power.
@@ -24,3 +28,4 @@ Data -> Information
 <br>Knowledge = Power
 <br>__Data to the People__
 </center>
+
