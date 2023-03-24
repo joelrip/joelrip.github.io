@@ -12,7 +12,7 @@ website:
 
 format:
   html:
-    theme: flatly
+    theme: cyborg
     css: styles.css
     toc: true
 
