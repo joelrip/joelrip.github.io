@@ -1,7 +1,5 @@
 ---
-title: "joelrip.github.io"
+title: "Joel Riphagen"
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Data can be turned into information. Information can be turned into knowledge. Knowledge, as they say, is power. So when the people have more data, they can have more power. __Data to the people.__
