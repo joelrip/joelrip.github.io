@@ -2,4 +2,11 @@
 title: "Joel Riphagen"
 ---
 
-Data can be turned into information. Information can be turned into knowledge. Knowledge, as they say, is power. So when the people have more data, they can have more power. __Data to the people.__
+Data can be turned into information. Information can be turned into knowledge. Knowledge, as they say, is power. When the people have access to more data, they're on the path to more power.
+
+<center>
+Data -> Information
+<br>Information -> Knowledge
+<br>Knowledge = Power
+<br>__Data to the People__
+</center>
