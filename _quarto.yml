@@ -4,6 +4,7 @@ project:
 
 website:
   title: "Joel Riphagen"
+  site-url: "https://joelrip.github.io"
   favicon: images/RClogoWhiteBorder.png
   navbar:
     title: false
@@ -12,6 +13,7 @@ website:
       - href: index.qmd
         text: home
       - about.qmd
+      - posts.qmd
   page-footer: 
     background: light
     right: 

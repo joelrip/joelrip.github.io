@@ -1,0 +1,19 @@
+---
+title: "Mapping Childhood Vaccination in Sacramento"
+author:
+  name: Joel Riphagen
+  url: https://joelrip.github.io
+date: 04-20-2014
+categories: [R, mapping, health]
+citation:
+  url: https://joelrip.github.io/posts/2014-04-20-childhood-vaccination/
+image: ChildcareScreenCap.png
+title-block-banner: ChildcareScreenCap.png
+title-block-banner-color: "#FFFFFF"
+---
+
+I’ve created an interactive map of childcare facilities and Kindergartens in the Sacramento area, color-coded by the percentage of students that are unvaccinated due to Personal Belief Exemptions (PBEs). Based on 2013-14 data from the California Department of Public Health. _[Note: Not smartphone friendly.]_
+
+_[Editor’s Note January 2017: This map was created almost a year before the New York Times’ map using the same data. Admittedly, theirs is prettier, and it’s statewide.]_
+
+_[Editor's Note March 2023: The interactive map is no longer available, as advancing technology has broken the original page. But I wanted to preserve my very first blog post for posterity!]_

@@ -1,10 +1,17 @@
 [
   {
+    "objectID": "posts/2014-04-20-childhood-vaccination/index.html",
+    "href": "posts/2014-04-20-childhood-vaccination/index.html",
+    "title": "Mapping Childhood Vaccination in Sacramento",
+    "section": "",
+    "text": "I’ve created an interactive map of childcare facilities and Kindergartens in the Sacramento area, color-coded by the percentage of students that are unvaccinated due to Personal Belief Exemptions (PBEs). Based on 2013-14 data from the California Department of Public Health. [Note: Not smartphone friendly.]\n[Editor’s Note January 2017: This map was created almost a year before the New York Times’ map using the same data. Admittedly, theirs is prettier, and it’s statewide.]\n[Editor’s Note March 2023: The interactive map is no longer available, as advancing technology has broken the original page. But I wanted to preserve my very first blog post for posterity!]\n\n\n\nCitationBibTeX citation:@online{riphagen2014,\n  author = {Joel Riphagen},\n  title = {Mapping {Childhood} {Vaccination} in {Sacramento}},\n  date = {2014-04-20},\n  url = {https://joelrip.github.io/posts/2014-04-20-childhood-vaccination/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nJoel Riphagen. 2014. “Mapping Childhood Vaccination in\nSacramento.” April 20, 2014. https://joelrip.github.io/posts/2014-04-20-childhood-vaccination/."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Joel Riphagen",
     "section": "",
-    "text": "Data leads to information. Information leads to knowledge. And knowledge is power. When people have access to more data, they’re on the path to more power.\n\nData -> Information Information -> Knowledge Knowledge = Power Data to the People"
+    "text": "I am the owner of Riphagen Consulting, and I have had a long career in state and local government and nonprofit consulting in Sacramento, California. I focus on social policy, affordable housing, data modeling and visualization, open data, and fiscal transparency.\n\nData -> Information Information -> Knowledge Knowledge = Power Data to the People"
   },
   {
     "objectID": "about.html",
@@ -12,5 +19,12 @@
     "title": "about",
     "section": "",
     "text": "About this site"
+  },
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "blog",
+    "section": "",
+    "text": "Mapping Childhood Vaccination in Sacramento\n\n\n\nR\n\n\nmapping\n\n\nhealth\n\n\n\n\n\n\n\nJoel Riphagen\n\n\nApr 20, 2014\n\n\n\n\n\n\n\n\nNo matching items"
   }
 ]

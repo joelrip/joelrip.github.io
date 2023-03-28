@@ -20,7 +20,9 @@ about:
       aria-label: Email me
 ---
 
-Data leads to information. Information leads to knowledge. And knowledge is power. When people have access to more data, they're on the path to more power.
+## welcome
+
+I am the owner of Riphagen Consulting, and I have had a long career in state and local government and nonprofit consulting in Sacramento, California. I focus on social policy, affordable housing, data modeling and visualization, open data, and fiscal transparency.
 
 <center>
 Data -> Information
