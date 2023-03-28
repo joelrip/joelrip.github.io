@@ -4,18 +4,16 @@ project:
 
 website:
   title: "Joel Riphagen"
-  favicon: images/RClogoOnly.png
+  favicon: images/RClogoWhiteBorder.png
   navbar:
     title: false
-    logo: images/RClogoOnly.png
+    logo: images/RClogoWhiteBorder.png
     right:
       - href: index.qmd
         text: home
       - about.qmd
   page-footer: 
     background: light
-    left: 
-      - "Copyright 2023, Joel Riphagen"
     right: 
       - icon: github
         href: https://github.com/joelrip
