@@ -10,7 +10,97 @@
 <atom:link href="https://joelrip.github.io/posts.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.2.475</generator>
-<lastBuildDate>Sun, 20 Apr 2014 07:00:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 08 Aug 2014 07:00:00 GMT</lastBuildDate>
+<item>
+  <title>Game of Thrones Baby Names on the Rise in California</title>
+  <dc:creator>Joel Riphagen</dc:creator>
+  <link>https://joelrip.github.io/posts/2014-08-08-game-of-thrones-baby-names/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Baby Arya is coming! (As is winter.)</p>
+<p>Working collaboratively with the <a href="https://www.cdph.ca.gov/">California Department of Public Health (CDPH)</a>, I’ve done an analysis and visualization of baby names given in California from 2009 through 2013. In particular, we checked out how many parents were inspired to name their bundles of joy after characters in George RR Martin’s <a href="https://georgerrmartin.com/book-category/?cat=song-of-ice-and-fire"><em>Song of Ice and Fire</em></a> book series (aka <a href="https://www.hbo.com/game-of-thrones#/"><em>Game of Thrones</em></a> on HBO) over that five year period. The takeaway?</p>
+<p>I expect to be voting for President Arya in 2056. And that might even be a man.</p>
+<p>As CDPH noted on its tumblr page (Yes, the state dept. of public health uses tumblr! Who knew?), the popularity of Arya as a girl’s name more than quadrupled from 2009 to 2013, with 152 so christened last year. Khaleesi is also on the rise, while Daenerys really isn’t. This is kind of like wanting to name your kid after Dr.&nbsp;J and naming him Doctor instead of Julius, but to each his or her own. <a href="https://cdphopendata.tumblr.com/post/94107141030/hbos-game-of-thrones-inspires-baby-names">You can check out CDPH’s post, complete with my chart of girls named for Game of Thrones characters, right here.</a> I’ve also reproduced the chart below.</p>
+<p><img src="https://joelrip.github.io/posts/2014-08-08-game-of-thrones-baby-names/Girl GOT Stacked 2.png" class="img-fluid" alt="A chart showing number of girls named for different Games of Thrones characters over time"></p>
+<p>But there’s much more in the data than CDPH discussed. For example, in addition to the female name chart, I’ve produced a male name chart as well.</p>
+<p><img src="https://joelrip.github.io/posts/2014-08-08-game-of-thrones-baby-names/Boys GOT Stacked 2.png" class="img-fluid" alt="A chart showing number of boys named for different Games of Thrones characters over time"></p>
+<p><em>[Note: The Game of Thrones names you will not see on this chart? Jaime and Jon. There are a couple hundred new boys named Jaime in CA each year, mostly unrelated to the TV show or books. Throwing them into the boy name chart would have swamped all the other interestingness. And while Jon is much less popular than Jaime, with only 30 or so each year, it’s showing no pattern of increase, and it would be surprising if many of them were related to Game of Thrones.]</em></p>
+<p>So what do we see in these charts?</p>
+<ul>
+<li>While Arya was far and away the most popular Game of Thrones name for girls, it was also the most popular name for boys, with 108 receiving that name in the past 5 years. However, while female Aryas are skyrocketing, male Aryas are on the decline. I suspect we’re passing the experimental stage of the name, where the avant garde book readers were using it as they saw fit, to the mainstream stage, where the weekly HBO watchers are associating it with the plucky girl they see on their screens.</li>
+<li>Shae (Tyrion Lannister’s lover, for those who aren’t following along) is also a gender-bending name, though it’s holding steady at 2 to 3 boys per year and 10 to 15 girls.</li>
+<li>There’s always someone willing to go the extra mile to give their kid the interesting name. In the last five years, California has welcomed a Drogo, a Gendry, a Jorah, a Stannis, nine Theons, seven Tyrions, two Tywins…and last year, someone saw fit to name their newborn baby boy Joffrey. I do not want to know how his parents met.</li>
+<li>But there’s still lots of opportunity for uniqueness! No one in California has yet decided to name their child Cersei, Melisandre, Margaery, Ygritte, Jeyne, Rickon, Petyr, Davos, Varys, Eddard, Viserys, or Hodor! Hodor‘s just sitting out there waiting to be scooped up! Tell your expecting friends!</li>
+</ul>
+<p>There is of course much more to delve into in the name data, and CDPH doesn’t yet have it up on their site in an easily-searchable format. So if you’ve got a particular question about it, let me know in the comments.</p>
+
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{riphagen2014,
+  author = {Joel Riphagen},
+  title = {Game of {Thrones} {Baby} {Names} on the {Rise} in
+    {California}},
+  date = {2014-08-08},
+  url = {https://joelrip.github.io/posts/2014-08-08-game-of-thrones-baby-names/},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-riphagen2014" class="csl-entry quarto-appendix-citeas">
+Joel Riphagen. 2014. <span>“Game of Thrones Baby Names on the Rise in
+California.”</span> August 8, 2014. <a href="https://joelrip.github.io/posts/2014-08-08-game-of-thrones-baby-names/">https://joelrip.github.io/posts/2014-08-08-game-of-thrones-baby-names/</a>.
+</div></div></section></div> ]]></description>
+  <category>R</category>
+  <category>health</category>
+  <category>public health</category>
+  <category>open data</category>
+  <category>visualization</category>
+  <category>California</category>
+  <guid>https://joelrip.github.io/posts/2014-08-08-game-of-thrones-baby-names/index.html</guid>
+  <pubDate>Fri, 08 Aug 2014 07:00:00 GMT</pubDate>
+  <media:content url="https://joelrip.github.io/posts/2014-08-08-game-of-thrones-baby-names/game-of-thrones-poster.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>City of Sacramento Open Budget Project</title>
+  <dc:creator>Joel Riphagen</dc:creator>
+  <link>https://joelrip.github.io/posts/2014-05-31-sacramento-open-budget/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>I’ve spent the past few months volunteering with <a href="https://www.codeforsacramento.org/">Code4Sac</a>, the local <a href="https://www.codeforamerica.org/">Code for America</a> brigade. This is an organization of hacker types who are trying to use their skills for the public good, working to free government data for the people to use as they see fit. And if you see the word “hacker” and immediately think Sneakers or War Games, think again. Modern hackers work with the government as often as not, and Code4Sac is sponsored by the City of Sacramento.</p>
+<p>The project I’ve been working on, the City of Sacramento Open Budget Project, is an effort to take the city’s budget document, which is published online only in PDF format, and convert it into machine-readable data. This means you can open it up in your spreadsheet or database or other analysis program and start exploring the numbers, creating your own charts, and making your own connections. And we’ve finally hit the point at which it can be revealed to the world. So here it is!</p>
+<p><a href="https://codeforsacramento.org/your-city-your-budget/"><strong>City of Sacramento Open Budget Project</strong></a></p>
+<p>You can also check out our <a href="https://docs.google.com/document/d/1wUiROCaNRgMAwZLxylvuEGge0HOI5O2b0zVHdo5ZAxg/edit">press release</a>.</p>
+<p>For this particular project, all the technical work was finished before I even got involved, so I can’t take credit for the data conversion or the visualizations on the project page (that credit goes to Jay Venti). Instead, I added some good old-fashioned project management skills to help carry the thing over the finish line. Still, it’s nice to be involved in data work for the public benefit. More to come!</p>
+<p><em>[Editor’s Note January 2017: After this initial foray into opening city budget data, Code for Sacramento convinced the City of Sacramento to release its budget data onto its <a href="https://data.cityofsacramento.org/">open data portal</a>, enabling a <a href="https://openbudgetsac.org/">much more sophisticated version of this project</a>.]</em></p>
+
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{riphagen2014,
+  author = {Joel Riphagen},
+  title = {City of {Sacramento} {Open} {Budget} {Project}},
+  date = {2014-05-31},
+  url = {https://joelrip.github.io/posts/2014-05-31-sacramento-open-budget/},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-riphagen2014" class="csl-entry quarto-appendix-citeas">
+Joel Riphagen. 2014. <span>“City of Sacramento Open Budget
+Project.”</span> May 31, 2014. <a href="https://joelrip.github.io/posts/2014-05-31-sacramento-open-budget/">https://joelrip.github.io/posts/2014-05-31-sacramento-open-budget/</a>.
+</div></div></section></div> ]]></description>
+  <category>budget</category>
+  <category>City of Sacramento</category>
+  <category>Code for Sacramento</category>
+  <category>open data</category>
+  <category>Sacramento</category>
+  <category>fiscal transparency</category>
+  <category>visualization</category>
+  <guid>https://joelrip.github.io/posts/2014-05-31-sacramento-open-budget/index.html</guid>
+  <pubDate>Sat, 31 May 2014 07:00:00 GMT</pubDate>
+  <media:content url="https://joelrip.github.io/posts/2014-05-31-sacramento-open-budget/OpenBudget.png" medium="image" type="image/png" height="67" width="144"/>
+</item>
 <item>
   <title>Mapping Childhood Vaccination in Sacramento</title>
   <dc:creator>Joel Riphagen</dc:creator>
@@ -39,7 +129,10 @@ Sacramento.”</span> April 20, 2014. <a href="https://joelrip.github.io/posts/2
 </div></div></section></div> ]]></description>
   <category>R</category>
   <category>mapping</category>
-  <category>health</category>
+  <category>public health</category>
+  <category>Sacramento</category>
+  <category>open data</category>
+  <category>visualization</category>
   <guid>https://joelrip.github.io/posts/2014-04-20-childhood-vaccination/index.html</guid>
   <pubDate>Sun, 20 Apr 2014 07:00:00 GMT</pubDate>
   <media:content url="https://joelrip.github.io/posts/2014-04-20-childhood-vaccination/ChildcareScreenCap.png" medium="image" type="image/png" height="71" width="144"/>

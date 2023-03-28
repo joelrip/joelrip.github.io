@@ -4,7 +4,7 @@ author:
   name: Joel Riphagen
   url: https://joelrip.github.io
 date: 04-20-2014
-categories: [R, mapping, health]
+categories: [R, mapping, public health, Sacramento, open data, visualization]
 citation:
   url: https://joelrip.github.io/posts/2014-04-20-childhood-vaccination/
 image: ChildcareScreenCap.png
