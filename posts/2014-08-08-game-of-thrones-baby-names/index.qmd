@@ -1,0 +1,38 @@
+---
+title: "Game of Thrones Baby Names on the Rise in California"
+author:
+  name: Joel Riphagen
+  url: https://joelrip.github.io
+date: 08-08-2014
+categories: [R, health, public health, open data, visualization, California]
+citation:
+  url: https://joelrip.github.io/posts/2014-08-08-game-of-thrones-baby-names/
+image: game-of-thrones-poster.jpg
+title-block-banner: game-of-thrones-poster.jpg
+title-block-banner-color: "#FFFFFF"
+---
+
+Baby Arya is coming! (As is winter.)
+
+Working collaboratively with the [California Department of Public Health (CDPH)](https://www.cdph.ca.gov/), I’ve done an analysis and visualization of baby names given in California from 2009 through 2013. In particular, we checked out how many parents were inspired to name their bundles of joy after characters in George RR Martin’s [_Song of Ice and Fire_](https://georgerrmartin.com/book-category/?cat=song-of-ice-and-fire) book series (aka [_Game of Thrones_](https://www.hbo.com/game-of-thrones#/) on HBO) over that five year period. The takeaway?
+
+I expect to be voting for President Arya in 2056. And that might even be a man.
+
+As CDPH noted on its tumblr page (Yes, the state dept. of public health uses tumblr! Who knew?), the popularity of Arya as a girl’s name more than quadrupled from 2009 to 2013, with 152 so christened last year. Khaleesi is also on the rise, while Daenerys really isn’t. This is kind of like wanting to name your kid after Dr. J and naming him Doctor instead of Julius, but to each his or her own. [You can check out CDPH’s post, complete with my chart of girls named for Game of Thrones characters, right here.](https://cdphopendata.tumblr.com/post/94107141030/hbos-game-of-thrones-inspires-baby-names) I’ve also reproduced the chart below.
+
+![](Girl GOT Stacked 2.png){fig-alt="A chart showing number of girls named for different Games of Thrones characters over time"}
+
+But there’s much more in the data than CDPH discussed. For example, in addition to the female name chart, I’ve produced a male name chart as well.
+
+![](Boys GOT Stacked 2.png){fig-alt="A chart showing number of boys named for different Games of Thrones characters over time"}
+
+_[Note: The Game of Thrones names you will not see on this chart? Jaime and Jon. There are a couple hundred new boys named Jaime in CA each year, mostly unrelated to the TV show or books. Throwing them into the boy name chart would have swamped all the other interestingness. And while Jon is much less popular than Jaime, with only 30 or so each year, it’s showing no pattern of increase, and it would be surprising if many of them were related to Game of Thrones.]_
+
+So what do we see in these charts?
+
+* While Arya was far and away the most popular Game of Thrones name for girls, it was also the most popular name for boys, with 108 receiving that name in the past 5 years. However, while female Aryas are skyrocketing, male Aryas are on the decline. I suspect we’re passing the experimental stage of the name, where the avant garde book readers were using it as they saw fit, to the mainstream stage, where the weekly HBO watchers are associating it with the plucky girl they see on their screens.
+* Shae (Tyrion Lannister’s lover, for those who aren’t following along) is also a gender-bending name, though it’s holding steady at 2 to 3 boys per year and 10 to 15 girls.
+* There’s always someone willing to go the extra mile to give their kid the interesting name. In the last five years, California has welcomed a Drogo, a Gendry, a Jorah, a Stannis, nine Theons, seven Tyrions, two Tywins…and last year, someone saw fit to name their newborn baby boy Joffrey. I do not want to know how his parents met.
+* But there’s still lots of opportunity for uniqueness! No one in California has yet decided to name their child Cersei, Melisandre, Margaery, Ygritte, Jeyne, Rickon, Petyr, Davos, Varys, Eddard, Viserys, or Hodor! Hodor‘s just sitting out there waiting to be scooped up! Tell your expecting friends!
+
+There is of course much more to delve into in the name data, and CDPH doesn’t yet have it up on their site in an easily-searchable format. So if you’ve got a particular question about it, let me know in the comments.

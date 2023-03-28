@@ -1,0 +1,25 @@
+---
+title: "City of Sacramento Open Budget Project"
+author:
+  name: Joel Riphagen
+  url: https://joelrip.github.io
+date: 05-31-2014
+categories: [budget, City of Sacramento, Code for Sacramento, open data, Sacramento, fiscal transparency, visualization]
+citation:
+  url: https://joelrip.github.io/posts/2014-05-31-sacramento-open-budget/
+image: OpenBudget.png
+title-block-banner: OpenBudgetTreemap.png
+title-block-banner-color: "#000000"
+---
+
+I’ve spent the past few months volunteering with [Code4Sac](https://www.codeforsacramento.org/), the local [Code for America](https://www.codeforamerica.org/) brigade. This is an organization of hacker types who are trying to use their skills for the public good, working to free government data for the people to use as they see fit. And if you see the word “hacker” and immediately think Sneakers or War Games, think again. Modern hackers work with the government as often as not, and Code4Sac is sponsored by the City of Sacramento.
+
+The project I’ve been working on, the City of Sacramento Open Budget Project, is an effort to take the city’s budget document, which is published online only in PDF format, and convert it into machine-readable data. This means you can open it up in your spreadsheet or database or other analysis program and start exploring the numbers, creating your own charts, and making your own connections. And we’ve finally hit the point at which it can be revealed to the world. So here it is!
+
+[__City of Sacramento Open Budget Project__](https://codeforsacramento.org/your-city-your-budget/)
+
+You can also check out our [press release](https://docs.google.com/document/d/1wUiROCaNRgMAwZLxylvuEGge0HOI5O2b0zVHdo5ZAxg/edit).
+
+For this particular project, all the technical work was finished before I even got involved, so I can’t take credit for the data conversion or the visualizations on the project page (that credit goes to Jay Venti). Instead, I added some good old-fashioned project management skills to help carry the thing over the finish line. Still, it’s nice to be involved in data work for the public benefit. More to come!
+
+_[Editor’s Note January 2017: After this initial foray into opening city budget data, Code for Sacramento convinced the City of Sacramento to release its budget data onto its [open data portal](https://data.cityofsacramento.org/), enabling a [much more sophisticated version of this project](https://openbudgetsac.org/).]_
