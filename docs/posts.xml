@@ -10,7 +10,208 @@
 <atom:link href="https://joelrip.github.io/posts.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.2.475</generator>
-<lastBuildDate>Fri, 08 Aug 2014 07:00:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 31 Jul 2015 07:00:00 GMT</lastBuildDate>
+<item>
+  <title>San Diego Neighborhood Diversity: A Wedding Present</title>
+  <dc:creator>Joel Riphagen</dc:creator>
+  <link>https://joelrip.github.io/posts/2015-07-31-san-diego-diversity/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>A few months ago, I posted <a href="https://joelrip.github.io/posts/2015-02-08-sacramento-diversity/">an analysis of the ethnic diversity of Sacramento’s neighborhoods at the Census Tract level</a>. That post led to a few requests for similar analyses covering different metro areas. One of these requests came from a friend who lives in San Diego, who happens to be getting married this weekend, and who has asked for no wedding presents. So in lieu of a present, Mike and Lan Lan, here’s a quick run-down of San Diego’s ethnic diversity. You don’t even have to give me that taco you promised in return!</p>
+<p>The catch, of course, is that I don’t know San Diego nearly as well as I know Sacramento, so I can’t provide an in-depth analysis of the Census Tracts and the reasons for their diversity or lack thereof, though I’ll see if I can expand on this post as I learn more. As we’ll see, however, there is at least one striking difference between San Diego and Sacramento that this analysis makes clear. Let’s dig in!</p>
+<section id="wait-what-is-diversity-again" class="level2">
+<h2 class="anchored" data-anchor-id="wait-what-is-diversity-again">WAIT, WHAT IS “DIVERSITY” AGAIN?</h2>
+<p>As a quick reminder from the last post, I’m using the Multigroup Entropy Index (aka Theil’s H or the Information Theory Index) as a measure of diversity, as described in <a href="https://www2.census.gov/programs-surveys/demo/about/housing-patterns/multigroup_entropy.pdf">this work done for the Census Department</a>. In a nutshell, we categorize residents into one of six broad groups: non-Hispanic white, Hispanic, black, Asian/Pacific Islander, Native American, and mixed-race/other. A perfectly diverse census tract (scoring 1.0 on the Index) would contain exactly the same number of residents from each of these groups. A perfectly homogeneous (non-diverse) census tract (scoring 0 on the Index) would contain only members of one of these groups.</p>
+<p>In simplifying diversity to this one number, we are of course losing a lot of detail. Chinese, Indians, and Filipinos are all lumped into one group, as are Russians, Irish, and Italians, as is anyone who identifies as Hispanic, regardless of race. But this level of categorization creates an easily-understood measure that can serve as a starting point for more detailed analysis.</p>
+</section>
+<section id="how-diverse-are-san-diegos-census-tracts" class="level2">
+<h2 class="anchored" data-anchor-id="how-diverse-are-san-diegos-census-tracts">HOW DIVERSE ARE SAN DIEGO’S CENSUS TRACTS?</h2>
+<p>Now that we’ve got that out of the way, let’s get to the map!</p>
+<center>
+<strong>ETHNIC DIVERSITY IN THE SAN DIEGO AREA</strong>
+</center>
+<p><img src="https://joelrip.github.io/posts/2015-07-31-san-diego-diversity/SDDivTracts.png" class="img-fluid" alt="A map showing the diversity of San Diego area census tracts, showing areas of high and low diversity"></p>
+<p>This map looks very different from the Sacramento map in the previous post. Whereas Sacramento’s highly diverse areas are all generally contiguous with each other (except for the “wedge of whiteness” that cuts into the city), San Diego’s diverse areas are a bit more diffuse. Very generally, they also tend to be away from the ocean, with areas West of the 805 and closer to the ocean tending to be less diverse (with a few obvious exceptions, including part of National City, parts of Downtown and the Gaslamp District, and Naval Base Coronado). So La Jolla is relatively non-diverse, which may not be surprising. But Chula Vista is also not as diverse as areas further East, which may be surprising indeed. If you think about the definition of “diversity”, however, the reason for this may become obvious to you. If not, keep reading! (Well, keep reading anyway!)</p>
+<p>San Diego County’s diversity distribution is also markedly different than Sacramento’s:</p>
+<p><img src="https://joelrip.github.io/posts/2015-07-31-san-diego-diversity/SDDivHist.png" class="img-fluid" alt="A histogram of the distribution of diversity by tract, showing a normal distribution with the mean toward the center"></p>
+<p>Whereas Sacramento’s diversity distribution in fact peaks at the high end of the range (<a href="https://joelrip.github.io/posts/2015-02-08-sacramento-diversity/">feel free to go back and refresh your memory</a>), San Diego’s distribution is somewhat more normal. Very high and very low diversity are rare, with most Census Tracts clustering in the middle of the distribution. San Diego County’s mean of about 0.55 is also a bit lower than the SACOG area’s mean of about 0.6, but both are still highly diverse areas.</p>
+<p>OK. Now that we’ve got the preliminaries out of the way, let’s dig into some of the individual tracts.</p>
+</section>
+<section id="san-diego-countys-most-and-least-diverse-tracts" class="level2">
+<h2 class="anchored" data-anchor-id="san-diego-countys-most-and-least-diverse-tracts">SAN DIEGO COUNTY’S MOST AND LEAST DIVERSE TRACTS</h2>
+<p>Similar to Sacramento, San Diego’s five most diverse tracts encircle the central city, but are not contiguous with each other.</p>
+<center>
+<strong>LOCATIONS OF SAN DIEGO’S MOST DIVERSE CENSUS TRACTS</strong>
+</center>
+<p><img src="https://joelrip.github.io/posts/2015-07-31-san-diego-diversity/SDHighTracts.png" class="img-fluid" alt="A map highlighting the 5 most diverse census tracts, scattered in different areas of the city"></p>
+<p><img src="https://joelrip.github.io/posts/2015-07-31-san-diego-diversity/MostDiverseBar.png" class="img-fluid" alt="A bar graph showing the ethnic breakdown of the 5 most diverse census tracts"></p>
+<p>As I mentioned before, my limited knowledge of the history of San Diego’s neighborhoods prevents me from performing much analysis of the reasons for high diversity in these particular tracts. However, <strong>Census Tract 66</strong> is quite intriguing. While the other four fit my general description earlier of being away from the ocean and East of the 805, the most diverse Census Tract in San Diego is sandwiched between the airport, Old Town, and Ocean Beach, further to the West, and surrounded by relatively non-diverse areas. This tract also has nearly 10% of its population classifying itself as “other” or “mixed”, far higher than any of the other highly diverse tracts. What is going on in this tract? How did this population mix occur? If you know San Diego and the story of this area, please enlighten me!</p>
+<p><em>[Update August 2, 2015: A little internet searching reveals that this tract encompasses a townhome community for enlisted service members known as Lincoln Military Housing: Gateway Village. So the diversity of the Census Tract reflects the diversity of our armed forces, and is very fitting as the most diverse Census Tract in the heavily-military San Diego area.]</em></p>
+<p>But for now, we’ll move on to the least diverse tracts in the San Diego area, and that notable (but not really surprising when you think about it) difference from Sacramento.</p>
+<center>
+<strong>LOCATIONS OF SAN DIEGO’S LEAST DIVERSE CENSUS TRACTS – MAP 1</strong>
+</center>
+<p><img src="https://joelrip.github.io/posts/2015-07-31-san-diego-diversity/SDLowTracts1.png" class="img-fluid" alt="A map highlighting 4 of the 5 least diverse census tracts, all along the Mexican border"></p>
+<center>
+<strong>LOCATIONS OF SAN DIEGO’S LEAST DIVERSE CENSUS TRACTS – MAP 2</strong>
+</center>
+<p><img src="https://joelrip.github.io/posts/2015-07-31-san-diego-diversity/SDLowTracts2.png" class="img-fluid" alt="A map highlighting 1 of the 5 least diverse census tracts, in Del Mar"></p>
+<p><img src="https://joelrip.github.io/posts/2015-07-31-san-diego-diversity/LeastDiverseBar.png" class="img-fluid" alt="A bar graph showing the ethnic breakdown of the 5 least diverse census tracts, with 4 of the 5 tracts being almost entirely Hispanic"></p>
+<p>Well, that’s very different. The five least diverse Census Tracts in San Diego County are four tracts in San Ysidro, and one in Del Mar.&nbsp;San Ysidro, of course, sits on the Mexican border and is nearly 100% Hispanic. Since our definition of diversity is people of different racial and ethnic backgrounds living together, San Ysidro is about as non-diverse as you can get. This is also the reason that other highly Hispanic areas of San Diego County, such as Chula Vista, rate relatively low on the diversity scale.</p>
+<p>This is an excellent reminder that “non-diverse” itself can mean a lot of different things in a state in which <a href="https://www.latimes.com/local/california/la-me-census-latinos-20150708-story.html">non-Hispanic whites are no longer the majority</a>.</p>
+<p>Of course, it can also still mean majority white, as Census Tract 172 in Del Mar shows.</p>
+</section>
+<section id="what-have-we-learned" class="level2">
+<h2 class="anchored" data-anchor-id="what-have-we-learned">WHAT HAVE WE LEARNED?</h2>
+<p>Well, not as much as in Sacramento, where I more or less knew what I was talking about, but:</p>
+<ul>
+<li>San Diego’s more diverse neighborhoods generally lie away from the ocean, with many of the oceanside communities being quite non-diverse.</li>
+<li>One notable exception to this rule is Census Tract 66, which has a very intriguing mix of people.</li>
+<li>“Non-diverse” does not always mean majority white.</li>
+<li>San Ysidro and Del Mar have more in common than one might think.</li>
+</ul>
+<p>And there’s my quick and dirty analysis of the racial and ethnic diversity of the San Diego area. I hope you enjoyed it. Also, congratulations Mike and Lan Lan! May you have a long, wonderful, and happy life together exploring all of San Diego’s neighborhoods!</p>
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{riphagen2015,
+  author = {Joel Riphagen},
+  title = {San {Diego} {Neighborhood} {Diversity:} {A} {Wedding}
+    {Present}},
+  date = {2015-07-31},
+  url = {https://joelrip.github.io/posts/2015-07-31-san-diego-diversity/},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-riphagen2015" class="csl-entry quarto-appendix-citeas">
+Joel Riphagen. 2015. <span>“San Diego Neighborhood Diversity: A Wedding
+Present.”</span> July 31, 2015. <a href="https://joelrip.github.io/posts/2015-07-31-san-diego-diversity/">https://joelrip.github.io/posts/2015-07-31-san-diego-diversity/</a>.
+</div></div></section></div> ]]></description>
+  <category>R</category>
+  <category>mapping</category>
+  <category>open data</category>
+  <category>visualization</category>
+  <category>San Diego</category>
+  <category>demographics</category>
+  <category>diversity</category>
+  <guid>https://joelrip.github.io/posts/2015-07-31-san-diego-diversity/index.html</guid>
+  <pubDate>Fri, 31 Jul 2015 07:00:00 GMT</pubDate>
+  <media:content url="https://joelrip.github.io/posts/2015-07-31-san-diego-diversity/SDDivTracts.png" medium="image" type="image/png" height="108" width="144"/>
+</item>
+<item>
+  <title>How Diverse Is My Neighborhood? Mapping Ethnic Diversity in Sacramento, Part I</title>
+  <dc:creator>Joel Riphagen</dc:creator>
+  <link>https://joelrip.github.io/posts/2015-02-08-sacramento-diversity/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Sacramento is regularly lauded as the <a href="https://content.time.com/time/nation/article/0,8599,340694,00.html">most ethnically diverse</a>, or at least one of the most ethnically diverse, cities in the nation. Not just at the city level, but <a href="https://fivethirtyeight.com/features/the-most-diverse-cities-are-often-the-most-segregated/">at the neighborhood level</a> as well. More than any other American city, the members of Sacramento’s different racial and ethnic groups live and work together.</p>
+<p>If, like me, you live in Sacramento, you can experience this firsthand. My immediate neighbors are black, Hispanic, white, and mixed-race black/white, and my own family is mixed Asian/white. It’s a far cry from Chicago, where I attended grad school. There, the city itself is diverse, but its neighborhoods are quite segregated.</p>
+<p>But while the national recognition for Sacramento is deserved and appreciated, it leaves a few open questions. Among them:</p>
+<ul>
+<li>The City of Sacramento’s population is about 480,000, but the urbanized area contains more than 1.7 million people, and the Metropolitan Statistical Area (MSA) more than 2.2 million. How diverse is the metro area as a whole?</li>
+<li>Sacramento has a high average diversity across its census tracts, but how much variation is there among the tracts? Which are the most and least diverse tracts in the area?</li>
+<li>To the extent there’s variation among different areas of the metro, what causes this variation?</li>
+<li>How does the diversity of one’s neighborhood affect how they experience life in the metro area? How do the characteristics of diverse tracts and the people in them differ from those of less diverse tracts?</li>
+</ul>
+<p>I thought I’d use these questions as an opportunity to exercise my analytical skills and play with some data, while also sharing any insight I gain with the wider world. As I think through the issues, it’s clear that coming up with any kind of answer to the questions in that final bullet point above could take a lot of work. So this post is subtitled, perhaps optimistically, Part I. We’ll see how far we get today.</p>
+<section id="what-is-the-sacramento-area" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-the-sacramento-area">WHAT IS “THE SACRAMENTO AREA”?</h2>
+<p>As with any city, the boundaries of “Sacramento” are fuzzy. Of course the municipality has a bright line boundary, as does the county. But there is a larger urbanized area around both of them (excluding a large rural part of Sacramento County), and there are various defined multi-county designations at the local and federal level, including the census-designated Metropolitan Statistical Area (MSA) and Combined Statistical Area (CSA), as well as the jurisdictional boundary of the regional Sacramento Area Council of Governments (SACOG).</p>
+<p>Which one, if any, will we use?</p>
+<center>
+<strong>MANY SACRAMENTOS</strong>
+</center>
+<p><img src="https://joelrip.github.io/posts/2015-02-08-sacramento-diversity/SacBoundaries.png" class="img-fluid" alt="A map showing the boundaries of the City of Sacramento, Sacramento County, the metropolitan area, and larger multicounty divisions"></p>
+<p>A casual examination suggests that the largest of these areas, which incorporate the rural area surrounding Sacramento, are far too large for my purposes. Census MSAs and CSAs follow county boundaries, and in their effort to include everyone who could be considered a resident of the Sacramento area, they include many who could not. Certainly Tahoe residents would not think of themselves as Sacramento-area residents. And Yuba City residents, while some may commute to Sacramento, live further away from downtown Sacramento than residents of Vacaville and Lodi, which no geography considers to be part of the Sacramento area.</p>
+<p>Of the official designations, the Urbanized Area is closest to what I think of as Sacramento, with perhaps Davis and Woodland thrown in as well. We’ll focus on census tracts roughly in the square surrounding downtown Sacramento that includes these areas.</p>
+</section>
+<section id="what-is-diversity" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-diversity">WHAT IS “DIVERSITY”?</h2>
+<p>To measure ethnic diversity, we’ll use the Multigroup Entropy Index (aka Theil’s H or the Information Theory Index) as described in <a href="https://www2.census.gov/programs-surveys/demo/about/housing-patterns/multigroup_entropy.pdf">this work done for the Census Department</a>. In a nutshell, we categorize residents into one of six broad groups: non-Hispanic white, Hispanic, black, Asian/Pacific Islander, Native American, and mixed-race/other. A perfectly diverse census tract (scoring 1.0 on the Index) would contain exactly the same number of residents from each of these groups. A perfectly homogeneous (non-diverse) census tract (scoring 0 on the Index) would contain only members of one of these groups.</p>
+<p>In simplifying diversity to this one number, we are of course losing a lot of detail. Chinese, Indians, and Filipinos are all lumped into one group, as are Russians, Irish, and Italians, as is anyone who identifies as Hispanic, regardless of race. But this level of categorization creates an easily-understood measure that can serve as a starting point for more detailed analysis.</p>
+</section>
+<section id="how-diverse-are-the-census-tracts" class="level2">
+<h2 class="anchored" data-anchor-id="how-diverse-are-the-census-tracts">HOW DIVERSE ARE THE CENSUS TRACTS?</h2>
+<p>So here’s the basic map of Sacramento-area census tract diversity, using the index described above.</p>
+<center>
+<strong>ETHNIC DIVERSITY IN THE SACRAMENTO AREA</strong>
+</center>
+<p><img src="https://joelrip.github.io/posts/2015-02-08-sacramento-diversity/SacDivTracts.png" class="img-fluid" alt="A map showing the diversity of Sacramento area census tracts, showing high diversity in many tracts, but areas of low diversity as well"></p>
+<p>To give you a sense of what the colors mean, I’ve highlighted a purple tract in Folsom with a green border. This tract scores a 0.716 on the diversity index. It is 20% white, 47% black, 26% Hispanic, 2% Asian, 1% Native American, and 5% other/multiracial. As the map shows, tracts with this or a greater level of diversity are common in the Sacramento area, though this particular tract is uncommon in that it is Folsom Prison.</p>
+<p>A review of this map confirms that much of the Sacramento area is very diverse, including such disparate areas as Rancho Cordova, Oak Park, the Florin-Vineyard area, Elk Grove, Meadowview, the Pocket, West Sacramento, Natomas, North Sacramento, and Foothill Farms. While the ethnically diverse areas certainly do include the lower-income areas of the city, they include relatively wealthy areas as well.</p>
+<p>This diverse area is pierced, however, by a less-diverse wedge extending from Land Park and Curtis Park, through East Sacramento, and out between Interstate 80 and Highway 50 to Citrus Heights, Roseville, and Folsom, where the ethnic diversity begins to fade in all directions. The notable pockets of diversity between 80 and 50 are the western portion of Arden Arcade, Sac State, and of course Folsom Prison.</p>
+<p>Here is another way to visualize the variation in diversity among census tracts.</p>
+<p><img src="https://joelrip.github.io/posts/2015-02-08-sacramento-diversity/SacDivHist.png" class="img-fluid" alt="A histogram of the distribution of diversity by tract, showing a high proportion of diverse tracts, with vertical lines showing the mean diversity score of the City of Sacramento and the SACOG area"></p>
+<p>This chart shows all of the census tracts in the SACOG area, sorted by diversity. It shows over 70 very highly diverse census tracts (diversity score between 0.8 and 0.9), a number of diverse census tracts down to a diversity score of about 0.5, and then a gradual decline down to the lowest diversity scores on the left. It also shows that the mean diversity score of the census tracts in the City of Sacramento is quite a bit higher than the mean over the entire SACOG area.</p>
+<p>As the chart and the map show, there’s a lot of diversity in Sacramento’s diversity. But at this point we just have a range of numbers. Let’s translate some of these numbers into more concrete examples.</p>
+</section>
+<section id="sacramentos-most-and-least-diverse-tracts" class="level2">
+<h2 class="anchored" data-anchor-id="sacramentos-most-and-least-diverse-tracts">SACRAMENTO’S MOST AND LEAST DIVERSE TRACTS</h2>
+<p>The five most diverse census tracts in the Sacramento area are all located within the city limits, but are otherwise quite different from each other.</p>
+<center>
+<strong>LOCATIONS OF SACRAMENTO’S MOST DIVERSE CENSUS TRACTS</strong>
+</center>
+<p><img src="https://joelrip.github.io/posts/2015-02-08-sacramento-diversity/SacHighTracts.png" class="img-fluid" alt="A map highlighting the 5 most diverse census tracts, all within City boundaries, but otherwise scattered far apart from each other"></p>
+<p><img src="https://joelrip.github.io/posts/2015-02-08-sacramento-diversity/MostDiverseBar.png" class="img-fluid" alt="A bar graph showing the ethnic breakdown of the 5 most diverse census tracts"></p>
+<p><strong>Census Tract 65</strong>, the most diverse census tract in the area, is bisected by Interstate 80. South of the interstate, the tract encompasses the north side of Del Paso Heights, including Grant High. This is one of the traditionally low-income neighborhoods of the city. North of the interstate, the tract is characterized by newer single-family developments built largely within the last 20 years. This area has been subject to the City’s inclusionary ordinance during its development, which required a certain portion of the new housing to be affordable to lower income residents. While this is all contained within one tract, the interstate divides it into two distinct neighborhoods.</p>
+<p><strong>Census Tract 7</strong> is the center of downtown Sacramento, including Old Sacramento, Chinatown, the Downtown Plaza, and soon the new Kings Arena. Its diversity stems in large part from the presence of the county jail, but the tract also includes Asian retirees in Chinatown, residents of high-rise public housing, and more well-off residents of newly remodeled Old Sacramento lofts.</p>
+<p><strong>Census Tract 96.10</strong> is in the Valley Hi/North Laguna area on the south side of the City, next to but not including Cosumnes River College. It is wedged between the lower-income Meadowview and Parkway areas to the north and the higher-income Elk Grove to the south. It has also been subject to the City’s inclusionary ordinance during its recent development.</p>
+<p><strong>Census Tract 22</strong> is West Land Park, and combines two very different populations: the relatively well-off residents of the single family housing toward the south end of the tract, and the low-income residents of the two large public housing projects at the north end of the tract. The public housing and the neighboring industrial area are slated for redevelopment, and it will be interesting to follow the effect of this redevelopment on the area’s diversity.</p>
+<p><strong>Census Tract 70.16</strong> is in North Natomas, which developed rapidly over the last 20 years, and has also been subject to the City’s inclusionary ordinance. It is largely single-family homes of varying size, with a few mixed-income apartment complexes.</p>
+<p>The most striking feature of these five tracts is their great variety. They include the wealthy and the poor, prisoners and students, old housing and new construction. Some are physically segregated, and others are not. Three of them gained economic diversity from the City’s inclusionary ordinance, which may also have influenced their ethnic diversity. I have a thousand questions I want to ask of the data about their similarities and differences, and I hope to do that in an upcoming post.</p>
+<p>But for now let’s move on to the area’s least diverse census tracts.</p>
+<center>
+<strong>LOCATIONS OF SACRAMENTO’S LEAST DIVERSE CENSUS TRACTS</strong>
+</center>
+<p><img src="https://joelrip.github.io/posts/2015-02-08-sacramento-diversity/SacLowTracts.png" class="img-fluid" alt="A map highlighting the 5 least diverse census tracts, all clustered together in Roseville and Lincoln"></p>
+<p><img src="https://joelrip.github.io/posts/2015-02-08-sacramento-diversity/LeastDiverseBar.png" class="img-fluid" alt="A bar graph showing the ethnic breakdown of the 5 least diverse census tracts"></p>
+<p>In contrast to the five most diverse census tracts in the area, the five most homogeneous tracts are located in close physical proximity to each other in suburban Roseville and Lincoln in Placer County. These five tracts are noticeably less diverse than even the tracts around them, and a quick analysis reveals a likely reason why.</p>
+<p><strong>Census Tracts 210.39 and 210.40</strong> surround the Sun City Roseville, Timber Creek, and Sierra Pines golf courses. Similarly, <strong>Census Tracts 236, 237, and 238</strong> roughly define Sun City Lincoln Hills. What unites them all, other than their proximity to a well-manicured fairway, is that they are all retirement communities developed by Del Webb. It seems that this particular vision of suburban retirement appeals to a particular group of people.</p>
+</section>
+<section id="what-have-we-learned" class="level2">
+<h2 class="anchored" data-anchor-id="what-have-we-learned">WHAT HAVE WE LEARNED?</h2>
+<p>While this post has just scratched the surface of Sacramento’s diversity, we have learned a few things. The City itself is indeed more ethnically diverse than the rest of the area on average, but there is a lot of diversity in the areas around the City. Conversely, there are areas of homogeneity within the City as well. The ethnic diversity of Sacramento’s census tracts ranges from areas of the City with almost equal populations of non-Hispanic whites, blacks, Hispanics, and Asians to very homogeneous suburban retirement communities.</p>
+<p>These facts aren’t surprising, but the variety of Sacramento’s most diverse census tracts is. They’re geographically dispersed, and the reasons for their diversity vary. There are a thousand more questions to be asked:</p>
+<ul>
+<li>How do the most diverse tracts differ economically from the more homogeneous tracts, and from each other? Are average salaries higher or lower? What about housing prices and rents?</li>
+<li>Does a neighborhood’s ethnic diversity have an effect on crime rate or the types of crimes committed?</li>
+<li>Are educational attainment levels different for populations in diverse tracts than for populations in homogeneous tracts?</li>
+<li>Do residents’ attitudes vary with neighborhood diversity?</li>
+</ul>
+<p>Hopefully I’ll be able to explore these questions and more in a future post.</p>
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{riphagen2015,
+  author = {Joel Riphagen},
+  title = {How {Diverse} {Is} {My} {Neighborhood?} {Mapping} {Ethnic}
+    {Diversity} in {Sacramento,} {Part} {I}},
+  date = {2015-02-08},
+  url = {https://joelrip.github.io/posts/2015-02-08-sacramento-diversity/},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-riphagen2015" class="csl-entry quarto-appendix-citeas">
+Joel Riphagen. 2015. <span>“How Diverse Is My Neighborhood? Mapping
+Ethnic Diversity in Sacramento, Part I.”</span> February 8, 2015. <a href="https://joelrip.github.io/posts/2015-02-08-sacramento-diversity/">https://joelrip.github.io/posts/2015-02-08-sacramento-diversity/</a>.
+</div></div></section></div> ]]></description>
+  <category>R</category>
+  <category>mapping</category>
+  <category>open data</category>
+  <category>visualization</category>
+  <category>Sacramento</category>
+  <category>demographics</category>
+  <category>diversity</category>
+  <guid>https://joelrip.github.io/posts/2015-02-08-sacramento-diversity/index.html</guid>
+  <pubDate>Sun, 08 Feb 2015 08:00:00 GMT</pubDate>
+  <media:content url="https://joelrip.github.io/posts/2015-02-08-sacramento-diversity/SacDivTracts.png" medium="image" type="image/png" height="108" width="144"/>
+</item>
 <item>
   <title>Game of Thrones Baby Names on the Rise in California</title>
   <dc:creator>Joel Riphagen</dc:creator>

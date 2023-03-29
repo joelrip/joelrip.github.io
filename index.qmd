@@ -22,7 +22,7 @@ about:
 
 ## welcome
 
-I am the owner of Riphagen Consulting, and I have had a long career in state and local government and nonprofit consulting in Sacramento, California. I focus on social policy, affordable housing, data modeling and visualization, open data, and fiscal transparency.
+Joel Riphagen, the owner of Riphagen Consulting, has had a long career in state and local government and nonprofit consulting in Sacramento, California. His areas of expertise include social policy, affordable housing, data modeling and visualization, open data, and fiscal transparency.
 
 <center>
 Data -> Information

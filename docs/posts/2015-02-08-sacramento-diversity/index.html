@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.475">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Joel Riphagen">
+<meta name="dcterms.date" content="2015-02-08">
+
+<title>Joel Riphagen - How Diverse Is My Neighborhood? Mapping Ethnic Diversity in Sacramento, Part I</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../images/RClogoOnly.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../images/RClogoWhiteBorder.png" alt="" class="navbar-logo">
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html">
+ <span class="menu-text">home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html">
+ <span class="menu-text">about</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../posts.html">
+ <span class="menu-text">blog</span></a>
+  </li>  
+</ul>
+              <div class="quarto-toggle-container">
+                  <a href="" class="quarto-color-scheme-toggle nav-link" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+              </div>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">How Diverse Is My Neighborhood? Mapping Ethnic Diversity in Sacramento, Part I</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">R</div>
+                <div class="quarto-category">mapping</div>
+                <div class="quarto-category">open data</div>
+                <div class="quarto-category">visualization</div>
+                <div class="quarto-category">Sacramento</div>
+                <div class="quarto-category">demographics</div>
+                <div class="quarto-category">diversity</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Joel Riphagen </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">February 8, 2015</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#what-is-the-sacramento-area" id="toc-what-is-the-sacramento-area" class="nav-link active" data-scroll-target="#what-is-the-sacramento-area">WHAT IS “THE SACRAMENTO AREA”?</a></li>
+  <li><a href="#what-is-diversity" id="toc-what-is-diversity" class="nav-link" data-scroll-target="#what-is-diversity">WHAT IS “DIVERSITY”?</a></li>
+  <li><a href="#how-diverse-are-the-census-tracts" id="toc-how-diverse-are-the-census-tracts" class="nav-link" data-scroll-target="#how-diverse-are-the-census-tracts">HOW DIVERSE ARE THE CENSUS TRACTS?</a></li>
+  <li><a href="#sacramentos-most-and-least-diverse-tracts" id="toc-sacramentos-most-and-least-diverse-tracts" class="nav-link" data-scroll-target="#sacramentos-most-and-least-diverse-tracts">SACRAMENTO’S MOST AND LEAST DIVERSE TRACTS</a></li>
+  <li><a href="#what-have-we-learned" id="toc-what-have-we-learned" class="nav-link" data-scroll-target="#what-have-we-learned">WHAT HAVE WE LEARNED?</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+<p>Sacramento is regularly lauded as the <a href="https://content.time.com/time/nation/article/0,8599,340694,00.html">most ethnically diverse</a>, or at least one of the most ethnically diverse, cities in the nation. Not just at the city level, but <a href="https://fivethirtyeight.com/features/the-most-diverse-cities-are-often-the-most-segregated/">at the neighborhood level</a> as well. More than any other American city, the members of Sacramento’s different racial and ethnic groups live and work together.</p>
+<p>If, like me, you live in Sacramento, you can experience this firsthand. My immediate neighbors are black, Hispanic, white, and mixed-race black/white, and my own family is mixed Asian/white. It’s a far cry from Chicago, where I attended grad school. There, the city itself is diverse, but its neighborhoods are quite segregated.</p>
+<p>But while the national recognition for Sacramento is deserved and appreciated, it leaves a few open questions. Among them:</p>
+<ul>
+<li>The City of Sacramento’s population is about 480,000, but the urbanized area contains more than 1.7 million people, and the Metropolitan Statistical Area (MSA) more than 2.2 million. How diverse is the metro area as a whole?</li>
+<li>Sacramento has a high average diversity across its census tracts, but how much variation is there among the tracts? Which are the most and least diverse tracts in the area?</li>
+<li>To the extent there’s variation among different areas of the metro, what causes this variation?</li>
+<li>How does the diversity of one’s neighborhood affect how they experience life in the metro area? How do the characteristics of diverse tracts and the people in them differ from those of less diverse tracts?</li>
+</ul>
+<p>I thought I’d use these questions as an opportunity to exercise my analytical skills and play with some data, while also sharing any insight I gain with the wider world. As I think through the issues, it’s clear that coming up with any kind of answer to the questions in that final bullet point above could take a lot of work. So this post is subtitled, perhaps optimistically, Part I. We’ll see how far we get today.</p>
+<section id="what-is-the-sacramento-area" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-the-sacramento-area">WHAT IS “THE SACRAMENTO AREA”?</h2>
+<p>As with any city, the boundaries of “Sacramento” are fuzzy. Of course the municipality has a bright line boundary, as does the county. But there is a larger urbanized area around both of them (excluding a large rural part of Sacramento County), and there are various defined multi-county designations at the local and federal level, including the census-designated Metropolitan Statistical Area (MSA) and Combined Statistical Area (CSA), as well as the jurisdictional boundary of the regional Sacramento Area Council of Governments (SACOG).</p>
+<p>Which one, if any, will we use?</p>
+<center>
+<strong>MANY SACRAMENTOS</strong>
+</center>
+<p><img src="SacBoundaries.png" class="img-fluid" alt="A map showing the boundaries of the City of Sacramento, Sacramento County, the metropolitan area, and larger multicounty divisions"></p>
+<p>A casual examination suggests that the largest of these areas, which incorporate the rural area surrounding Sacramento, are far too large for my purposes. Census MSAs and CSAs follow county boundaries, and in their effort to include everyone who could be considered a resident of the Sacramento area, they include many who could not. Certainly Tahoe residents would not think of themselves as Sacramento-area residents. And Yuba City residents, while some may commute to Sacramento, live further away from downtown Sacramento than residents of Vacaville and Lodi, which no geography considers to be part of the Sacramento area.</p>
+<p>Of the official designations, the Urbanized Area is closest to what I think of as Sacramento, with perhaps Davis and Woodland thrown in as well. We’ll focus on census tracts roughly in the square surrounding downtown Sacramento that includes these areas.</p>
+</section>
+<section id="what-is-diversity" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-diversity">WHAT IS “DIVERSITY”?</h2>
+<p>To measure ethnic diversity, we’ll use the Multigroup Entropy Index (aka Theil’s H or the Information Theory Index) as described in <a href="https://www2.census.gov/programs-surveys/demo/about/housing-patterns/multigroup_entropy.pdf">this work done for the Census Department</a>. In a nutshell, we categorize residents into one of six broad groups: non-Hispanic white, Hispanic, black, Asian/Pacific Islander, Native American, and mixed-race/other. A perfectly diverse census tract (scoring 1.0 on the Index) would contain exactly the same number of residents from each of these groups. A perfectly homogeneous (non-diverse) census tract (scoring 0 on the Index) would contain only members of one of these groups.</p>
+<p>In simplifying diversity to this one number, we are of course losing a lot of detail. Chinese, Indians, and Filipinos are all lumped into one group, as are Russians, Irish, and Italians, as is anyone who identifies as Hispanic, regardless of race. But this level of categorization creates an easily-understood measure that can serve as a starting point for more detailed analysis.</p>
+</section>
+<section id="how-diverse-are-the-census-tracts" class="level2">
+<h2 class="anchored" data-anchor-id="how-diverse-are-the-census-tracts">HOW DIVERSE ARE THE CENSUS TRACTS?</h2>
+<p>So here’s the basic map of Sacramento-area census tract diversity, using the index described above.</p>
+<center>
+<strong>ETHNIC DIVERSITY IN THE SACRAMENTO AREA</strong>
+</center>
+<p><img src="SacDivTracts.png" class="img-fluid" alt="A map showing the diversity of Sacramento area census tracts, showing high diversity in many tracts, but areas of low diversity as well"></p>
+<p>To give you a sense of what the colors mean, I’ve highlighted a purple tract in Folsom with a green border. This tract scores a 0.716 on the diversity index. It is 20% white, 47% black, 26% Hispanic, 2% Asian, 1% Native American, and 5% other/multiracial. As the map shows, tracts with this or a greater level of diversity are common in the Sacramento area, though this particular tract is uncommon in that it is Folsom Prison.</p>
+<p>A review of this map confirms that much of the Sacramento area is very diverse, including such disparate areas as Rancho Cordova, Oak Park, the Florin-Vineyard area, Elk Grove, Meadowview, the Pocket, West Sacramento, Natomas, North Sacramento, and Foothill Farms. While the ethnically diverse areas certainly do include the lower-income areas of the city, they include relatively wealthy areas as well.</p>
+<p>This diverse area is pierced, however, by a less-diverse wedge extending from Land Park and Curtis Park, through East Sacramento, and out between Interstate 80 and Highway 50 to Citrus Heights, Roseville, and Folsom, where the ethnic diversity begins to fade in all directions. The notable pockets of diversity between 80 and 50 are the western portion of Arden Arcade, Sac State, and of course Folsom Prison.</p>
+<p>Here is another way to visualize the variation in diversity among census tracts.</p>
+<p><img src="SacDivHist.png" class="img-fluid" alt="A histogram of the distribution of diversity by tract, showing a high proportion of diverse tracts, with vertical lines showing the mean diversity score of the City of Sacramento and the SACOG area"></p>
+<p>This chart shows all of the census tracts in the SACOG area, sorted by diversity. It shows over 70 very highly diverse census tracts (diversity score between 0.8 and 0.9), a number of diverse census tracts down to a diversity score of about 0.5, and then a gradual decline down to the lowest diversity scores on the left. It also shows that the mean diversity score of the census tracts in the City of Sacramento is quite a bit higher than the mean over the entire SACOG area.</p>
+<p>As the chart and the map show, there’s a lot of diversity in Sacramento’s diversity. But at this point we just have a range of numbers. Let’s translate some of these numbers into more concrete examples.</p>
+</section>
+<section id="sacramentos-most-and-least-diverse-tracts" class="level2">
+<h2 class="anchored" data-anchor-id="sacramentos-most-and-least-diverse-tracts">SACRAMENTO’S MOST AND LEAST DIVERSE TRACTS</h2>
+<p>The five most diverse census tracts in the Sacramento area are all located within the city limits, but are otherwise quite different from each other.</p>
+<center>
+<strong>LOCATIONS OF SACRAMENTO’S MOST DIVERSE CENSUS TRACTS</strong>
+</center>
+<p><img src="SacHighTracts.png" class="img-fluid" alt="A map highlighting the 5 most diverse census tracts, all within City boundaries, but otherwise scattered far apart from each other"></p>
+<p><img src="MostDiverseBar.png" class="img-fluid" alt="A bar graph showing the ethnic breakdown of the 5 most diverse census tracts"></p>
+<p><strong>Census Tract 65</strong>, the most diverse census tract in the area, is bisected by Interstate 80. South of the interstate, the tract encompasses the north side of Del Paso Heights, including Grant High. This is one of the traditionally low-income neighborhoods of the city. North of the interstate, the tract is characterized by newer single-family developments built largely within the last 20 years. This area has been subject to the City’s inclusionary ordinance during its development, which required a certain portion of the new housing to be affordable to lower income residents. While this is all contained within one tract, the interstate divides it into two distinct neighborhoods.</p>
+<p><strong>Census Tract 7</strong> is the center of downtown Sacramento, including Old Sacramento, Chinatown, the Downtown Plaza, and soon the new Kings Arena. Its diversity stems in large part from the presence of the county jail, but the tract also includes Asian retirees in Chinatown, residents of high-rise public housing, and more well-off residents of newly remodeled Old Sacramento lofts.</p>
+<p><strong>Census Tract 96.10</strong> is in the Valley Hi/North Laguna area on the south side of the City, next to but not including Cosumnes River College. It is wedged between the lower-income Meadowview and Parkway areas to the north and the higher-income Elk Grove to the south. It has also been subject to the City’s inclusionary ordinance during its recent development.</p>
+<p><strong>Census Tract 22</strong> is West Land Park, and combines two very different populations: the relatively well-off residents of the single family housing toward the south end of the tract, and the low-income residents of the two large public housing projects at the north end of the tract. The public housing and the neighboring industrial area are slated for redevelopment, and it will be interesting to follow the effect of this redevelopment on the area’s diversity.</p>
+<p><strong>Census Tract 70.16</strong> is in North Natomas, which developed rapidly over the last 20 years, and has also been subject to the City’s inclusionary ordinance. It is largely single-family homes of varying size, with a few mixed-income apartment complexes.</p>
+<p>The most striking feature of these five tracts is their great variety. They include the wealthy and the poor, prisoners and students, old housing and new construction. Some are physically segregated, and others are not. Three of them gained economic diversity from the City’s inclusionary ordinance, which may also have influenced their ethnic diversity. I have a thousand questions I want to ask of the data about their similarities and differences, and I hope to do that in an upcoming post.</p>
+<p>But for now let’s move on to the area’s least diverse census tracts.</p>
+<center>
+<strong>LOCATIONS OF SACRAMENTO’S LEAST DIVERSE CENSUS TRACTS</strong>
+</center>
+<p><img src="SacLowTracts.png" class="img-fluid" alt="A map highlighting the 5 least diverse census tracts, all clustered together in Roseville and Lincoln"></p>
+<p><img src="LeastDiverseBar.png" class="img-fluid" alt="A bar graph showing the ethnic breakdown of the 5 least diverse census tracts"></p>
+<p>In contrast to the five most diverse census tracts in the area, the five most homogeneous tracts are located in close physical proximity to each other in suburban Roseville and Lincoln in Placer County. These five tracts are noticeably less diverse than even the tracts around them, and a quick analysis reveals a likely reason why.</p>
+<p><strong>Census Tracts 210.39 and 210.40</strong> surround the Sun City Roseville, Timber Creek, and Sierra Pines golf courses. Similarly, <strong>Census Tracts 236, 237, and 238</strong> roughly define Sun City Lincoln Hills. What unites them all, other than their proximity to a well-manicured fairway, is that they are all retirement communities developed by Del Webb. It seems that this particular vision of suburban retirement appeals to a particular group of people.</p>
+</section>
+<section id="what-have-we-learned" class="level2">
+<h2 class="anchored" data-anchor-id="what-have-we-learned">WHAT HAVE WE LEARNED?</h2>
+<p>While this post has just scratched the surface of Sacramento’s diversity, we have learned a few things. The City itself is indeed more ethnically diverse than the rest of the area on average, but there is a lot of diversity in the areas around the City. Conversely, there are areas of homogeneity within the City as well. The ethnic diversity of Sacramento’s census tracts ranges from areas of the City with almost equal populations of non-Hispanic whites, blacks, Hispanics, and Asians to very homogeneous suburban retirement communities.</p>
+<p>These facts aren’t surprising, but the variety of Sacramento’s most diverse census tracts is. They’re geographically dispersed, and the reasons for their diversity vary. There are a thousand more questions to be asked:</p>
+<ul>
+<li>How do the most diverse tracts differ economically from the more homogeneous tracts, and from each other? Are average salaries higher or lower? What about housing prices and rents?</li>
+<li>Does a neighborhood’s ethnic diversity have an effect on crime rate or the types of crimes committed?</li>
+<li>Are educational attainment levels different for populations in diverse tracts than for populations in homogeneous tracts?</li>
+<li>Do residents’ attitudes vary with neighborhood diversity?</li>
+</ul>
+<p>Hopefully I’ll be able to explore these questions and more in a future post.</p>
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{riphagen2015,
+  author = {Joel Riphagen},
+  title = {How {Diverse} {Is} {My} {Neighborhood?} {Mapping} {Ethnic}
+    {Diversity} in {Sacramento,} {Part} {I}},
+  date = {2015-02-08},
+  url = {https://joelrip.github.io/posts/2015-02-08-sacramento-diversity/},
+  langid = {en}
+}
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-riphagen2015" class="csl-entry quarto-appendix-citeas" role="doc-biblioentry">
+Joel Riphagen. 2015. <span>“How Diverse Is My Neighborhood? Mapping
+Ethnic Diversity in Sacramento, Part I.”</span> February 8, 2015. <a href="https://joelrip.github.io/posts/2015-02-08-sacramento-diversity/">https://joelrip.github.io/posts/2015-02-08-sacramento-diversity/</a>.
+</div></div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  let localAlternateSentinel = 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/joelrip">
+      <i class="bi bi-github" role="img" aria-label="Github">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/joelrip">
+      <i class="bi bi-twitter" role="img" aria-label="Twitter">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+</body></html>

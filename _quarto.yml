@@ -5,7 +5,7 @@ project:
 website:
   title: "Joel Riphagen"
   site-url: "https://joelrip.github.io"
-  favicon: images/RClogoWhiteBorder.png
+  favicon: images/RClogoOnly.png
   navbar:
     title: false
     logo: images/RClogoWhiteBorder.png
