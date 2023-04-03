@@ -10,6 +10,7 @@ citation:
 image: OpenBudget.png
 title-block-banner: OpenBudgetTreemap.png
 title-block-banner-color: "#000000"
+description: "Opening up and visualizing the City of Sacramento's budget."
 ---
 
 I’ve spent the past few months volunteering with [Code4Sac](https://www.codeforsacramento.org/), the local [Code for America](https://www.codeforamerica.org/) brigade. This is an organization of hacker types who are trying to use their skills for the public good, working to free government data for the people to use as they see fit. And if you see the word “hacker” and immediately think Sneakers or War Games, think again. Modern hackers work with the government as often as not, and Code4Sac is sponsored by the City of Sacramento.

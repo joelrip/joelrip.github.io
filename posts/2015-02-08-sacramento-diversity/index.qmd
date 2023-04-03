@@ -8,6 +8,7 @@ categories: [R, mapping, open data, visualization, Sacramento, demographics, div
 citation:
   url: https://joelrip.github.io/posts/2015-02-08-sacramento-diversity/
 image: SacDivTracts.png
+description: "An exploration of ethnic diversity across Sacramento-area census tracts."
 ---
 
 Sacramento is regularly lauded as the [most ethnically diverse](https://content.time.com/time/nation/article/0,8599,340694,00.html), or at least one of the most ethnically diverse, cities in the nation. Not just at the city level, but [at the neighborhood level](https://fivethirtyeight.com/features/the-most-diverse-cities-are-often-the-most-segregated/) as well. More than any other American city, the members of Sacramento’s different racial and ethnic groups live and work together.
