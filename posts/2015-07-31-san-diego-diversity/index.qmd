@@ -8,6 +8,7 @@ categories: [R, mapping, open data, visualization, San Diego, demographics, dive
 citation:
   url: https://joelrip.github.io/posts/2015-07-31-san-diego-diversity/
 image: SDDivTracts.png
+description: "An exploration of ethnic diversity across San Diego-area census tracts."
 ---
 
 A few months ago, I posted [an analysis of the ethnic diversity of Sacramento’s neighborhoods at the Census Tract level](https://joelrip.github.io/posts/2015-02-08-sacramento-diversity/). That post led to a few requests for similar analyses covering different metro areas. One of these requests came from a friend who lives in San Diego, who happens to be getting married this weekend, and who has asked for no wedding presents. So in lieu of a present, Mike and Lan Lan, here’s a quick run-down of San Diego’s ethnic diversity. You don’t even have to give me that taco you promised in return!

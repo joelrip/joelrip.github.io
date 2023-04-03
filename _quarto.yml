@@ -7,7 +7,7 @@ website:
   site-url: "https://joelrip.github.io"
   favicon: images/RClogoOnly.png
   navbar:
-    title: false
+    title: Joel Riphagen
     logo: images/RClogoWhiteBorder.png
     right:
       - href: index.qmd
@@ -19,16 +19,19 @@ website:
     right: 
       - icon: linkedin
         href: https://www.linkedin.com/in/joelriphagen/
-        aria-label: LinkedIn
+        aria-label: "LinkedIn"
       - icon: twitter
         href: https://twitter.com/joelrip
-        aria-label: Twitter
+        aria-label: "Twitter"
       - icon: github
         href: https://github.com/joelrip
-        aria-label: Github
+        aria-label: "Github"
       - icon: envelope-fill
         href: mailto:joelrip@gmail.com
-        aria-label: Email me
+        aria-label: "Email me"
+      - icon: rss
+        href: posts.xml
+        aria-label: "RSS feed"
 
 format:
   html:

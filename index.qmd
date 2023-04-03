@@ -3,28 +3,31 @@ title: "Joel Riphagen"
 image: images/headshot_crop2.jpg
 about:
   template: trestles
-  image-shape: rounded
+  image-shape: round
   image-width: 15em
   links: 
     - icon: linkedin
       href: https://www.linkedin.com/in/joelriphagen/
-      aria-label: LinkedIn
+      aria-label: "LinkedIn"
     - icon: twitter
       href: https://twitter.com/joelrip
-      aria-label: Twitter
+      aria-label: "Twitter"
     - icon: github
       href: https://github.com/joelrip
-      aria-label: Github
+      aria-label: "Github"
     - icon: envelope-fill
       href: mailto:joelrip@gmail.com
-      aria-label: Email me
+      aria-label: "Email me"
+    - icon: rss
+      href: posts.xml
+      aria-label: "RSS feed"
 ---
 
 ## welcome
 
-I'm Joel Riphagen (RIP-hay-gen). This website is my space to explore and share ideas that interest me and that may be interesting to you as well. I have had a long career in state and local government and nonprofit consulting in Sacramento, California, and my areas of expertise include social policy, affordable housing, data modeling and visualization, open data, and fiscal transparency. As _Riphagen Consulting_, I am currently available to consult on policy and data analysis projects. Just shoot me an [email](mailto:joelrip@gmail.com).
+This website is my space to explore and share ideas that interest me and that may be interesting to you as well. I have had a long career in state and local government and nonprofit consulting in Sacramento, California, and my areas of expertise include social policy, affordable housing, data modeling and visualization, open data, and fiscal transparency. As _Riphagen Consulting_, I am currently available to consult on policy and data analysis projects. Just shoot me an [email](mailto:joelrip@gmail.com).
 
-I am motivated by the idea of using the tools of government to improve people's lives, particularly in situations where the market does not produce an even playing field. Sometimes simply releasing the available information into the world in a form that people can understand enables change, by improving understanding of what needs to change. Converting data into information and information into knowledge is one way to give more power to the people.
+I am motivated by the idea of using the tools of government to improve people's lives, particularly where the market does not produce an even playing field. Sometimes simply releasing information into the world and making it understandable enables change, by improving comprehension of what _needs_ to change. Converting data into information and information into knowledge is one way to give more power to the people.
 
 <center>
 Data -> Information
