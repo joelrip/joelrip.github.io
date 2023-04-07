@@ -12,7 +12,8 @@ website:
     right:
       - href: index.qmd
         text: home
-      - about.qmd
+      - href: about.qmd
+        text: resume
       - posts.qmd
   page-footer: 
     background: light
@@ -36,6 +37,7 @@ website:
 format:
   html:
     theme:
+#      - defaultstyle.scss
       light: flatly
       dark: darkly
     css: styles.css

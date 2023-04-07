@@ -1,5 +1,74 @@
 ---
-title: "about"
+page-layout: custom
 ---
 
-About this site
+::: {.grid}
+
+::: {.g-col-2}
+:::
+
+::: {.g-col-3}
+
+<center><img class="circle-image" src="images/headshot_crop2.jpg" width=60% fig-alt="Joel Riphagen headshot" /><br>
+
+# JOEL RIPHAGEN	
+</center>
+  joelrip@gmail.com<br>
+  linkedin.com/in/joelriphagen<br>
+  github.com/joelrip<br>
+  @joelrip
+
+<h2 class="resume-section">EDUCATION</h2>
+<h5 class="resume-title">UNIVERSITY OF CHICAGO, Chicago, Illinois</h5>
+<span class="resume-emphasis">Harris Graduate School of Public Policy Studies</span><br>
+Concentration: Poverty and Inequality<br>
+M.P.P. received June 1999
+
+<h5 class="resume-title">RICE UNIVERSITY, Houston, Texas</h5>
+<span class="resume-emphasis">Cum laude</span><br>
+B.A. in Sociology received May 1996
+
+<h2 class="resume-section">SKILLS AND CERTIFICATIONS</h2>
+<span class="resume-emphasis">Data analysis and visualization using [R](http://www.r-project.org), [Python](http://www.python.org), and SQL.</span><br>
+Multiple certifications in data analysis, data science, programming, and algorithms received via Coursera.com from Johns Hopkins University, the University of Washington, and Rice University.
+
+:::
+
+::: {.g-col-5}
+<h2 class="resume-section">EMPLOYMENT</h2>
+<h5 class="resume-title">RIPHAGEN CONSULTING</h5>
+<span class="resume-emphasis">Owner</span><br>
+<span class="resume-emphasis">April 2014 - December 2017, December 2022 - present</span><br>
+Provide policy analysis, data analysis and visualization, GIS mapping, performance measurement, and financial modeling consulting services to government and nonprofit clients needing evidence-based solutions to strategic problems. Perform sophisticated analyses and create interactive websites using R; design, create, and maintain complex Salesforce databases.
+
+<h5 class="resume-title">FINANCIAL INFORMATION SYSTEM FOR CALIFORNIA (FISCal)</h5>
+<span class="resume-emphasis">Senior Advisor to the Director</span><br>
+<span class="resume-emphasis">December 2017 - December 2022</span><br>
+Worked to open California's financial data to promote external transparency and internal efficiency. Conducted analyses to unlock value in the state's data. Worked with multiple constituencies to design and provide content for FISCal's transparency website as well as business intelligence tools for state departments. Coordinated cross-division and multi-department initiatives and teams addressing issues such as data governance and COVID-19 expenditure reporting. Represented the department publicly and in high-level discussions with other departments and vendors.
+
+<h5 class="resume-title">CODE FOR SACRAMENTO</h5>
+<span class="resume-emphasis">Captain, Finance Officer, Project Manager</span><br>
+<span class="resume-emphasis">January 2016 - December 2017</span><br>
+Leader and core team member of local Code for America affiliate, working to find technological solutions that help government function better for citizens. Managed team working on volunteer and paid projects, wrote grant applications, ran codeathons and other large events, formed partnerships with government and community organizations, organized and ran weekly meetings, advocated for open data policies, and contributed to individual projects. Participated as a volunteer from February 2014 through December 2015.
+
+<h5 class="resume-title">SACRAMENTO HOUSING AND REDEVELOPMENT AGENCY</h5>
+<span class="resume-emphasis">Housing Finance Analyst and Policy Analyst</span><br>
+<span class="resume-emphasis">July 2006 - December 2013</span><br>
+Underwrote loans for affordable housing projects, negotiated with developers, presented projects to governing boards, oversaw financing documents, monitored projects during construction and approved funding draws. Researched, analyzed, and reported on housing policy issues.  Administered the Sacramento Homelessness Prevention and Rapid Rehousing Program (HPRP), including financial tracking and development of performance measures.  Negotiated with County to revise Affordable Housing Fee Waiver ordinance. Administered the Federal HOME program.  Administered Inclusionary Housing programs and Affordable Housing Fee Waiver program. Performed statistical and financial analyses, maintained housing finance database, performed GIS mapping.
+
+<h5 class="resume-title">CALIFORNIA LEGISLATIVE ANALYST’S OFFICE</h5>
+<span class="resume-emphasis">Principal Fiscal and Policy Analyst</span><br>
+<span class="resume-emphasis">September 2001 - November 2005</span><br>
+Provided nonpartisan advice on transportation policy to the California Legislature. Analyzed the state’s transportation budget. Conducted analysis, wrote reports, testified in legislative hearings, and provided confidential information to legislators. Met with administration representatives, legislators and staff, regional agencies, and advocates. Conducted in-depth analysis of issues such as transportation funding, capital project delivery, state highway maintenance, and carpool lane effectiveness. Responded to inquiries from the press and the general public, made public presentations.
+
+<h5 class="resume-title">CALIFORNIA BUREAU OF STATE AUDITS</h5>
+<span class="resume-emphasis">Senior Auditor/Evaluator</span><br>
+<span class="resume-emphasis">July 1999 - September 2001</span><br>
+Audited state government agencies. Developed audit objectives, collected and analyzed data, reviewed documents, interviewed agency representatives, justified work according to auditing standards, presented findings to management and auditees, and wrote reports.
+
+:::
+
+::: {.g-col-2}
+:::
+
+:::
