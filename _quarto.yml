@@ -14,7 +14,8 @@ website:
         text: home
       - href: about.qmd
         text: resume
-      - posts.qmd
+      - href: posts.qmd
+        text: blog
   page-footer: 
     background: light
     right: 

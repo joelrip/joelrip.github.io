@@ -6,6 +6,7 @@
 
 .g-col-3 {
   background-color: lightgray;
+  padding: 30px;
 }
 
 .circle-image {
@@ -18,4 +19,8 @@
 
 .resume-emphasis {
   font-style: italic;
+}
+
+.resume-title {
+  margin-bottom: 0px;
 }

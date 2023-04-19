@@ -2,12 +2,9 @@
 page-layout: custom
 ---
 
-::: {.grid}
+::: {.grid style="--bs-gap: 2rem; --bs-rows: 2;"}
 
-::: {.g-col-2}
-:::
-
-::: {.g-col-3}
+::: {.g-col-3 .g-start-3}
 
 <center><img class="circle-image" src="images/headshot_crop2.jpg" width=60% fig-alt="Joel Riphagen headshot" /><br>
 
@@ -28,14 +25,14 @@ M.P.P. received June 1999
 <span class="resume-emphasis">Cum laude</span><br>
 B.A. in Sociology received May 1996
 
-<h2 class="resume-section">SKILLS AND CERTIFICATIONS</h2>
+<h2 class="resume-section">SKILLS and CERTIFICATIONS</h2>
 <span class="resume-emphasis">Data analysis and visualization using [R](http://www.r-project.org), [Python](http://www.python.org), and SQL.</span><br>
 Multiple certifications in data analysis, data science, programming, and algorithms received via Coursera.com from Johns Hopkins University, the University of Washington, and Rice University.
 
 :::
 
 ::: {.g-col-5}
-<h2 class="resume-section">EMPLOYMENT</h2>
+<h2 class="resume-section">EXPERIENCE</h2>
 <h5 class="resume-title">RIPHAGEN CONSULTING</h5>
 <span class="resume-emphasis">Owner</span><br>
 <span class="resume-emphasis">April 2014 - December 2017, December 2022 - present</span><br>
@@ -66,9 +63,6 @@ Provided nonpartisan advice on transportation policy to the California Legislatu
 <span class="resume-emphasis">July 1999 - September 2001</span><br>
 Audited state government agencies. Developed audit objectives, collected and analyzed data, reviewed documents, interviewed agency representatives, justified work according to auditing standards, presented findings to management and auditees, and wrote reports.
 
-:::
-
-::: {.g-col-2}
 :::
 
 :::
