@@ -4,3 +4,23 @@
   max-height: 40px;
 }
 
+.g-col-3 {
+  background-color: lightgray;
+  padding: 30px;
+}
+
+.circle-image {
+  border-radius: 50%;
+}
+
+.resume-section {
+  color: darkblue;
+}
+
+.resume-emphasis {
+  font-style: italic;
+}
+
+.resume-title {
+  margin-bottom: 0px;
+}
