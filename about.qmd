@@ -2,18 +2,22 @@
 page-layout: custom
 ---
 
-::: {.grid style="--bs-gap: 2rem; --bs-rows: 2;"}
+::: {.grid style="--bs-gap: 2rem;"}
 
 ::: {.g-col-3 .g-start-3}
 
 <center><img class="circle-image" src="images/headshot_crop2.jpg" width=60% fig-alt="Joel Riphagen headshot" /><br>
 
 # JOEL RIPHAGEN	
+<span class="resume-emphasis">he/him</span>
+
 </center>
-  joelrip@gmail.com<br>
-  linkedin.com/in/joelriphagen<br>
-  github.com/joelrip<br>
-  @joelrip
+<span class="resume-link">
+  {{< fa envelope >}} [joelrip@gmail.com](mailto:joelrip@gmail.com)<br>
+  {{< fa brands linkedin >}} [linkedin.com/in/joelriphagen](https://www.linkedin.com/in/joelriphagen/)<br>
+  {{< fa brands github >}} [github.com/joelrip](https://github.com/joelrip)<br>
+  {{< fa brands twitter >}} {{< fa brands mastodon >}} @joelrip
+</span>
 
 <h2 class="resume-section">EDUCATION</h2>
 <h5 class="resume-title">UNIVERSITY OF CHICAGO, Chicago, Illinois</h5>
