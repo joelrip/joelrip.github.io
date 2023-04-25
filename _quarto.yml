@@ -37,10 +37,11 @@ website:
 
 format:
   html:
-    theme:
+    theme: flatly
 #      - defaultstyle.scss
-      light: flatly
-      dark: darkly
+#      light: flatly
+#      dark: darkly
+    linkcolor: black
     css: styles.css
     toc: true
 
