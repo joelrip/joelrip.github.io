@@ -1,66 +1,122 @@
 ---
-page-layout: custom
+output:
+  pdf_document:
+    latex_engine: xelatex
+geometry: margin=1cm
+header-includes:
+   - \usepackage{fontawesome5}
+   - \usepackage{graphicx}
+   - \usepackage{tikz}
+   - \usepackage{fontspec}
+   - \setmainfont{Helvetica}
 ---
 
-::: {.grid style="--bs-gap: 2rem;"}
+```{=latex}
+\begin{minipage}[t]{0.3\textwidth}
+\noindent\colorbox{lightgray}
+{\begin{minipage}[t][\textheight][t]{\linewidth}
+\hspace{0.04\linewidth}
+{\begin{minipage}[t][\textheight][t]{.9\linewidth}
+\vspace{5pt}
+\begin{center}
+\begin{tikzpicture}
+ \clip (0,0) circle (2.5cm) node {\includegraphics[width=5cm]{images/headshot_crop2.jpg}};
+\end{tikzpicture}
+```
+\
+\LARGE JOEL RIPHAGEN \par
+\normalsize
+*he/him*
 
-::: {.g-col-3 .g-start-3}
+```{=latex}
+\end{center}
+```
+\
+\
+\faIcon{envelope}  joelrip@gmail.com \
+\faIcon{linkedin}  linkedin.com/in/joelriphagen \
+\faIcon{github}  github.com/joelrip \
+\faIcon{twitter}  @joelrip \
 
-<center><img class="circle-image" src="images/headshot_crop2.jpg" width=60% fig-alt="Joel Riphagen headshot" /><br>
-
-<h1 class="resume-title">JOEL RIPHAGEN</h1>	
-<span class="resume-emphasis">he/him</span>
-
-</center>
-<span class="resume-link">
-  {{< fa envelope >}} [joelrip@gmail.com](mailto:joelrip@gmail.com)<br>
-  {{< fa brands linkedin >}} [linkedin.com/in/joelriphagen](https://www.linkedin.com/in/joelriphagen/)<br>
-  {{< fa brands github >}} [github.com/joelrip](https://github.com/joelrip)<br>
-  {{< fa brands twitter >}} {{< fa brands mastodon >}} @joelrip
-</span>
-
-<h2 class="resume-section">EDUCATION</h2>
-<h5 class="resume-title resume-link">[UNIVERSITY OF CHICAGO](https://www.uchicago.edu/), Chicago, Illinois</h5>
-<span class="resume-emphasis resume-link">[Harris Graduate School of Public Policy Studies](https://harris.uchicago.edu/)</span><br>
-Concentration: Poverty and Inequality<br>
+\
+\Large EDUCATION \par
+\hrulefill
+\normalsize
+**UNIVERSITY OF CHICAGO** \
+Chicago, Illinois \
+*Harris Graduate School of* \
+*Public Policy Studies* \
+Concentration: Poverty and Inequality \
 M.P.P. received June 1999
-
-<h5 class="resume-title resume-link">[RICE UNIVERSITY](https://www.rice.edu/), Houston, Texas</h5>
-<span class="resume-emphasis">Cum laude</span><br>
+\
+\
+**RICE UNIVERSITY** \
+Houston, Texas \
+*Cum laude* \
 B.A. in Sociology received May 1996
 
-<h2 class="resume-section">SKILLS and CERTIFICATIONS</h2>
-<span class="resume-emphasis">Data analysis and visualization using [R](http://www.r-project.org), [Python](http://www.python.org), and SQL.</span><br>
+\
+\Large SKILLS and \
+CERTIFICATIONS \par
+\hrulefill
+\normalsize
+*Data analysis and visualization using R, Python, and SQL.* \
 Multiple certifications in data analysis, data science, programming, and algorithms received via Coursera.com from Johns Hopkins University, the University of Washington, and Rice University.
 
-:::
 
-::: {.g-col-5}
-<h2 class="resume-section">EXPERIENCE</h2>
-<h5 class="resume-title">RIPHAGEN CONSULTING</h5>
-<span class="resume-emphasis">**Owner** | April 2014 - December 2017; December 2022 - present</span><br>
+```{=latex}
+\end{minipage}}
+\end{minipage}}
+\end{minipage}
+\hspace{0.025\linewidth}
+\begin{minipage}[t]{0.675\textwidth}
+```
+
+\vspace{5pt}
+\Large EXPERIENCE \par
+\hrulefill
+\normalsize
+**RIPHAGEN CONSULTING**
+
+<span class="resume-emphasis">**Owner** | *April 2014 - December 2017; December 2022 - present*</span><br>
+
 I provide policy analysis, data analysis and visualization, GIS mapping, performance measurement, and financial modeling consulting services to government and nonprofit clients needing evidence-based solutions to strategic problems. I perform sophisticated analyses and create interactive websites primarily using R. I've also designed, created, and maintained complex Salesforce databases.
+\
+\
+**FINANCIAL INFORMATION SYSTEM FOR CALIFORNIA (FISCal)**
 
-<h5 class="resume-title resume-link">[FINANCIAL INFORMATION SYSTEM FOR CALIFORNIA (FISCal)](https://fiscal.ca.gov/)</h5>
-<span class="resume-emphasis">**Senior Advisor to the Director** | December 2017 - December 2022</span><br>
+<span class="resume-emphasis">**Senior Advisor to the Director** | *December 2017 - December 2022*</span><br>
+
 At FISCal, I worked to open California's financial data to promote external transparency and internal efficiency. I conducted analyses to unlock value in the state's data and worked with multiple constituencies to design and provide content for <span class="resume-link">[FISCal's transparency website](https://open.fiscal.ca.gov/)</span> as well as business intelligence tools for state departments. I coordinated cross-division and multi-department initiatives and teams addressing issues such as data governance and COVID-19 expenditure reporting. I represented the department publicly and in high-level discussions with other departments and vendors.
+\
+\
+**CODE FOR SACRAMENTO**
 
-<h5 class="resume-title resume-link">[CODE FOR SACRAMENTO](https://codeforsacramento.org/)</h5>
-<span class="resume-emphasis">**Captain, Finance Officer, Project Manager** | January 2016 - December 2017</span><br>
+<span class="resume-emphasis">**Captain, Finance Officer, Project Manager** | *January 2016 - December 2017*</span><br>
+
 I was leader and a core team member of Sacramento's local Code for America affiliate, working to find technological solutions that help government function better for citizens. I managed a team working on volunteer and paid projects, wrote grant applications, ran codeathons and other large events, formed partnerships with government and community organizations, organized and ran weekly meetings, advocated for open data policies, and contributed to individual projects. Prior to securing grant funding, I participated as a volunteer from February 2014 through December 2015.
+\
+\
+**SACRAMENTO HOUSING AND REDEVELOPMENT AGENCY**
 
-<h5 class="resume-title resume-link">[SACRAMENTO HOUSING AND REDEVELOPMENT AGENCY](https://www.shra.org/)</h5>
-<span class="resume-emphasis">**Housing Finance Analyst and Policy Analyst** | July 2006 - December 2013</span><br>
+<span class="resume-emphasis">**Housing Finance Analyst and Policy Analyst** | *July 2006 - December 2013*</span><br>
+
 I underwrote loans for affordable housing projects, negotiated with developers, presented projects to governing boards, oversaw financing documents, monitored projects during construction and approved funding draws. I researched, analyzed, and reported on housing policy issues.  I administered the Sacramento Homelessness Prevention and Rapid Rehousing Program (HPRP), including financial tracking and development of performance measures.  I negotiated with County to revise the Affordable Housing Fee Waiver ordinance, administered the Federal HOME programm and administered Inclusionary Housing programs and the Affordable Housing Fee Waiver program. I performed statistical and financial analyses, maintained the housing finance database, and performed GIS mapping.
+\
+\
+**CALIFORNIA LEGISLATIVE ANALYST’S OFFICE**
 
-<h5 class="resume-title resume-link">[CALIFORNIA LEGISLATIVE ANALYST’S OFFICE](https://lao.ca.gov/)</h5>
-<span class="resume-emphasis">**Principal Fiscal and Policy Analyst** | September 2001 - November 2005</span><br>
+<span class="resume-emphasis">**Principal Fiscal and Policy Analyst** | *September 2001 - November 2005*</span><br>
+
 At the LAO I provided nonpartisan advice on transportation policy to the California Legislature and analyzed the state’s transportation budget. I conducted analyses, wrote reports, testified in legislative hearings, and provided confidential information to legislators. I met with administration representatives, legislators and staff, regional agencies, and advocates. I conducted in-depth analysis of issues such as transportation funding, capital project delivery, state highway maintenance, and carpool lane effectiveness. I responded to inquiries from the press and the general public and made public presentations.
+\
+\
+**CALIFORNIA BUREAU OF STATE AUDITS**
 
-<h5 class="resume-title resume-link">[CALIFORNIA BUREAU OF STATE AUDITS](https://www.auditor.ca.gov/)</h5>
-<span class="resume-emphasis">**Senior Auditor/Evaluator** | July 1999 - September 2001</span><br>
+<span class="resume-emphasis">**Senior Auditor/Evaluator** | *July 1999 - September 2001*</span><br>
+
 I audited state government agencies, including developing audit objectives, collecting and analyzing data, reviewing documents, interviewing agency representatives, justifying work according to auditing standards, presenting findings to management and auditees, and writing reports.
 
-:::
-
-:::
+```{=latex}
+\end{minipage}
+```
