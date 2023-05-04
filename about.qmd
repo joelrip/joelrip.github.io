@@ -6,7 +6,7 @@ page-layout: custom
 
 ::: {.g-col-3 .g-start-3}
 
-<center><img class="circle-image" src="images/headshot_crop2.jpg" width=60% fig-alt="Joel Riphagen headshot" /><br>
+<center><img class="circle-image" src="images/headshot_crop2.jpg" width=70% fig-alt="Joel Riphagen headshot" /><br>
 
 <h1 class="resume-title">JOEL RIPHAGEN</h1>	
 <span class="resume-emphasis">he/him</span>
@@ -38,12 +38,12 @@ Multiple certifications in data analysis, data science, programming, and algorit
 ::: {.g-col-5}
 <h2 class="resume-section">EXPERIENCE</h2>
 <h5 class="resume-title">RIPHAGEN CONSULTING</h5>
-<span class="resume-emphasis">**Owner** | April 2014 - December 2017; December 2022 - present</span><br>
+<span class="resume-emphasis">**Owner** | April 2014 - December 2017 | December 2022 - present</span><br>
 I provide policy analysis, data analysis and visualization, GIS mapping, performance measurement, and financial modeling consulting services to government and nonprofit clients needing evidence-based solutions to strategic problems. I perform sophisticated analyses and create interactive websites primarily using R. I've also designed, created, and maintained complex Salesforce databases.
 
 <h5 class="resume-title resume-link">[FINANCIAL INFORMATION SYSTEM FOR CALIFORNIA (FISCal)](https://fiscal.ca.gov/)</h5>
 <span class="resume-emphasis">**Senior Advisor to the Director** | December 2017 - December 2022</span><br>
-At FISCal, I worked to open California's financial data to promote external transparency and internal efficiency. I conducted analyses to unlock value in the state's data and worked with multiple constituencies to design and provide content for <span class="resume-link">[FISCal's transparency website](https://open.fiscal.ca.gov/)</span> as well as business intelligence tools for state departments. I coordinated cross-division and multi-department initiatives and teams addressing issues such as data governance and COVID-19 expenditure reporting. I represented the department publicly and in high-level discussions with other departments and vendors.
+At FISCal, I led a small team working to open California's financial data to promote external transparency and internal efficiency. I conducted analyses to unlock value in the state's data and worked with multiple constituencies to design and provide content for <span class="resume-link">[FISCal's transparency website](https://open.fiscal.ca.gov/)</span> as well as business intelligence tools for state departments. I coordinated cross-division and multi-department initiatives and teams addressing issues such as data governance and COVID-19 expenditure reporting. I represented the department publicly and in high-level discussions with other departments and vendors.
 
 <h5 class="resume-title resume-link">[CODE FOR SACRAMENTO](https://codeforsacramento.org/)</h5>
 <span class="resume-emphasis">**Captain, Finance Officer, Project Manager** | January 2016 - December 2017</span><br>
@@ -60,6 +60,16 @@ At the LAO I provided nonpartisan advice on transportation policy to the Califor
 <h5 class="resume-title resume-link">[CALIFORNIA BUREAU OF STATE AUDITS](https://www.auditor.ca.gov/)</h5>
 <span class="resume-emphasis">**Senior Auditor/Evaluator** | July 1999 - September 2001</span><br>
 I audited state government agencies, including developing audit objectives, collecting and analyzing data, reviewing documents, interviewing agency representatives, justifying work according to auditing standards, presenting findings to management and auditees, and writing reports.
+
+:::
+
+::: {.g-col-2}
+
+<br>
+
+::: {#resume-download .blackbox .center}
+[Download my resume in PDF format](resume.pdf)
+:::
 
 :::
 
