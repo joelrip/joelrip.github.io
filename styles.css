@@ -28,3 +28,15 @@
 .resume-link {
   color: black;
 }
+
+.blackbox {
+  padding: .5em;
+  background: lightgray;
+  color: black;
+  border: 10px solid white;
+  border-radius: 20px;
+}
+
+.center {
+  text-align: center;
+}

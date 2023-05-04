@@ -9,9 +9,12 @@ header-includes:
    - \usepackage{tikz}
    - \usepackage{fontspec}
    - \setmainfont{Helvetica}
+knit: (function(inputFile, encoding) {
+  rmarkdown::render(inputFile, encoding = encoding, output_dir = "docs") })
 ---
 
 ```{=latex}
+\pagenumbering{gobble}
 \begin{minipage}[t]{0.3\textwidth}
 \noindent\colorbox{lightgray}
 {\begin{minipage}[t][\textheight][t]{\linewidth}
@@ -78,7 +81,7 @@ Multiple certifications in data analysis, data science, programming, and algorit
 \normalsize
 **RIPHAGEN CONSULTING**
 
-<span class="resume-emphasis">**Owner** | *April 2014 - December 2017; December 2022 - present*</span><br>
+<span class="resume-emphasis">**Owner** | *April 2014 - December 2017* | *December 2022 - present*</span><br>
 
 I provide policy analysis, data analysis and visualization, GIS mapping, performance measurement, and financial modeling consulting services to government and nonprofit clients needing evidence-based solutions to strategic problems. I perform sophisticated analyses and create interactive websites primarily using R. I've also designed, created, and maintained complex Salesforce databases.
 \
@@ -87,7 +90,7 @@ I provide policy analysis, data analysis and visualization, GIS mapping, perform
 
 <span class="resume-emphasis">**Senior Advisor to the Director** | *December 2017 - December 2022*</span><br>
 
-At FISCal, I worked to open California's financial data to promote external transparency and internal efficiency. I conducted analyses to unlock value in the state's data and worked with multiple constituencies to design and provide content for <span class="resume-link">[FISCal's transparency website](https://open.fiscal.ca.gov/)</span> as well as business intelligence tools for state departments. I coordinated cross-division and multi-department initiatives and teams addressing issues such as data governance and COVID-19 expenditure reporting. I represented the department publicly and in high-level discussions with other departments and vendors.
+At FISCal, I led a small team to open California's financial data to promote external transparency and internal efficiency. I conducted analyses to unlock value in the state's data and worked with multiple constituencies to design and provide content for <span class="resume-link">[FISCal's transparency website](https://open.fiscal.ca.gov/)</span> as well as business intelligence tools for state departments. I coordinated cross-division and multi-department initiatives and teams addressing issues such as data governance and COVID-19 expenditure reporting. I represented the department publicly and in high-level discussions with other departments and vendors.
 \
 \
 **CODE FOR SACRAMENTO**
