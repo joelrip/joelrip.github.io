@@ -6,7 +6,7 @@ page-layout: custom
 
 ::: {.g-col-3 .g-start-3}
 
-<center><img class="circle-image" src="images/headshot_crop2.jpg" width=70% fig-alt="Joel Riphagen headshot" /><br>
+<center><img class="circle-image" src="images/headshot_crop2.jpg" width=80% fig-alt="Joel Riphagen headshot" /><br>
 
 <h1 class="resume-title">JOEL RIPHAGEN</h1>	
 <span class="resume-emphasis">he/him</span>
