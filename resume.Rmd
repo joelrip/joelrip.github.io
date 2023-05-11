@@ -40,7 +40,6 @@ knit: (function(inputFile, encoding) {
 \faIcon{linkedin}  linkedin.com/in/joelriphagen \
 \faIcon{github}  github.com/joelrip \
 \faIcon{twitter}  @joelrip \
-
 \
 \Large EDUCATION \par
 \hrulefill
@@ -90,7 +89,7 @@ I provide policy analysis, data analysis and visualization, GIS mapping, perform
 
 <span class="resume-emphasis">**Senior Advisor to the Director** | *December 2017 - December 2022*</span><br>
 
-At FISCal, I led a small team to open California's financial data to promote external transparency and internal efficiency. I conducted analyses to unlock value in the state's data and worked with multiple constituencies to design and provide content for <span class="resume-link">[FISCal's transparency website](https://open.fiscal.ca.gov/)</span> as well as business intelligence tools for state departments. I coordinated cross-division and multi-department initiatives and teams addressing issues such as data governance and COVID-19 expenditure reporting. I represented the department publicly and in high-level discussions with other departments and vendors.
+At FISCal, I led a small team to open California's financial data to promote external transparency and internal efficiency. I conducted analyses to unlock value in the state's data and worked with multiple constituencies to design and provide content for <span class="resume-link">[FISCal's transparency website](https://open.fiscal.ca.gov/)</span> as well as business intelligence tools for state departments, using primarily R and Microsoft Power BI. I coordinated cross-division and multi-department initiatives and teams addressing issues such as data governance and COVID-19 expenditure reporting. I represented the department publicly and in high-level discussions with other departments and vendors.
 \
 \
 **CODE FOR SACRAMENTO**
