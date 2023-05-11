@@ -33,8 +33,18 @@
   padding: .5em;
   background: lightgray;
   color: black;
-  border: 10px solid white;
-  border-radius: 20px;
+  border: 20px solid white;
+  border-radius: 30px;
+}
+
+.textbubble {
+  padding: .2em;
+  background: white;
+  color: black;
+  border-radius: 5px;
+  line-height: 2;
+  white-space: nowrap;
+  margin-right: 4px;
 }
 
 .center {

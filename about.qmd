@@ -29,10 +29,19 @@ M.P.P. received June 1999
 <span class="resume-emphasis">Cum laude</span><br>
 B.A. in Sociology received May 1996
 
-<h2 class="resume-section">SKILLS and CERTIFICATIONS</h2>
-<span class="resume-emphasis">Data analysis and visualization using [R](http://www.r-project.org), [Python](http://www.python.org), and SQL.</span><br>
-Multiple certifications in data analysis, data science, programming, and algorithms received via Coursera.com from Johns Hopkins University, the University of Washington, and Rice University.
+<h2 class="resume-section">SKILLS</h2>
+<span class="textbubble">R programming</span>
+<span class="textbubble">social policy</span>
+<span class="textbubble">affordable housing</span>
+<span class="textbubble">open data</span>
+<span class="textbubble">financial transparency</span>
+<span class="textbubble">data analysis</span>
+<span class="textbubble">data visualization</span>
+<span class="textbubble">Power BI</span>
+<span class="textbubble">Salesforce development</span>
 
+<h2 class="resume-section">CERTIFICATIONS</h2>
+Multiple certifications in data analysis, data science, programming, and algorithms received via Coursera.com from Johns Hopkins University, the University of Washington, and Rice University.
 :::
 
 ::: {.g-col-5}
@@ -43,7 +52,7 @@ I provide policy analysis, data analysis and visualization, GIS mapping, perform
 
 <h5 class="resume-title resume-link">[FINANCIAL INFORMATION SYSTEM FOR CALIFORNIA (FISCal)](https://fiscal.ca.gov/)</h5>
 <span class="resume-emphasis">**Senior Advisor to the Director** | December 2017 - December 2022</span><br>
-At FISCal, I led a small team working to open California's financial data to promote external transparency and internal efficiency. I conducted analyses to unlock value in the state's data and worked with multiple constituencies to design and provide content for <span class="resume-link">[FISCal's transparency website](https://open.fiscal.ca.gov/)</span> as well as business intelligence tools for state departments. I coordinated cross-division and multi-department initiatives and teams addressing issues such as data governance and COVID-19 expenditure reporting. I represented the department publicly and in high-level discussions with other departments and vendors.
+At FISCal, I led a small team working to open California's financial data to promote external transparency and internal efficiency. I conducted analyses to unlock value in the state's data and worked with multiple constituencies to design and provide content for <span class="resume-link">[FISCal's transparency website](https://open.fiscal.ca.gov/)</span> as well as business intelligence tools for state departments, using primarily R and Microsoft Power BI. I coordinated cross-division and multi-department initiatives and teams addressing issues such as data governance and COVID-19 expenditure reporting. I represented the department publicly and in high-level discussions with other departments and vendors.
 
 <h5 class="resume-title resume-link">[CODE FOR SACRAMENTO](https://codeforsacramento.org/)</h5>
 <span class="resume-emphasis">**Captain, Finance Officer, Project Manager** | January 2016 - December 2017</span><br>
