@@ -40,7 +40,7 @@ knit: (function(inputFile, encoding) {
 \end{center}
 ```
 \
-\faIcon{envelope}  joelrip@gmail.com \
+\faIcon{envelope}  joelrip@gmail.com  \
 \faIcon{linkedin}  linkedin.com/in/joelriphagen \
 \faIcon{github}  github.com/joelrip \
 \faIcon{twitter}  @joelrip \
