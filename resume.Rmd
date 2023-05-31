@@ -69,11 +69,11 @@ BA in Sociology received May 1996
 \normalsize
 
 \begin{flushleft}
-\xmybox{R programming}
 \xmybox{social policy}
-\xmybox{affordable housing}
 \xmybox{open data}
+\xmybox{affordable housing}
 \xmybox{financial transparency}
+\xmybox{R programming}
 \xmybox{data analysis}
 \xmybox{Power BI}
 \xmybox{data visualization}
