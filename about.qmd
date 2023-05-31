@@ -30,11 +30,11 @@ M.P.P. received June 1999
 B.A. in Sociology received May 1996
 
 <h2 class="section-color">SKILLS</h2>
-<span class="textbubble">R programming</span>
 <span class="textbubble">social policy</span>
-<span class="textbubble">affordable housing</span>
 <span class="textbubble">open data</span>
+<span class="textbubble">affordable housing</span>
 <span class="textbubble">financial transparency</span>
+<span class="textbubble">R programming</span>
 <span class="textbubble">data analysis</span>
 <span class="textbubble">data visualization</span>
 <span class="textbubble">Power BI</span>
