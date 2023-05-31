@@ -19,7 +19,7 @@ page-layout: custom
   {{< fa brands twitter >}} {{< fa brands mastodon >}} @joelrip
 </span>
 
-<h2 class="resume-section">EDUCATION</h2>
+<h2 class="section-color">EDUCATION</h2>
 <h5 class="resume-title resume-link">[UNIVERSITY OF CHICAGO](https://www.uchicago.edu/), Chicago, Illinois</h5>
 <span class="resume-emphasis resume-link">[Harris Graduate School of Public Policy Studies](https://harris.uchicago.edu/)</span><br>
 Concentration: Poverty and Inequality<br>
@@ -29,7 +29,7 @@ M.P.P. received June 1999
 <span class="resume-emphasis">Cum laude</span><br>
 B.A. in Sociology received May 1996
 
-<h2 class="resume-section">SKILLS</h2>
+<h2 class="section-color">SKILLS</h2>
 <span class="textbubble">R programming</span>
 <span class="textbubble">social policy</span>
 <span class="textbubble">affordable housing</span>
@@ -40,12 +40,12 @@ B.A. in Sociology received May 1996
 <span class="textbubble">Power BI</span>
 <span class="textbubble">Salesforce development</span>
 
-<h2 class="resume-section">CERTIFICATIONS</h2>
+<h2 class="section-color">CERTIFICATIONS</h2>
 Multiple certifications in data analysis, data science, programming, and algorithms received via Coursera.com from Johns Hopkins University, the University of Washington, and Rice University.
 :::
 
 ::: {.g-col-5}
-<h2 class="resume-section">EXPERIENCE</h2>
+<h2 class="section-color">EXPERIENCE</h2>
 <h5 class="resume-title">RIPHAGEN CONSULTING</h5>
 <span class="resume-emphasis">**Owner** | April 2014 - December 2017 | December 2022 - present</span><br>
 I provide policy analysis, data analysis and visualization, GIS mapping, performance measurement, and financial modeling consulting services to government and nonprofit clients needing evidence-based solutions to strategic problems. I perform sophisticated analyses and create interactive websites primarily using R. I've also designed, created, and maintained complex Salesforce databases.
