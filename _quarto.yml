@@ -16,6 +16,8 @@ website:
         text: resume
       - href: posts.qmd
         text: blog
+      - href: projects.qmd
+        text: projects
   page-footer: 
     background: light
     right: 

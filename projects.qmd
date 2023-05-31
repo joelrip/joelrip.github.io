@@ -1,0 +1,12 @@
+---
+title: "projects"
+---
+
+## Standings Tracker
+
+![](images/StandingsTracker.png)
+
+This project, started in 2017, tracks the MLS and USL club soccer standings for the current or latest season. It pulls data from FiveThirtyEight and creates a series of interactive graphs of each team's position in the standings over time. Its innovation is that it charts each team's points after each game, **minus the number of games they have played**. This has the effect of 1) allowing points comparisons as of a given number of games rather than as of a given date, so you don't have to adjust for teams having played a different number of games at any point, and 2) visually showing a team dropping when they lose (-1 point) and staying level when they draw (0 points), which gives you a better sense of each team's trajectory. I restarted work on the project in 2023 and continue to make improvements. Suggestions welcome via Github issues.
+
+<span class="project-button">{{< fa globe >}} [Website](https://joelrip.github.io/StandingsTracker/)</span>
+<span class="project-button">{{< fa brands github >}} [Github](https://github.com/joelrip/StandingsTracker)</span>
