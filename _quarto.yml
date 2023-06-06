@@ -5,6 +5,7 @@ project:
 website:
   title: "Joel Riphagen"
   site-url: "https://joelrip.github.io"
+  description: "Explorations in data and policy from Sacramento, CA"
   favicon: images/RClogoOnly.png
   navbar:
     title: Joel Riphagen
