@@ -4,8 +4,12 @@
   max-height: 40px;
 }
 
-.g-col-3 {
+.resume-sidebar {
   background-color: lightgray;
+  padding: 30px;
+}
+
+.resume-main {
   padding: 30px;
 }
 
@@ -31,10 +35,12 @@
 
 .blackbox {
   padding: .5em;
-  background: lightgray;
+  background: white;
   color: black;
-  border: 20px solid white;
-  border-radius: 30px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
 .project-button {
