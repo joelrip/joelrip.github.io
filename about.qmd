@@ -2,9 +2,19 @@
 page-layout: custom
 ---
 
-::: {.grid style="--bs-gap: 2rem;"}
+::: {.grid style="--bs-gap: .5rem;"}
 
-::: {.g-col-3 .g-start-3}
+::: {.g-col-12 .g-col-md-2}
+
+<br>
+
+::: {#resume-download .blackbox .center}
+[Download my resume in PDF format](resume.pdf)
+:::
+
+:::
+
+::: {.resume-sidebar .g-col-12 .g-col-md-3}
 
 <center><img class="circle-image" src="images/headshot_crop2.jpg" width=80% fig-alt="Joel Riphagen headshot" /><br>
 
@@ -44,7 +54,7 @@ B.A. in Sociology received May 1996
 Multiple certifications in data analysis, data science, programming, and algorithms received via Coursera.com from Johns Hopkins University, the University of Washington, and Rice University.
 :::
 
-::: {.g-col-5}
+::: {.resume-main .g-col-12 .g-col-md-6}
 <h2 class="section-color">EXPERIENCE</h2>
 <h5 class="resume-title">RIPHAGEN CONSULTING</h5>
 <span class="resume-emphasis">**Owner** | April 2014 - December 2017 | December 2022 - present</span><br>
@@ -72,14 +82,6 @@ I audited state government agencies, including developing audit objectives, coll
 
 :::
 
-::: {.g-col-2}
 
-<br>
-
-::: {#resume-download .blackbox .center}
-[Download my resume in PDF format](resume.pdf)
-:::
-
-:::
 
 :::
