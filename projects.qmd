@@ -2,7 +2,7 @@
 title: "Projects"
 ---
 
-## Standings Tracker
+## [Standings Tracker](https://joelrip.github.io/StandingsTracker/)
 
 ![](images/StandingsTracker.png)
 
