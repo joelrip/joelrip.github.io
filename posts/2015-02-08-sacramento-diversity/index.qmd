@@ -2,11 +2,11 @@
 title: "How Diverse Is My Neighborhood? Mapping Ethnic Diversity in Sacramento, Part I"
 author:
   name: Joel Riphagen
-  url: https://joelrip.github.io
+  url: https://joelriphagen.net
 date: 02-08-2015
 categories: [R, mapping, open data, visualization, Sacramento, demographics, diversity]
 citation:
-  url: https://joelrip.github.io/posts/2015-02-08-sacramento-diversity/
+  url: https://joelriphagen.net/posts/2015-02-08-sacramento-diversity/
 image: SacDivTracts.png
 description: "An exploration of ethnic diversity across Sacramento-area census tracts."
 ---

@@ -2,11 +2,11 @@
 title: "Game of Thrones Baby Names on the Rise in California"
 author:
   name: Joel Riphagen
-  url: https://joelrip.github.io
+  url: https://joelriphagen.net
 date: 08-08-2014
 categories: [R, health, public health, open data, visualization, California]
 citation:
-  url: https://joelrip.github.io/posts/2014-08-08-game-of-thrones-baby-names/
+  url: https://joelriphagen.net/posts/2014-08-08-game-of-thrones-baby-names/
 image: game-of-thrones-poster.jpg
 title-block-banner: game-of-thrones-poster.jpg
 title-block-banner-color: "#FFFFFF"
