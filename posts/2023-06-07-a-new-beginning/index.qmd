@@ -2,11 +2,11 @@
 title: "A New Beginning"
 author:
   name: Joel Riphagen
-  url: https://joelrip.github.io
+  url: https://joelriphagen.net
 date: 06-07-2023
 categories: [personal]
 #citation:
-#  url: https://joelrip.github.io/posts/2023-06-07-a-new-beginning/
+#  url: https://joelriphagen.net/posts/2023-06-07-a-new-beginning/
 image: flower.png
 description: "Wherein my life takes a turn, and I take a leap."
 ---

@@ -2,11 +2,11 @@
 title: "San Diego Neighborhood Diversity: A Wedding Present"
 author:
   name: Joel Riphagen
-  url: https://joelrip.github.io
+  url: https://joelriphagen.net
 date: 07-31-2015
 categories: [R, mapping, open data, visualization, San Diego, demographics, diversity]
 citation:
-  url: https://joelrip.github.io/posts/2015-07-31-san-diego-diversity/
+  url: https://joelriphagen.net/posts/2015-07-31-san-diego-diversity/
 image: SDDivTracts.png
 description: "An exploration of ethnic diversity across San Diego-area census tracts."
 ---

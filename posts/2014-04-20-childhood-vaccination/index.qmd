@@ -2,11 +2,11 @@
 title: "Mapping Childhood Vaccination in Sacramento"
 author:
   name: Joel Riphagen
-  url: https://joelrip.github.io
+  url: https://joelriphagen.net
 date: 04-20-2014
 categories: [R, mapping, public health, Sacramento, open data, visualization]
 citation:
-  url: https://joelrip.github.io/posts/2014-04-20-childhood-vaccination/
+  url: https://joelriphagen.net/posts/2014-04-20-childhood-vaccination/
 image: ChildcareScreenCap.png
 title-block-banner: ChildcareScreenCap.png
 title-block-banner-color: "#FFFFFF"

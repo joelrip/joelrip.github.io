@@ -2,11 +2,11 @@
 title: "City of Sacramento Open Budget Project"
 author:
   name: Joel Riphagen
-  url: https://joelrip.github.io
+  url: https://joelriphagen.net
 date: 05-31-2014
 categories: [budget, City of Sacramento, Code for Sacramento, open data, Sacramento, fiscal transparency, visualization]
 citation:
-  url: https://joelrip.github.io/posts/2014-05-31-sacramento-open-budget/
+  url: https://joelriphagen.net/posts/2014-05-31-sacramento-open-budget/
 image: OpenBudget.png
 title-block-banner: OpenBudgetTreemap.png
 title-block-banner-color: "#000000"

@@ -4,7 +4,7 @@ project:
 
 website:
   title: "Joel Riphagen"
-  site-url: "https://joelrip.github.io"
+  site-url: "https://joelriphagen.net"
   description: "Explorations in data and policy from Sacramento, CA"
   favicon: images/RClogoOnly.png
   navbar:
@@ -47,6 +47,5 @@ format:
     linkcolor: black
     css: styles.css
     toc: true
-
 
 
