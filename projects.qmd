@@ -10,3 +10,4 @@ This project, started in 2017, tracks the MLS and USL club soccer standings for 
 
 <span class="project-button">{{< fa globe >}} [Website](https://joelrip.github.io/StandingsTracker/)</span>
 <span class="project-button">{{< fa brands github >}} [Github](https://github.com/joelrip/StandingsTracker)</span>
+
