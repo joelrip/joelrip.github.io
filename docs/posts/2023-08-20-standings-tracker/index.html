@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.475">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Joel Riphagen">
+<meta name="dcterms.date" content="2023-08-20">
+<meta name="description" content="Experimening with a different way to visualize club soccer standings.">
+
+<title>Joel Riphagen - Tracking US Club Soccer Standings</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../images/RClogoOnly.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+<style>
+    .quarto-title-block .quarto-title-banner {
+      color: #000000;
+background-image: url(StandingsBanner.png);
+background-size: cover;
+    }
+    </style>
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../images/RClogoWhiteBorder.png" alt="" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Joel Riphagen</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html">
+ <span class="menu-text">home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html">
+ <span class="menu-text">resume</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../posts.html">
+ <span class="menu-text">blog</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../projects.html">
+ <span class="menu-text">projects</span></a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Tracking US Club Soccer Standings</h1>
+                  <div>
+        <div class="description">
+          Experimening with a different way to visualize club soccer standings.
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">R</div>
+                <div class="quarto-category">sports</div>
+                <div class="quarto-category">visualization</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Joel Riphagen </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">August 20, 2023</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#the-problem" id="toc-the-problem" class="nav-link active" data-scroll-target="#the-problem">The Problem</a></li>
+  <li><a href="#a-modest-proposal" id="toc-a-modest-proposal" class="nav-link" data-scroll-target="#a-modest-proposal">A Modest Proposal</a></li>
+  <li><a href="#my-attempted-solution" id="toc-my-attempted-solution" class="nav-link" data-scroll-target="#my-attempted-solution">My Attempted Solution</a></li>
+  <li><a href="#some-examples" id="toc-some-examples" class="nav-link" data-scroll-target="#some-examples">Some Examples</a></li>
+  <li><a href="#suggestions-welcome" id="toc-suggestions-welcome" class="nav-link" data-scroll-target="#suggestions-welcome">Suggestions Welcome!</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+<section id="the-problem" class="level2">
+<h2 class="anchored" data-anchor-id="the-problem">The Problem</h2>
+<p>Soccer standings tables have a problem.</p>
+<p>For most sports that a US sports fan is accustomed to, standings are displayed by the proportion of games won out of all games played. This leads to simple standings comparisons. If Team A has a 3-1 record, their win proportion is 0.75. If Team B has a 4-2 record, their win proportion is 0.666, and they are behind Team A in the standings. Team B has one more win than Team A, but their record in their two additional games played is only 50-50, so their overall win proportion is worse, and their position in the standings is lower.</p>
+<p>Soccer instead uses accumulation of points to rank teams in the standings. 3 points for a win, 1 point for a draw, no points for a loss. (Hockey uses a slightly different points-based system; maybe we’ll look at that in the future!) Even setting aside the inclusion of draws, which most US sports don’t have to deal with, the continual accumulation of points for positive results with no corresponding reduction for losses can lead to teams with more games played showing as higher in the standings than teams with fewer games played but a higher proportion of wins. In the example above, Team A would have 9 points for its 3 wins, but team B would have 12 points for its 4 wins, and be ahead of Team A in the standings–just the opposite of how other sports would rank them.</p>
+<p><img src="TableComparison.png" class="img-fluid" alt="A table showing Team A ahead of Team B in most sports, but Team B ahead of Team A in soccer."></p>
+<p>Now, much of the problem arises due to teams having played differing numbers of games throughout the middle of the season. By the time the season ends, every team has played the same number of games, so their points totals are comparable. But throughout the middle of the season in many leagues, some teams can get far ahead of others, resulting in standings tables that give a false picture of the relative positions of the teams.</p>
+</section>
+<section id="a-modest-proposal" class="level2">
+<h2 class="anchored" data-anchor-id="a-modest-proposal">A Modest Proposal</h2>
+<p>How do we deal with this problem? Let us assume we’re not altering the soccer points system any time soon, and instead think how we can tweak the display of standings while leaving the basic system in place. The two issues we need to deal with are:</p>
+<ol type="1">
+<li>teams playing different numbers of games as of a given date in the middle of the season, and</li>
+<li>no penalty for losses, so that teams with more games played tend to show as higher in the standings than they really are.</li>
+</ol>
+<p>The first issue, that teams don’t all play the same number of games by each date, is handled relatively simply by showing standings as of <strong>a given number of games played</strong>, rather than as of a given date. This is represented naturally in graphic form by showing each team’s progression game by game. If each team’s progression is a line, the length of each team’s line can equal the number of games they have played. Longer lines equal more games played, and standings can be compared at any point by drawing a vertical line down through all teams, showing their relative standings as of the selected number of games played.</p>
+<p>The second issue, that points continually accumulate to the advantage of teams that have played more games, can be dealt with by building in a way to <strong>lose</strong> points for losing games. How to do this without really changing the three-points-for-a-win system? My proposal is to show teams’ positions by the number of points earned <strong>minus the number of games played</strong>. That is, instead of showing 3 points for a win, 1 for a draw, and 0 for a loss, I graph them as if they earn 2 points for a win, 0 for a draw, and -1 for a loss. This has no effect on the relative standings of the teams when they have all played the same number of games, but it provides a convenient visual of teams dropping when they lose and staying level when they draw. In this way, if two teams have the same record, and then one plays and loses an additional game, its line drops below the other team, realistically showing its inferior position due to the additional loss.</p>
+</section>
+<section id="my-attempted-solution" class="level2">
+<h2 class="anchored" data-anchor-id="my-attempted-solution">My Attempted Solution</h2>
+<p>You can find my working solution to these issues at my <strong><a href="https://joelriphagen.net/StandingsTracker/">Standings Tracker</a></strong> site. This site includes regularly updated standings charts for MLS, USL Championship, and USL League One. Its key features include:</p>
+<ul>
+<li>Interactive charts, allowing you to highlight and select just the teams you’re interested in comparing.</li>
+<li>The ability to hover over any point in the chart and see every team’s relative point total as of the same number of games played.</li>
+<li>Later in the season, geometric areas that show when teams have clinched a playoff (or play-in) position or been mathematically eliminated from the playoffs.</li>
+</ul>
+<p>It remains a work in progress, and I’m continuing to find ways to improve the display (suggestions welcome!) but I encourage you to <a href="https://joelriphagen.net/StandingsTracker/">go explore yourself</a> and see what you think!</p>
+</section>
+<section id="some-examples" class="level2">
+<h2 class="anchored" data-anchor-id="some-examples">Some Examples</h2>
+<p>Let’s look at some concrete examples to see how it works.</p>
+<p>As of Week 22 in the 2023 USL League One season, the top 6 teams by point total were as follows:</p>
+<p><img src="USLLeague1Week22.png" class="img-fluid" alt="A table showing the top 6 USL League One teams."></p>
+<p>North Carolina FC is out in front with 41 points, followed by a very tight grouping of four teams with 35 to 37 points, and Greenville just below with 32. But the teams have played anywhere from 20 to 23 matches as of this point, so their scores are not really comparable. Charlotte and Madison have the same number of points, but Madison has “a game in hand” as they say, and Northern Colorado has played two fewer than Madison. Given its smaller number of games played, is it really in 5th place in the league?</p>
+<p>Let’s look at the chart with my proposed changes:</p>
+<p><img src="USLLeague1Total.png" class="img-fluid" alt="Chart of all USL League One teams as of Week 22"></p>
+<p>And since it’s interactive, let’s just select the names of the teams we’re interested in, to reduce distraction:</p>
+<p><img src="USLLeague1Leaders.png" class="img-fluid" alt="Chart of top 6 USL League One teams as of Week 22"> This tells us a lot more of the story. We see that Northern Colorado was at the top of the standings from Game 10 through Game 18, but has lost 4 in a row to drop below North Carolina. Even so, the fact that it has only played 20 games leaves it with plenty of upside; it’s the second place team after 20 games, and winning its next couple would keep it in second place. Even 2 draws would keep it tied for second. I certainly wouldn’t call it the fifth place team (except for its recent terrible run of form).</p>
+<p>Of the remaining four teams, Union Omaha is indeed ahead of Madison by a point, as they’ve played the same number of games. But Charlotte, with the highest number of games played, is not at all in control of its destiny. Even if all the other top teams lose their games out to Game 23, it’s only tied for third; if the other top teams win their games out to Game 23, it’s in sixth.</p>
+<p>To see a complete table of standings as of the same number of games, you can hover over the chart:</p>
+<p><img src="USLLeague1Game20.png" class="img-fluid" alt="Chart of USL League One teams with Game 20 standings highlighted"> Since Game 20 is the last one that all teams have played so far, that’s the latest game for which the chart shows complete standings, with North Carolina and Northern Colorado at the top, all the way down to Lexington, Central Valley, and Chattanooga, each with fewer points earned than games played.</p>
+</section>
+<section id="suggestions-welcome" class="level2">
+<h2 class="anchored" data-anchor-id="suggestions-welcome">Suggestions Welcome!</h2>
+<p>I find these charts interesting and useful, but I’m continuing to actively tweak them! If, after <a href="https://joelriphagen.net/StandingsTracker/">exploring them for yourself</a>, you have ideas for improvement, I’d love for you to submit an issue in the <a href="https://github.com/joelrip/StandingsTracker">Github repo</a> or in the comments below. Enjoy!</p>
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{riphagen2023,
+  author = {Joel Riphagen},
+  title = {Tracking {US} {Club} {Soccer} {Standings}},
+  date = {2023-08-20},
+  url = {https://joelriphagen.net/posts/2023-08-20-standings-tracker/},
+  langid = {en}
+}
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-riphagen2023" class="csl-entry quarto-appendix-citeas" role="doc-biblioentry">
+Joel Riphagen. 2023. <span>“Tracking US Club Soccer Standings.”</span>
+August 20, 2023. <a href="https://joelriphagen.net/posts/2023-08-20-standings-tracker/">https://joelriphagen.net/posts/2023-08-20-standings-tracker/</a>.
+</div></div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<script src="https://giscus.app/client.js" data-repo="joelrip/joelrip.github.io" data-repo-id="MDEwOlJlcG9zaXRvcnk3OTc1OTMwNA==" data-category="General" data-category-id="DIC_kwDOBMEHyM4CVgfv" data-mapping="title" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" async="">
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/joelriphagen/">
+      <i class="bi bi-linkedin" role="img" aria-label="LinkedIn">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/joelrip">
+      <i class="bi bi-twitter" role="img" aria-label="Twitter">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/joelrip">
+      <i class="bi bi-github" role="img" aria-label="Github">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="mailto:joelrip@gmail.com">
+      <i class="bi bi-envelope-fill" role="img" aria-label="Email me">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="../../posts.xml">
+      <i class="bi bi-rss" role="img" aria-label="RSS feed">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+</body></html>
