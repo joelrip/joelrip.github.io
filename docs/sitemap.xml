@@ -1,91 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://joelrip.github.io/posts/2023-06-07-a-new-beginning/index.html</loc>
-    <lastmod>2023-06-07T16:09:08.908Z</lastmod>
-  </url>
-  <url>
-    <loc>https://joelrip.github.io/posts/2014-05-31-sacramento-open-budget/index.html</loc>
-    <lastmod>2023-06-07T16:09:10.036Z</lastmod>
-  </url>
-  <url>
-    <loc>https://joelrip.github.io/posts/2015-07-31-san-diego-diversity/index.html</loc>
-    <lastmod>2023-06-07T16:09:11.301Z</lastmod>
-  </url>
-  <url>
-    <loc>https://joelrip.github.io/posts/2015-02-08-sacramento-diversity/index.html</loc>
-    <lastmod>2023-06-07T16:09:12.532Z</lastmod>
-  </url>
-  <url>
-    <loc>https://joelrip.github.io/posts/2014-08-08-game-of-thrones-baby-names/index.html</loc>
-    <lastmod>2023-06-07T16:09:13.591Z</lastmod>
-  </url>
-  <url>
-    <loc>https://joelrip.github.io/posts/2014-04-20-childhood-vaccination/index.html</loc>
-    <lastmod>2023-06-07T16:09:15.096Z</lastmod>
-  </url>
-  <url>
-    <loc>https://joelrip.github.io/resume.html</loc>
-    <lastmod>2023-06-07T16:09:16.712Z</lastmod>
-  </url>
-  <url>
-    <loc>https://joelrip.github.io/projects.html</loc>
-    <lastmod>2023-06-07T16:12:34.142Z</lastmod>
-  </url>
-  <url>
-    <loc>https://joelrip.github.io/index.html</loc>
-    <lastmod>2023-06-07T16:09:17.417Z</lastmod>
-  </url>
-  <url>
-    <loc>https://joelrip.github.io/about.html</loc>
-    <lastmod>2023-06-07T16:09:17.826Z</lastmod>
-  </url>
-  <url>
-    <loc>https://joelrip.github.io/posts.html</loc>
-    <lastmod>2023-06-07T16:09:18.462Z</lastmod>
-  </url>
-  <url>
-    <loc>https://joelriphagen.net/index.html</loc>
-    <lastmod>2023-08-17T02:07:09.496Z</lastmod>
-  </url>
-  <url>
     <loc>https://joelriphagen.net/posts/2023-06-07-a-new-beginning/index.html</loc>
-    <lastmod>2023-08-17T02:06:53.122Z</lastmod>
+    <lastmod>2023-08-21T04:47:09.203Z</lastmod>
   </url>
   <url>
     <loc>https://joelriphagen.net/posts/2014-05-31-sacramento-open-budget/index.html</loc>
-    <lastmod>2023-08-17T02:06:54.637Z</lastmod>
-  </url>
-  <url>
-    <loc>https://joelriphagen.net/posts/2023-06-07-standings-tracker/index.html</loc>
-    <lastmod>2023-08-17T02:06:55.974Z</lastmod>
+    <lastmod>2023-08-21T04:47:10.208Z</lastmod>
   </url>
   <url>
     <loc>https://joelriphagen.net/posts/2015-07-31-san-diego-diversity/index.html</loc>
-    <lastmod>2023-08-17T02:06:57.738Z</lastmod>
+    <lastmod>2023-08-21T04:47:11.252Z</lastmod>
   </url>
   <url>
     <loc>https://joelriphagen.net/posts/2015-02-08-sacramento-diversity/index.html</loc>
-    <lastmod>2023-08-17T02:06:59.135Z</lastmod>
+    <lastmod>2023-08-21T04:47:12.319Z</lastmod>
+  </url>
+  <url>
+    <loc>https://joelriphagen.net/posts/2023-08-20-standings-tracker/index.html</loc>
+    <lastmod>2023-08-21T04:47:13.486Z</lastmod>
   </url>
   <url>
     <loc>https://joelriphagen.net/posts/2014-08-08-game-of-thrones-baby-names/index.html</loc>
-    <lastmod>2023-08-17T02:07:00.491Z</lastmod>
+    <lastmod>2023-08-21T04:47:14.584Z</lastmod>
   </url>
   <url>
     <loc>https://joelriphagen.net/posts/2014-04-20-childhood-vaccination/index.html</loc>
-    <lastmod>2023-08-17T02:07:01.704Z</lastmod>
+    <lastmod>2023-08-21T04:47:15.673Z</lastmod>
+  </url>
+  <url>
+    <loc>https://joelriphagen.net/resume.html</loc>
+    <lastmod>2023-08-21T04:47:17.547Z</lastmod>
   </url>
   <url>
     <loc>https://joelriphagen.net/projects.html</loc>
-    <lastmod>2023-08-17T02:07:02.323Z</lastmod>
+    <lastmod>2023-08-21T04:47:17.888Z</lastmod>
+  </url>
+  <url>
+    <loc>https://joelriphagen.net/index.html</loc>
+    <lastmod>2023-08-21T04:47:18.217Z</lastmod>
   </url>
   <url>
     <loc>https://joelriphagen.net/about.html</loc>
-    <lastmod>2023-08-17T02:07:03.169Z</lastmod>
+    <lastmod>2023-08-21T04:47:18.615Z</lastmod>
   </url>
   <url>
     <loc>https://joelriphagen.net/posts.html</loc>
-    <lastmod>2023-08-17T02:07:04.534Z</lastmod>
+    <lastmod>2023-08-21T04:47:19.147Z</lastmod>
   </url>
 </urlset>
