@@ -33,11 +33,11 @@ page-layout: custom
 <h5 class="resume-title resume-link">[UNIVERSITY OF CHICAGO](https://www.uchicago.edu/), Chicago, Illinois</h5>
 <span class="resume-emphasis resume-link">[Harris Graduate School of Public Policy Studies](https://harris.uchicago.edu/)</span><br>
 Concentration: Poverty and Inequality<br>
-M.P.P. received June 1999
+Master of Public Policy
 
 <h5 class="resume-title resume-link">[RICE UNIVERSITY](https://www.rice.edu/), Houston, Texas</h5>
 <span class="resume-emphasis">Cum laude</span><br>
-B.A. in Sociology received May 1996
+BA in Sociology
 
 <h2 class="section-color">SKILLS</h2>
 <span class="textbubble">social policy</span>
