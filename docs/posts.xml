@@ -9,13 +9,14 @@
 <link>https://joelriphagen.net/posts.html</link>
 <atom:link href="https://joelriphagen.net/posts.xml" rel="self" type="application/rss+xml"/>
 <description>Explorations in data and policy from Sacramento, CA</description>
-<generator>quarto-1.2.475</generator>
+<generator>quarto-1.9.38</generator>
 <lastBuildDate>Sun, 20 Aug 2023 07:00:00 GMT</lastBuildDate>
 <item>
   <title>Tracking US Club Soccer Standings</title>
   <dc:creator>Joel Riphagen</dc:creator>
-  <link>https://joelriphagen.net/posts/2023-08-20-standings-tracker/index.html</link>
+  <link>https://joelriphagen.net/posts/2023-08-20-standings-tracker/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -69,29 +70,30 @@
 
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{riphagen2023,
-  author = {Joel Riphagen},
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{riphagen2023,
+  author = {Riphagen, Joel},
   title = {Tracking {US} {Club} {Soccer} {Standings}},
   date = {2023-08-20},
   url = {https://joelriphagen.net/posts/2023-08-20-standings-tracker/},
   langid = {en}
 }
 </code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-riphagen2023" class="csl-entry quarto-appendix-citeas">
-Joel Riphagen. 2023. <span>“Tracking US Club Soccer Standings.”</span>
-August 20, 2023. <a href="https://joelriphagen.net/posts/2023-08-20-standings-tracker/">https://joelriphagen.net/posts/2023-08-20-standings-tracker/</a>.
+Riphagen, Joel. 2023. <span>“Tracking US Club Soccer Standings.”</span>
+August 20. <a href="https://joelriphagen.net/posts/2023-08-20-standings-tracker/">https://joelriphagen.net/posts/2023-08-20-standings-tracker/</a>.
 </div></div></section></div> ]]></description>
   <category>R</category>
   <category>sports</category>
   <category>visualization</category>
-  <guid>https://joelriphagen.net/posts/2023-08-20-standings-tracker/index.html</guid>
+  <guid>https://joelriphagen.net/posts/2023-08-20-standings-tracker/</guid>
   <pubDate>Sun, 20 Aug 2023 07:00:00 GMT</pubDate>
   <media:content url="https://joelriphagen.net/posts/2023-08-20-standings-tracker/StandingsTracker.png" medium="image" type="image/png" height="78" width="144"/>
 </item>
 <item>
   <title>A New Beginning</title>
   <dc:creator>Joel Riphagen</dc:creator>
-  <link>https://joelriphagen.net/posts/2023-06-07-a-new-beginning/index.html</link>
+  <link>https://joelriphagen.net/posts/2023-06-07-a-new-beginning/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -121,15 +123,16 @@ August 20, 2023. <a href="https://joelriphagen.net/posts/2023-08-20-standings-tr
 
  ]]></description>
   <category>personal</category>
-  <guid>https://joelriphagen.net/posts/2023-06-07-a-new-beginning/index.html</guid>
+  <guid>https://joelriphagen.net/posts/2023-06-07-a-new-beginning/</guid>
   <pubDate>Wed, 07 Jun 2023 07:00:00 GMT</pubDate>
   <media:content url="https://joelriphagen.net/posts/2023-06-07-a-new-beginning/flower.png" medium="image" type="image/png" height="84" width="144"/>
 </item>
 <item>
   <title>San Diego Neighborhood Diversity: A Wedding Present</title>
   <dc:creator>Joel Riphagen</dc:creator>
-  <link>https://joelriphagen.net/posts/2015-07-31-san-diego-diversity/index.html</link>
+  <link>https://joelriphagen.net/posts/2015-07-31-san-diego-diversity/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -192,8 +195,8 @@ August 20, 2023. <a href="https://joelriphagen.net/posts/2023-08-20-standings-tr
 
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{riphagen2015,
-  author = {Joel Riphagen},
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{riphagen2015,
+  author = {Riphagen, Joel},
   title = {San {Diego} {Neighborhood} {Diversity:} {A} {Wedding}
     {Present}},
   date = {2015-07-31},
@@ -201,8 +204,8 @@ August 20, 2023. <a href="https://joelriphagen.net/posts/2023-08-20-standings-tr
   langid = {en}
 }
 </code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-riphagen2015" class="csl-entry quarto-appendix-citeas">
-Joel Riphagen. 2015. <span>“San Diego Neighborhood Diversity: A Wedding
-Present.”</span> July 31, 2015. <a href="https://joelriphagen.net/posts/2015-07-31-san-diego-diversity/">https://joelriphagen.net/posts/2015-07-31-san-diego-diversity/</a>.
+Riphagen, Joel. 2015. <span>“San Diego Neighborhood Diversity: A Wedding
+Present.”</span> July 31. <a href="https://joelriphagen.net/posts/2015-07-31-san-diego-diversity/">https://joelriphagen.net/posts/2015-07-31-san-diego-diversity/</a>.
 </div></div></section></div> ]]></description>
   <category>R</category>
   <category>mapping</category>
@@ -211,15 +214,16 @@ Present.”</span> July 31, 2015. <a href="https://joelriphagen.net/posts/2015-0
   <category>San Diego</category>
   <category>demographics</category>
   <category>diversity</category>
-  <guid>https://joelriphagen.net/posts/2015-07-31-san-diego-diversity/index.html</guid>
+  <guid>https://joelriphagen.net/posts/2015-07-31-san-diego-diversity/</guid>
   <pubDate>Fri, 31 Jul 2015 07:00:00 GMT</pubDate>
   <media:content url="https://joelriphagen.net/posts/2015-07-31-san-diego-diversity/SDDivTracts.png" medium="image" type="image/png" height="108" width="144"/>
 </item>
 <item>
   <title>How Diverse Is My Neighborhood? Mapping Ethnic Diversity in Sacramento, Part I</title>
   <dc:creator>Joel Riphagen</dc:creator>
-  <link>https://joelriphagen.net/posts/2015-02-08-sacramento-diversity/index.html</link>
+  <link>https://joelriphagen.net/posts/2015-02-08-sacramento-diversity/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -303,8 +307,8 @@ Present.”</span> July 31, 2015. <a href="https://joelriphagen.net/posts/2015-0
 
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{riphagen2015,
-  author = {Joel Riphagen},
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{riphagen2015,
+  author = {Riphagen, Joel},
   title = {How {Diverse} {Is} {My} {Neighborhood?} {Mapping} {Ethnic}
     {Diversity} in {Sacramento,} {Part} {I}},
   date = {2015-02-08},
@@ -312,8 +316,8 @@ Present.”</span> July 31, 2015. <a href="https://joelriphagen.net/posts/2015-0
   langid = {en}
 }
 </code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-riphagen2015" class="csl-entry quarto-appendix-citeas">
-Joel Riphagen. 2015. <span>“How Diverse Is My Neighborhood? Mapping
-Ethnic Diversity in Sacramento, Part I.”</span> February 8, 2015. <a href="https://joelriphagen.net/posts/2015-02-08-sacramento-diversity/">https://joelriphagen.net/posts/2015-02-08-sacramento-diversity/</a>.
+Riphagen, Joel. 2015. <span>“How Diverse Is My Neighborhood? Mapping
+Ethnic Diversity in Sacramento, Part I.”</span> February 8. <a href="https://joelriphagen.net/posts/2015-02-08-sacramento-diversity/">https://joelriphagen.net/posts/2015-02-08-sacramento-diversity/</a>.
 </div></div></section></div> ]]></description>
   <category>R</category>
   <category>mapping</category>
@@ -322,15 +326,16 @@ Ethnic Diversity in Sacramento, Part I.”</span> February 8, 2015. <a href="htt
   <category>Sacramento</category>
   <category>demographics</category>
   <category>diversity</category>
-  <guid>https://joelriphagen.net/posts/2015-02-08-sacramento-diversity/index.html</guid>
+  <guid>https://joelriphagen.net/posts/2015-02-08-sacramento-diversity/</guid>
   <pubDate>Sun, 08 Feb 2015 08:00:00 GMT</pubDate>
   <media:content url="https://joelriphagen.net/posts/2015-02-08-sacramento-diversity/SacDivTracts.png" medium="image" type="image/png" height="108" width="144"/>
 </item>
 <item>
   <title>Game of Thrones Baby Names on the Rise in California</title>
   <dc:creator>Joel Riphagen</dc:creator>
-  <link>https://joelriphagen.net/posts/2014-08-08-game-of-thrones-baby-names/index.html</link>
+  <link>https://joelriphagen.net/posts/2014-08-08-game-of-thrones-baby-names/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -354,8 +359,8 @@ Ethnic Diversity in Sacramento, Part I.”</span> February 8, 2015. <a href="htt
 
 
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{riphagen2014,
-  author = {Joel Riphagen},
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{riphagen2014,
+  author = {Riphagen, Joel},
   title = {Game of {Thrones} {Baby} {Names} on the {Rise} in
     {California}},
   date = {2014-08-08},
@@ -363,8 +368,8 @@ Ethnic Diversity in Sacramento, Part I.”</span> February 8, 2015. <a href="htt
   langid = {en}
 }
 </code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-riphagen2014" class="csl-entry quarto-appendix-citeas">
-Joel Riphagen. 2014. <span>“Game of Thrones Baby Names on the Rise in
-California.”</span> August 8, 2014. <a href="https://joelriphagen.net/posts/2014-08-08-game-of-thrones-baby-names/">https://joelriphagen.net/posts/2014-08-08-game-of-thrones-baby-names/</a>.
+Riphagen, Joel. 2014. <span>“Game of Thrones Baby Names on the Rise in
+California.”</span> August 8. <a href="https://joelriphagen.net/posts/2014-08-08-game-of-thrones-baby-names/">https://joelriphagen.net/posts/2014-08-08-game-of-thrones-baby-names/</a>.
 </div></div></section></div> ]]></description>
   <category>R</category>
   <category>health</category>
@@ -372,15 +377,16 @@ California.”</span> August 8, 2014. <a href="https://joelriphagen.net/posts/20
   <category>open data</category>
   <category>visualization</category>
   <category>California</category>
-  <guid>https://joelriphagen.net/posts/2014-08-08-game-of-thrones-baby-names/index.html</guid>
+  <guid>https://joelriphagen.net/posts/2014-08-08-game-of-thrones-baby-names/</guid>
   <pubDate>Fri, 08 Aug 2014 07:00:00 GMT</pubDate>
   <media:content url="https://joelriphagen.net/posts/2014-08-08-game-of-thrones-baby-names/game-of-thrones-poster.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>City of Sacramento Open Budget Project</title>
   <dc:creator>Joel Riphagen</dc:creator>
-  <link>https://joelriphagen.net/posts/2014-05-31-sacramento-open-budget/index.html</link>
+  <link>https://joelriphagen.net/posts/2014-05-31-sacramento-open-budget/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -394,16 +400,16 @@ California.”</span> August 8, 2014. <a href="https://joelriphagen.net/posts/20
 
 
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{riphagen2014,
-  author = {Joel Riphagen},
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{riphagen2014,
+  author = {Riphagen, Joel},
   title = {City of {Sacramento} {Open} {Budget} {Project}},
   date = {2014-05-31},
   url = {https://joelriphagen.net/posts/2014-05-31-sacramento-open-budget/},
   langid = {en}
 }
 </code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-riphagen2014" class="csl-entry quarto-appendix-citeas">
-Joel Riphagen. 2014. <span>“City of Sacramento Open Budget
-Project.”</span> May 31, 2014. <a href="https://joelriphagen.net/posts/2014-05-31-sacramento-open-budget/">https://joelriphagen.net/posts/2014-05-31-sacramento-open-budget/</a>.
+Riphagen, Joel. 2014. <span>“City of Sacramento Open Budget
+Project.”</span> May 31. <a href="https://joelriphagen.net/posts/2014-05-31-sacramento-open-budget/">https://joelriphagen.net/posts/2014-05-31-sacramento-open-budget/</a>.
 </div></div></section></div> ]]></description>
   <category>budget</category>
   <category>City of Sacramento</category>
@@ -412,15 +418,16 @@ Project.”</span> May 31, 2014. <a href="https://joelriphagen.net/posts/2014-05
   <category>Sacramento</category>
   <category>fiscal transparency</category>
   <category>visualization</category>
-  <guid>https://joelriphagen.net/posts/2014-05-31-sacramento-open-budget/index.html</guid>
+  <guid>https://joelriphagen.net/posts/2014-05-31-sacramento-open-budget/</guid>
   <pubDate>Sat, 31 May 2014 07:00:00 GMT</pubDate>
   <media:content url="https://joelriphagen.net/posts/2014-05-31-sacramento-open-budget/OpenBudget.png" medium="image" type="image/png" height="67" width="144"/>
 </item>
 <item>
   <title>Mapping Childhood Vaccination in Sacramento</title>
   <dc:creator>Joel Riphagen</dc:creator>
-  <link>https://joelriphagen.net/posts/2014-04-20-childhood-vaccination/index.html</link>
+  <link>https://joelriphagen.net/posts/2014-04-20-childhood-vaccination/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -431,16 +438,16 @@ Project.”</span> May 31, 2014. <a href="https://joelriphagen.net/posts/2014-05
 
 
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{riphagen2014,
-  author = {Joel Riphagen},
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{riphagen2014,
+  author = {Riphagen, Joel},
   title = {Mapping {Childhood} {Vaccination} in {Sacramento}},
   date = {2014-04-20},
   url = {https://joelriphagen.net/posts/2014-04-20-childhood-vaccination/},
   langid = {en}
 }
 </code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-riphagen2014" class="csl-entry quarto-appendix-citeas">
-Joel Riphagen. 2014. <span>“Mapping Childhood Vaccination in
-Sacramento.”</span> April 20, 2014. <a href="https://joelriphagen.net/posts/2014-04-20-childhood-vaccination/">https://joelriphagen.net/posts/2014-04-20-childhood-vaccination/</a>.
+Riphagen, Joel. 2014. <span>“Mapping Childhood Vaccination in
+Sacramento.”</span> April 20. <a href="https://joelriphagen.net/posts/2014-04-20-childhood-vaccination/">https://joelriphagen.net/posts/2014-04-20-childhood-vaccination/</a>.
 </div></div></section></div> ]]></description>
   <category>R</category>
   <category>mapping</category>
@@ -448,7 +455,7 @@ Sacramento.”</span> April 20, 2014. <a href="https://joelriphagen.net/posts/20
   <category>Sacramento</category>
   <category>open data</category>
   <category>visualization</category>
-  <guid>https://joelriphagen.net/posts/2014-04-20-childhood-vaccination/index.html</guid>
+  <guid>https://joelriphagen.net/posts/2014-04-20-childhood-vaccination/</guid>
   <pubDate>Sun, 20 Apr 2014 07:00:00 GMT</pubDate>
   <media:content url="https://joelriphagen.net/posts/2014-04-20-childhood-vaccination/ChildcareScreenCap.png" medium="image" type="image/png" height="71" width="144"/>
 </item>
