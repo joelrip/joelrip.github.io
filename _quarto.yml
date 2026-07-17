@@ -25,9 +25,9 @@ website:
       - icon: linkedin
         href: https://www.linkedin.com/in/joelriphagen/
         aria-label: "LinkedIn"
-      - icon: twitter
-        href: https://twitter.com/joelrip
-        aria-label: "Twitter"
+      - icon: bluesky
+        href: https://bsky.app/profile/joelrip.bsky.social
+        aria-label: "Bluesky"
       - icon: github
         href: https://github.com/joelrip
         aria-label: "Github"
@@ -46,6 +46,6 @@ format:
 #      dark: darkly
     linkcolor: black
     css: styles.css
-    toc: true
+    toc: false
 
 
